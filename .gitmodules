@@ -1,0 +1,3 @@
+[submodule "STM32H7B0_CMSIS"]
+	path = STM32H7B0_CMSIS
+	url = https://github.com/MarijnVerschuren/STM32H7B0_CMSIS.git
