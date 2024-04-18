@@ -39,16 +39,16 @@ extern uint32_t page_buffer[ROM_PAGE_SIZE >> 2];
 
 /*!<
  * functions
- * */
+ * */  // TODO: names!
 void read_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, void* buffer);
 void write_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, const void* buffer);
 void reset_ROM(I2C_TypeDef* i2c, uint8_t ROM_address, GPIO_TypeDef* status_port, uint8_t status_pin);
 void read_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, const void* key, CRYP_KEY_t key_type, ROM_encrypted_page_t* buffer);
-void write_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, const void* key, CRYP_KEY_t key_type, const ROM_encrypted_page_t* buffer);
+void write_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, const void* key, CRYP_KEY_t key_type, ROM_encrypted_page_t* buffer);
 
 
 /*!<
- *  password ROM enum types
+ * password ROM enum types
  * */
 typedef enum {  //            [page_num]
 	ROM_INFO =					0x000U,
@@ -64,6 +64,17 @@ typedef enum {  //            [offset]
 
 
 /*!<
+ * password ROM struct types
+ * */
+typedef struct __PACKED {
+	uint8_t label[0x40];
+	uint8_t email[0x30];
+	uint8_t phone[0x0F];
+	uint8_t page_number;
+} ROM_password_descriptor_t;
+
+
+/*!<
  * password ROM variables
  * */
 extern uint8_t master_key[16];
@@ -71,12 +82,16 @@ extern uint8_t master_key[16];
 
 /*!<
  * password ROM functions
- * */
+ * */  // TODO: names!, return_type enum!!
 uint8_t init_password_ROM(I2C_TypeDef* i2c, uint8_t ROM_address, const char* master_password);
-uint8_t add_password(  // TODO: delete characteristics!!! (broken memory)
+uint8_t add_password(  // TODO: delete characteristics!!! (broken memory) (INFO page??)
 	I2C_TypeDef* i2c, uint8_t ROM_address,
 	const char* label, const char* email, const char* phone,
 	const char* password, const char* note
+);
+uint8_t read_descriptor(  // TODO: delete characteristics!!! (broken memory) (INFO page??)
+	I2C_TypeDef* i2c, uint8_t ROM_address, uint8_t index,
+	ROM_password_descriptor_t* descriptor
 );
 
 

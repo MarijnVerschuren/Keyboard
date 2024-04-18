@@ -125,7 +125,6 @@ int main(void) {
 	if (init_password_ROM(I2C3, ROM_BASE_ADDRESS, pass)) { for(;;); }
 
 	uint32_t page[ROM_PAGE_SIZE >> 2];
-	for (uint8_t i = 0; i < (ROM_PAGE_SIZE >> 2); i++) { page[i] = RNG_generate(); }
 	start_watchdog();
 
 	// main loop
@@ -133,9 +132,25 @@ int main(void) {
 		reset_watchdog();
 		if (!GO) { continue; }
 
+
 		GO = 0;
 	}
 }
+
+
+/* read password 0 manually
+read_page(I2C3, ROM_BASE_ADDRESS, ROM_INFO, page);
+delay_ms(200);
+read_page(I2C3, ROM_BASE_ADDRESS, ROM_PASSWORD_DESCRIPTORS, page);
+delay_ms(200);
+read_page(I2C3, ROM_BASE_ADDRESS, ROM_PASSWORD_DATA, page);
+delay_ms(200);
+read_page(I2C3, ROM_BASE_ADDRESS, ROM_CRC, page);
+delay_ms(200);
+read_page(I2C3, ROM_BASE_ADDRESS, ROM_CRC + 8, page);
+delay_ms(200);
+*/
+
 
 // p.g. 346 RCC diagram
 // TODO: RTC!!!
