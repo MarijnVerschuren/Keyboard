@@ -16,6 +16,7 @@
  * */
 #define ROM_BASE_ADDRESS	0x50U
 #define ROM_MAX_DELAY		1000U
+#define ROM_MIN_DELAY		10U
 
 #define ROM_PAGE_SIZE		0x80U
 #define ROM_PAGE_COUNT		0x1FFU
@@ -25,8 +26,8 @@
  * struct types
  * */
 typedef struct __PACKED {
-	uint8_t IV[0x10];
-	uint8_t data[0x70];
+	uint32_t IV[0x04U];  // 0x10U
+	uint8_t data[0x70U];
 } ROM_encrypted_page_t;
 
 
@@ -72,8 +73,8 @@ extern uint8_t master_key[16];
  * password ROM functions
  * */
 uint8_t init_password_ROM(I2C_TypeDef* i2c, uint8_t ROM_address, const char* master_password);
-uint8_t add_password(
-	I2C_TypeDef* i2c, uint8_t ROM_address, const char* master_password,
+uint8_t add_password(  // TODO: delete characteristics!!! (broken memory)
+	I2C_TypeDef* i2c, uint8_t ROM_address,
 	const char* label, const char* email, const char* phone,
 	const char* password, const char* note
 );

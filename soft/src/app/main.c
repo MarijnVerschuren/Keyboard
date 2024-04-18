@@ -27,7 +27,7 @@ I2C_setting_t I2C_setting = {
 	.I2C_clock_frequency = 4000000,
 	.scl_l_pre = 0x13U, .scl_h_pre = 0x0FU,
 	.sda_delay = 0x02U, .scl_delay = 0x04U
-};  // 100 KHz
+};  // 100 KHz TODO: 400KHz
 volatile uint8_t GO = 0;
 
 
@@ -125,8 +125,8 @@ int main(void) {
 	if (init_password_ROM(I2C3, ROM_BASE_ADDRESS, pass)) { for(;;); }
 
 	uint32_t page[ROM_PAGE_SIZE >> 2];
+	for (uint8_t i = 0; i < (ROM_PAGE_SIZE >> 2); i++) { page[i] = RNG_generate(); }
 	start_watchdog();
-
 
 	// main loop
 	for(;;) {

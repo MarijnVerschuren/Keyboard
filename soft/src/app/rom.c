@@ -39,7 +39,7 @@ void write_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_a
 	AES_CBC_encrypt_setup(buffer->IV, key, key_type);
 	for (uint8_t i = 0; i < ((ROM_PAGE_SIZE) / AES_BLOCK_SIZE) - 1U; i++) {
 		AES_CBC_process_block(&buffer->data[i * AES_BLOCK_SIZE], &buffer->data[i * AES_BLOCK_SIZE]);
-	} I2C_master_write_reg(i2c, ROM_address, page_address << 7U, I2C_REG_16, buffer->data, ROM_PAGE_SIZE, ROM_MAX_DELAY);
+	} I2C_master_write_reg(i2c, ROM_address, page_address << 7U, I2C_REG_16, (void*)buffer, ROM_PAGE_SIZE, ROM_MAX_DELAY);
 }
 
 
@@ -63,7 +63,7 @@ typedef struct __PACKED {
 /*!<
  * password ROM variables
  * */
-uint8_t master_key[16];
+uint8_t master_key[16] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 //uint32_t master_hash[8];
 
 
@@ -88,6 +88,14 @@ static inline void set_page_CRC(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t 
 		I2C_REG_16, (void*)&crc, 4U, ROM_MAX_DELAY
 	);
 }
+// returns original password_count
+static inline uint8_t increment_password_count(I2C_TypeDef* i2c, uint8_t ROM_address) {
+	read_page(i2c, ROM_address, ROM_INFO, page_buffer);
+	uint8_t password_count = ((ROM_info_page_t*)page_buffer)->password_count++;
+	write_page(i2c, ROM_address, ROM_INFO, page_buffer);
+	set_page_CRC(i2c, ROM_address, ROM_INFO, calculate_page_CRC(page_buffer));
+	return password_count;
+}
 
 
 /*!<
@@ -100,28 +108,45 @@ uint8_t init_password_ROM(I2C_TypeDef* i2c, uint8_t ROM_address, const char* mas
 	if (!eq) {  // set master password
 		for (uint8_t i = 0U; i < 8U; i++) { page_buffer[i] = ((__IO uint32_t*)HASH_digest)[i]; }
 		for (uint8_t i = 8U; i < (ROM_PAGE_SIZE >> 2); i++) { page_buffer[i] = 0x00000000UL; }
-		write_page(i2c, ROM_address, ROM_INFO, page_buffer);									// set page 0
+		write_page(i2c, ROM_address, ROM_INFO, page_buffer);	// set page 0
 		*page_buffer = calculate_page_CRC(page_buffer);
 		for (uint8_t i = 1U; i < 8U; i++) { page_buffer[i] = 0x00000000UL; }
-		delay_ms(ROM_MAX_DELAY / 4); write_page(i2c, ROM_address, ROM_CRC, page_buffer);		// set CRC of page 0 and reset the rest of the CRC page
+		write_page(i2c, ROM_address, ROM_CRC, page_buffer);		// set CRC of page 0 and reset the rest of the CRC page
 	} else {	// check master password
-		if (get_page_CRC(i2c, ROM_address, ROM_INFO) != calculate_page_CRC(page_buffer)) { return 0xFF; }	// error (data corrupted) TODO: status enum
+		if (get_page_CRC(i2c, ROM_address, ROM_INFO) != calculate_page_CRC(page_buffer)) { return 0xFFU; }	// error (data corrupted) TODO: status enum
 		eq = 0; for (uint8_t i = 0; i < 8U; i++) { eq |= (page_buffer[i] != ((__IO uint32_t*)HASH_digest)[i]); }
-		if (eq) { return 0xFE; }	// error (unauthorized) TODO: status enum
+		if (eq) { return 0xFEU; }	// error (unauthorized) TODO: status enum
 	}
 	process_HASH((void*)master_password, strlen(master_password), HASH_ALGO_SHA2_256);
 	for (uint8_t i = 0; i < 4U; i++) { ((uint32_t*)master_key)[i] = ((__IO uint32_t*)HASH_digest)[i] ^ ((__IO uint32_t*)HASH_digest)[4U + i]; }
-	return 0x00;  // success
+	return 0x00U;  // success
 }
 uint8_t add_password(
-	I2C_TypeDef* i2c, uint8_t ROM_address, const char* master_password,
+	I2C_TypeDef* i2c, uint8_t ROM_address,
 	const char* label, const char* email, const char* phone,
 	const char* password, const char* note
-) {
-	ROM_password_descriptor_t*	descriptor =	(void*)page_buffer;
-	ROM_encrypted_page_t*		password_page =	(void*)page_buffer;
+) {  // TODO: delete characteristics!!! (broken memory)
+	ROM_password_descriptor_t*	descriptor =		(void*)page_buffer;
+	ROM_encrypted_page_t*		password_page =		(void*)page_buffer;
+	uint8_t						password_index =	increment_password_count(i2c, ROM_address);
+	uint8_t*					ptr;
+	// write descriptor
+	for (uint8_t i = 0; i < (ROM_PAGE_SIZE >> 2); i++)	{ page_buffer[i] = 0x00000000UL; }
+	if (label) { ptr = descriptor->label; while (*label) { *ptr++ = *label++; } }
+	if (email) { ptr = descriptor->email; while (*email) { *ptr++ = *email++; } }
+	if (phone) { ptr = descriptor->phone; while (*phone) { *ptr++ = *phone++; } }
+	descriptor->page_number = password_index;
+	write_page(i2c, ROM_address, ROM_PASSWORD_DESCRIPTORS + password_index, page_buffer);
+	set_page_CRC(i2c, ROM_address, ROM_PASSWORD_DESCRIPTORS + password_index, calculate_page_CRC(page_buffer));
+	// write password data
+	for (uint8_t i = 0; i < (ROM_PAGE_SIZE >> 2); i++)	{ page_buffer[i] = 0x00000000UL; }
+	for (uint8_t i = 0; i < (AES_BLOCK_SIZE >> 2); i++)	{ password_page->IV[i] = RNG_generate(); }
+	// TODO: watch bounds!!!!
+	ptr = password_page->data;	while (*password)	{ *ptr++ = *password++; }
+	*ptr++ = 0x00; if (note)  { while (*note)		{ *ptr++ = *note++; } }
+	write_encrypted_page(i2c, ROM_address, ROM_PASSWORD_DATA + password_index, master_key, CRYP_KEY_128, password_page);
+	// password_page/page_buffer is now in the encrypted state!
+	set_page_CRC(i2c, ROM_address, ROM_PASSWORD_DATA + password_index, calculate_page_CRC(page_buffer));
 
-
-
-	// TODO: CRC!!
+	return 0x00U;  // success
 }

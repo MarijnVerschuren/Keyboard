@@ -1,6 +1,4 @@
-cd STM32H7B0_CMSIS
-git submodule update --init
-cd ..
+git submodule foreach git pull origin main
 
 rm ./soft/doc -rf
 rm ./soft/include/*.h
