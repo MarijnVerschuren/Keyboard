@@ -10,7 +10,7 @@
 /*!<
  * types
  * */
-typedef struct {
+typedef struct __PACKED {
 	uint32_t ID0;
 	uint32_t ID1;
 	uint32_t ID2;

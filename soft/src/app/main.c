@@ -14,19 +14,10 @@
 #include "hash.h"
 #include "cryp.h"
 
+#include "app/rom.h"
+#include "app/keyboard.h"
+#include "app/passwd.h"
 
-/*!<
- * defines
- * */
-#define HID_MIN_DELAY	20U
-
-#define ROM_PAGE_SIZE	0x80U
-#define ROM_PAGE_COUNT	0x1FFU
-
-
-/*!<
- * types
- * */
 
 
 /*!<
@@ -37,15 +28,8 @@ I2C_setting_t I2C_setting = {
 	.scl_l_pre = 0x13U, .scl_h_pre = 0x0FU,
 	.sda_delay = 0x02U, .scl_delay = 0x04U
 };  // 100 KHz
-uint8_t HID_buffer[8] = {0, 0, 0, 0, 0, 0, 0, 0};
 volatile uint8_t GO = 0;
 
-uint8_t cryp_IV[16] = {  // TODO: random and read
-	0x00, 0x00, 0x00, 0x00,
-	0x00, 0x00, 0x00, 0x00,
-	0x00, 0x00, 0x00, 0x00,
-	0x00, 0x00, 0x00, 0x00
-};
 
 
 extern void TIM8_UP_TIM13_IRQHandler(void) {
@@ -59,33 +43,6 @@ extern void EXTI15_10_IRQHandler(void) {	// button K2
 	GO = 1;
 }
 
-void send_text(const uint8_t* str) {
-	while (*str) {
-		HID_buffer[2] = 0x4 + (*str++ - 'a');
-		send_HID_report(&USB_handle, HID_buffer, 8);
-		delay_ms(HID_MIN_DELAY);
-		HID_buffer[2] = 0;
-		send_HID_report(&USB_handle, HID_buffer, 8);
-		delay_ms(HID_MIN_DELAY);
-	}
-}
-
-
-void write_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_address, const void* key, CRYP_KEY_t key_type, void* buffer) {
-	static uint8_t page_buffer[ROM_PAGE_SIZE];  // :(
-	AES_CBC_encrypt_setup(cryp_IV, key, key_type);
-	for (uint8_t i = 0; i < (ROM_PAGE_SIZE / AES_BLOCK_SIZE); i++) {
-		AES_CBC_process_block(&buffer[i * AES_BLOCK_SIZE], &page_buffer[i * AES_BLOCK_SIZE]);
-	} I2C_master_write_reg(i2c, ROM_address, page_address << 7U, I2C_REG_16, page_buffer, ROM_PAGE_SIZE, 100);
-}
-
-void read_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint8_t page_address, const void* key, CRYP_KEY_t key_type, void* buffer) {
-	I2C_master_read_reg(i2c, ROM_address, page_address << 7U, I2C_REG_16, buffer, ROM_PAGE_SIZE, 100);
-	AES_CBC_decrypt_setup(cryp_IV, key, key_type);  // TODO: read IV when format is defined
-	for (uint8_t i = 0; i < (ROM_PAGE_SIZE / AES_BLOCK_SIZE); i++) {
-		AES_CBC_process_block(&buffer[i * AES_BLOCK_SIZE], &buffer[i * AES_BLOCK_SIZE]);
-	}
-}
 
 
 int main(void) {
@@ -131,7 +88,7 @@ int main(void) {
 	);
 	config_TIM(TIM8, TIM_APB2_kernel_frequency / 10000, 10000);  // 1 Hz
 	start_TIM_update_irq(TIM8);
-	start_TIM(TIM8);
+	//start_TIM(TIM8);
 
 	/* GPIO config */
 	config_GPIO(GPIOC, 1, GPIO_output, GPIO_no_pull, GPIO_push_pull);	// user led C1
@@ -142,9 +99,9 @@ int main(void) {
 	config_EXTI(13, GPIOC, 0, 1);
 	start_EXTI(13);
 
-	/* RNG, HASH, CRYP config */
+	/* RNG, CRC, HASH, CRYP config */
 	config_RNG_kernel_clock(RNG_CLK_SRC_HSI48);
-	start_RNG(); config_HASH(); config_CRYP();
+	start_RNG(); config_CRC(); config_HASH(); config_CRYP();
 
 	/* UART config */
 	config_USART_kernel_clocks(USART_CLK_SRC_APBx, USART_CLK_SRC_APBx, USART_CLK_SRC_APBx);
@@ -160,43 +117,24 @@ int main(void) {
 	config_USB(USB1_OTG_HS, &HID_class, &FS_Desc, 0, 0);  // TODO low power doesnt work!!
 	start_USB(USB1_OTG_HS);
 
-
 	//Watchdog config (32kHz / (4 << prescaler))
 	config_watchdog(0, 0xFFFUL);	// 1s
+
+
+	// program
+	if (init_password_ROM(I2C3, ROM_BASE_ADDRESS, pass)) { for(;;); }
+
+	uint32_t page[ROM_PAGE_SIZE >> 2];
 	start_watchdog();
 
-
-	uint8_t hash_data[] = {0x00, 0x00, 0x00, 'a'};	// TODO: endian-ness swap??
-	uint8_t hash_key[] = {0x00, 0x00, 0x00, 'b'};	// TODO: endian-ness swap??
-	volatile uint32_t digest[8];
-	process_HMAC(hash_data, 1, hash_key, 1, HASH_ALGO_SHA2_256);
-	for (uint8_t i = 0; i < 8; i++) { digest[i] = ((__IO uint32_t*)HASH_digest)[i]; }
-
-
-	uint8_t delay = 20;
-
-	uint32_t rn = RNG_generate();
-	(void)rn;
-
-	uint8_t data[128] = "passwords and stuff here!!";
-	uint8_t key[32] = "PASSWORD for KEYBOARD!!";
-
-	uint8_t page[128];
 
 	// main loop
 	for(;;) {
 		reset_watchdog();
 		if (!GO) { continue; }
 
-		//write_encrypted_page(I2C3, 0x50, 0x0, key, CRYP_KEY_256, data);
-		read_encrypted_page(I2C3, 0x50, 0x0, key, CRYP_KEY_256, page);
-		send_text(page);
-
 		GO = 0;
 	}
-
-
-	/*!< ROM code */
 }
 
 // p.g. 346 RCC diagram
