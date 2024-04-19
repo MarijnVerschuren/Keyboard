@@ -4,6 +4,7 @@ rm ./soft/doc -rf
 rm ./soft/include/*.h
 rm ./soft/src/*.c
 rm ./soft/include/usb -rf
+rm ./soft/include/spi -rf
 rm ./soft/src/usb -rf
 rm ./soft/test -rf
 
