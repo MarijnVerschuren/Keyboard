@@ -127,7 +127,6 @@ uint8_t init_password_ROM(I2C_TypeDef* i2c, uint8_t ROM_address, const char* mas
 	return 0x00U;  // success TODO: status enum
 }
 
-
 uint8_t add_password(
 	I2C_TypeDef* i2c, uint8_t ROM_address,
 	const char* label, const char* email, const char* phone,
@@ -175,11 +174,14 @@ uint8_t read_descriptor(
 	return 0x00U;  // success TODO: status enum
 }
 uint8_t read_password(
-	I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_num,
+	I2C_TypeDef* i2c, uint8_t ROM_address, uint8_t index,
 	ROM_encrypted_page_t* password
 ) {  // TODO: delete characteristics!!! (broken memory)
-	read_page(i2c, ROM_address, page_num, password);
-	if (get_page_CRC(i2c, ROM_address, page_num) != calculate_page_CRC(password)) { return 0xFFU; }	// error (data corrupted) TODO: status enum
+	read_page(i2c, ROM_address, ROM_PASSWORD_DATA + index, password);
+	if (
+		get_page_CRC(i2c, ROM_address, ROM_PASSWORD_DATA + index) !=
+		calculate_page_CRC(password)
+	) { return 0xFFU; }	// error (data corrupted) TODO: status enum
 	decrypt_page(master_key, CRYP_KEY_128, password);
 	return 0x00U;  // success TODO: status enum
 }

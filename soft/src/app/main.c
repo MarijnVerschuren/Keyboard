@@ -124,18 +124,30 @@ int main(void) {
 	// program
 	if (init_password_ROM(I2C3, ROM_BASE_ADDRESS, pass)) { for(;;); }
 
-	uint32_t page[ROM_PAGE_SIZE >> 2];
+	/* structure TODO:
+	 A buffer for 7 descriptors will be used where the center 3 are displayed on the screen
+	 so that when scrolling new descriptors may be loaded to the buffer (each descriptor takes about 13ms).
+	 Only when pressed will the password be read and decrypted (this takes ...ms).
+	 Finally the password is typed out (this will take around 2n ms where n is the number of characters).
+	 */
+
+	uint32_t					page[ROM_PAGE_SIZE >> 2];
+	ROM_password_descriptor_t*	descriptor =		(void*)page_buffer;
+	ROM_encrypted_page_t*		password_page =		(void*)page_buffer;
 	start_watchdog();
 
 	// main loop
 	for(;;) {
 		reset_watchdog();
 		if (!GO) { continue; }
-
-
 		GO = 0;
 	}
 }
+
+/* read password!
+read_descriptor(I2C3, ROM_BASE_ADDRESS, 0x00, descriptor);  // 13 ms
+read_password(I2C3, ROM_BASE_ADDRESS, 0x00, password_page);
+ * */
 
 
 /* read password 0 manually

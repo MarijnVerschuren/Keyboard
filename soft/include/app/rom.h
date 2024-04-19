@@ -52,10 +52,11 @@ void write_encrypted_page(I2C_TypeDef* i2c, uint8_t ROM_address, uint16_t page_a
  * */
 typedef enum {  //            [page_num]
 	ROM_INFO =					0x000U,
-	ROM_UNUSED =				0x001U,	// TODO
-	ROM_PASSWORD_DESCRIPTORS =	0x010U,	// ROM_password_descriptor_t[240]
-	ROM_PASSWORD_DATA =			0x100U,	// ROM_password_data_t[240]
-	ROM_CRC =					0x1EFU,	// uint32_t[512]					// TODO
+	ROM_BREAKS =				0x001U,	// uint8_t[256]						// holds an array of open password locations (when passwords are deleted) TODO: use!!
+	ROM_UNUSED =				0x003U,	// TODO
+	ROM_PASSWORD_DESCRIPTORS =	0x010U,	// ROM_password_descriptor_t[240]	// holds non critical information like password: label, email and phone along with a reference to password
+	ROM_PASSWORD_DATA =			0x100U,	// ROM_password_data_t[240]			// holds critical information like the password itself and an encrypted note
+	ROM_CRC =					0x1EFU,	// uint32_t[512]					// holds an array of CRC32's that validate each page of the ROM
 } ROM_page_map_t;
 typedef enum {  //            [offset]
 	ROM_MASTER_HASH =			0x00,
@@ -93,6 +94,9 @@ uint8_t read_descriptor(  // TODO: delete characteristics!!! (broken memory) (IN
 	I2C_TypeDef* i2c, uint8_t ROM_address, uint8_t index,
 	ROM_password_descriptor_t* descriptor
 );
-
+uint8_t read_password(  // TODO: delete characteristics!!! (broken memory) (INFO page??)
+	I2C_TypeDef* i2c, uint8_t ROM_address, uint8_t index,
+	ROM_encrypted_page_t* password
+);
 
 #endif // SOFT_ROM_H
