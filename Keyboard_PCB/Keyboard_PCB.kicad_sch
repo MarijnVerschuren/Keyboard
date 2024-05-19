@@ -4464,10 +4464,6 @@
 		(uuid "95f1fb8c-981e-4ed5-9b27-80447ebb3ca3")
 	)
 	(no_connect
-		(at 83.82 38.1)
-		(uuid "994d05c9-4896-48b1-b43a-18d991fd64ce")
-	)
-	(no_connect
 		(at 83.82 142.24)
 		(uuid "9fcd8f30-4406-478c-b48a-c9c04fbc6acf")
 	)
@@ -4486,10 +4482,6 @@
 	(no_connect
 		(at 83.82 132.08)
 		(uuid "aa64e711-c0ff-4451-8b61-0cf57db9fbac")
-	)
-	(no_connect
-		(at 83.82 40.64)
-		(uuid "acc62151-ee59-495c-9036-0e3b5056ee65")
 	)
 	(no_connect
 		(at 83.82 63.5)
@@ -4518,10 +4510,6 @@
 	(no_connect
 		(at 83.82 50.8)
 		(uuid "ef973346-d347-474e-a99a-953af1413709")
-	)
-	(no_connect
-		(at 83.82 43.18)
-		(uuid "f3cd6e8d-0813-4dc7-8349-e7c76ea9724a")
 	)
 	(no_connect
 		(at 83.82 45.72)
@@ -4830,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "35157d79-ae6a-46b0-b6d7-ec2a4c948798")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 83.82 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352e86cd-b256-4150-be68-77f7f206f6b9")
 	)
 	(wire
 		(pts
@@ -5180,6 +5178,16 @@
 			(type default)
 		)
 		(uuid "699a1082-206e-4f1d-9f0e-5889d6fc0b3f")
+	)
+	(wire
+		(pts
+			(xy 83.82 39.37) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a70e5d1-4ca2-4236-9a70-17e019085345")
 	)
 	(wire
 		(pts
@@ -5683,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 44.45) (xy 83.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef656e2-d660-47e2-b62a-72dda79658b8")
+	)
+	(wire
+		(pts
 			(xy 83.82 87.63) (xy 83.82 86.36)
 		)
 		(stroke
@@ -6038,16 +6056,6 @@
 			)
 		)
 		(uuid "12ceb7f7-d0c5-445f-a619-2f88e3ef87de")
-	)
-	(text "TODO:\nRotary encoder"
-		(exclude_from_sim no)
-		(at 128.27 46.736 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2a472b16-8f7c-46df-8d4b-7136a9e0f915")
 	)
 	(text "VDDA_Filter"
 		(exclude_from_sim no)
@@ -6428,6 +6436,17 @@
 		)
 		(uuid "50c58d60-fce6-4071-acd1-8993ecbddfd2")
 	)
+	(label "TIM_CH2"
+		(at 83.82 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "576fcb8b-1959-47d9-9923-9f5a17afb0e0")
+	)
 	(label "COL_9"
 		(at 148.59 45.72 0)
 		(fields_autoplaced yes)
@@ -6571,6 +6590,17 @@
 		)
 		(uuid "76645e9f-bfc7-498e-8494-fe3717a6c203")
 	)
+	(label "TIM_CH1"
+		(at 83.82 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "766afb92-9db9-4fbc-88e7-d2bf36f1ab0a")
+	)
 	(label "COL_3"
 		(at 40.64 113.03 180)
 		(fields_autoplaced yes)
@@ -6615,6 +6645,17 @@
 		)
 		(uuid "7abecdfe-9114-45db-84c7-6aa399eaf4f5")
 	)
+	(label "TIM_CH2"
+		(at 119.38 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e1191c7-441b-4274-a200-177c729ff848")
+	)
 	(label "LCD_NRST"
 		(at 83.82 110.49 0)
 		(fields_autoplaced yes)
@@ -6636,6 +6677,17 @@
 			(justify left bottom)
 		)
 		(uuid "80528235-3fec-4e09-b28b-1abf6ec61ff4")
+	)
+	(label "ROT_SW"
+		(at 119.38 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82aebad5-56e1-404f-b913-0891c37265f1")
 	)
 	(label "COL_14"
 		(at 40.64 140.97 180)
@@ -6714,6 +6766,17 @@
 		)
 		(uuid "90e0a21e-f73f-471d-8808-b59914bee0c5")
 	)
+	(label "TIM_CH1"
+		(at 119.38 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97d5463f-58da-4eee-935e-f9d88b067eb0")
+	)
 	(label "ROW_4"
 		(at 40.64 72.39 180)
 		(fields_autoplaced yes)
@@ -6779,6 +6842,17 @@
 			(justify left bottom)
 		)
 		(uuid "b4200157-3f48-415d-bd4f-8d52f3125779")
+	)
+	(label "ROT_SW"
+		(at 83.82 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5be086a-3b92-4431-b59d-4bcca13c8730")
 	)
 	(label "LSE_OUT"
 		(at 167.64 175.26 90)
@@ -7324,7 +7398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 120.65 148.59 0)
 			(effects
 				(font
@@ -8535,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:PowerIntegrations_SO-8"
 			(at 134.62 110.49 0)
 			(effects
 				(font
@@ -9788,7 +9862,7 @@
 			)
 		)
 		(property "Sheetfile" "lcd.kicad_sch"
-			(at 196.977 148.336 0)
+			(at 197.104 159.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,6 +10203,36 @@
 				(justify right)
 			)
 			(uuid "58316939-1d57-42cd-82c6-74b63be95bae")
+		)
+		(pin "ROT_A" input
+			(at 119.38 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36a2c6a4-661a-4537-b6d4-eb82d8a3ce5f")
+		)
+		(pin "ROT_B" input
+			(at 119.38 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a63cfe5-9d45-4dac-b011-2059a017a4c0")
+		)
+		(pin "ROT_SW" input
+			(at 119.38 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cba01bbd-3059-4bc4-b66f-7a54729613b0")
 		)
 		(instances
 			(project "Keyboard_PCB"

@@ -170,6 +170,513 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers hide)
 			(pin_names
@@ -330,6 +837,222 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -677,6 +1400,12 @@
 		(uuid "7d542f41-bb5f-4b92-a960-3faf275acd01")
 	)
 	(junction
+		(at 240.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f1ab484-2f05-4f7a-9c6f-ce15e5eed10d")
+	)
+	(junction
 		(at 146.05 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -803,6 +1532,12 @@
 		(uuid "ae3b24d6-3bc7-4b75-b54f-7d900e8b6c94")
 	)
 	(junction
+		(at 217.17 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aec1cd7d-24ef-46d5-af1a-fea6e282e2de")
+	)
+	(junction
 		(at 74.93 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -855,6 +1590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc65b27d-f82a-4f1c-bf43-df4e57fe618c")
+	)
+	(junction
+		(at 217.17 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcc22d8b-872a-486c-a929-667ac85843ee")
 	)
 	(junction
 		(at 74.93 102.87)
@@ -1068,6 +1809,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 92.71) (xy 237.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03687156-1369-444a-91a6-ec5a4d820e45")
+	)
+	(wire
+		(pts
 			(xy 113.03 102.87) (xy 119.38 102.87)
 		)
 		(stroke
@@ -1165,6 +1916,16 @@
 			(type default)
 		)
 		(uuid "123153a3-c910-4b47-86c2-2f07eef7f300")
+	)
+	(wire
+		(pts
+			(xy 243.84 87.63) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1408ea06-4ff9-451c-a000-2931aaec9c10")
 	)
 	(wire
 		(pts
@@ -1278,6 +2039,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 101.6) (xy 217.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f30abee-6a11-432b-88ce-f8922a0106ef")
+	)
+	(wire
+		(pts
 			(xy 144.78 82.55) (xy 144.78 81.28)
 		)
 		(stroke
@@ -1325,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "28d3f117-44d1-40dd-94e0-d009dba70fee")
+	)
+	(wire
+		(pts
+			(xy 217.17 78.74) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a67a7ec-abb6-4a6b-8a3b-5a9b00735bae")
 	)
 	(wire
 		(pts
@@ -1378,6 +2159,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e19313b-9949-4c46-b7db-89f53e4a5578")
+	)
+	(wire
+		(pts
 			(xy 139.7 50.8) (xy 139.7 60.96)
 		)
 		(stroke
@@ -1415,6 +2206,16 @@
 			(type default)
 		)
 		(uuid "3291e1c4-b305-4bbe-92c1-b48e892d3982")
+	)
+	(wire
+		(pts
+			(xy 214.63 92.71) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ecb462-94cf-4beb-ba9e-86755420d94a")
 	)
 	(wire
 		(pts
@@ -1768,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 78.74) (xy 240.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627238d3-2ea7-42a2-8021-04c04b7e2a00")
+	)
+	(wire
+		(pts
 			(xy 138.43 118.11) (xy 151.13 118.11)
 		)
 		(stroke
@@ -1895,6 +2706,16 @@
 			(type default)
 		)
 		(uuid "73f63898-1040-44f6-b665-8084b7fb4131")
+	)
+	(wire
+		(pts
+			(xy 240.03 85.09) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "743c4382-de70-488a-b847-e80e4a1528a1")
 	)
 	(wire
 		(pts
@@ -2278,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 87.63) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b70ded-5467-4037-941b-6679e2246c22")
+	)
+	(wire
+		(pts
 			(xy 74.93 102.87) (xy 81.28 102.87)
 		)
 		(stroke
@@ -2618,6 +3449,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 95.25) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7ad04b-6080-4d31-84f3-86b2bc5524ca")
+	)
+	(wire
+		(pts
 			(xy 100.33 102.87) (xy 106.68 102.87)
 		)
 		(stroke
@@ -2738,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 92.71) (xy 237.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3ec347-9aa0-44b3-898f-a2694ef1db2a")
+	)
+	(wire
+		(pts
 			(xy 100.33 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -2795,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "df2e4332-6490-4390-b05e-465cac701dc1")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 220.98 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5417f9f-70e4-421c-b4bb-70bf67a13034")
 	)
 	(wire
 		(pts
@@ -2948,6 +3809,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 87.63) (xy 220.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61e62ee-7236-4497-8d2d-46d6a08090db")
+	)
+	(wire
+		(pts
 			(xy 76.2 76.2) (xy 76.2 91.44)
 		)
 		(stroke
@@ -2995,6 +3866,16 @@
 			(type default)
 		)
 		(uuid "f7e87f94-8c35-4d31-a08b-037ef0d65eb9")
+	)
+	(wire
+		(pts
+			(xy 217.17 85.09) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f803a166-4b28-4f10-952b-1bab25c9fd02")
 	)
 	(wire
 		(pts
@@ -3112,6 +3993,18 @@
 		)
 		(uuid "3583f338-4aa0-41dc-9440-c9940bfc287d")
 	)
+	(hierarchical_label "ROT_SW"
+		(shape input)
+		(at 243.84 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ca1f5d9-2815-4ce3-a59f-2f848feb94a6")
+	)
 	(hierarchical_label "COL_7"
 		(shape input)
 		(at 107.95 50.8 90)
@@ -3123,6 +4016,18 @@
 			(justify left)
 		)
 		(uuid "3cc85f15-efa2-4daf-b630-73edea958100")
+	)
+	(hierarchical_label "ROT_B"
+		(shape input)
+		(at 214.63 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a286acb-3bac-415b-8de0-3946ace590b3")
 	)
 	(hierarchical_label "COL_2"
 		(shape input)
@@ -3147,6 +4052,18 @@
 			(justify left)
 		)
 		(uuid "528d2275-c281-407d-b01a-092399118fb8")
+	)
+	(hierarchical_label "ROT_A"
+		(shape input)
+		(at 214.63 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fae0088-b94f-490e-8a12-6cd1361af0f7")
 	)
 	(hierarchical_label "ROW_1"
 		(shape input)
@@ -3341,7 +4258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -3408,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 154.94 124.46 0)
 			(effects
 				(font
@@ -3475,7 +4392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 116.84 124.46 0)
 			(effects
 				(font
@@ -3545,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.68 69.85 90)
 			(effects
 				(font
@@ -3582,6 +4499,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 106.68 69.85 0)
 			(effects
 				(font
@@ -3633,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 113.03 115.57 90)
 			(effects
 				(font
@@ -3670,6 +4596,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 113.03 115.57 0)
 			(effects
 				(font
@@ -3721,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 119.38 85.09 90)
 			(effects
 				(font
@@ -3758,6 +4693,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -3809,7 +4753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 157.48 130.81 90)
 			(effects
 				(font
@@ -3846,6 +4790,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 157.48 130.81 0)
 			(effects
 				(font
@@ -3897,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 115.57 90)
 			(effects
 				(font
@@ -3934,6 +4887,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 115.57 0)
 			(effects
 				(font
@@ -3985,7 +4947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 93.98 69.85 90)
 			(effects
 				(font
@@ -4022,6 +4984,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 93.98 69.85 0)
 			(effects
 				(font
@@ -4070,7 +5041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 135.89 78.74 0)
 			(effects
 				(font
@@ -4137,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 85.09 63.5 0)
 			(effects
 				(font
@@ -4207,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 100.33 90)
 			(effects
 				(font
@@ -4244,6 +5215,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -4292,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -4359,7 +5339,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 123.19 93.98 0)
 			(effects
 				(font
@@ -4429,7 +5409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 85.09 90)
 			(effects
 				(font
@@ -4466,6 +5446,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -4517,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 93.98 85.09 90)
 			(effects
 				(font
@@ -4554,6 +5543,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -4605,7 +5603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 87.63 100.33 90)
 			(effects
 				(font
@@ -4650,6 +5648,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1296f17c-ae19-4116-8234-922cde47cd4d")
 		)
@@ -4660,6 +5667,72 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
 					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 240.03 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "171fb681-dac1-41ab-bbdc-45e8fa76c7af")
+		(property "Reference" "#PWR035"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 240.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e82a2ed1-9577-4e22-a3bb-6ecf0719fcf6")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4693,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 69.85 90)
 			(effects
 				(font
@@ -4730,6 +5803,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -4778,7 +5860,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.50u_PCB"
 			(at 66.04 78.74 0)
 			(effects
 				(font
@@ -4848,7 +5930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 132.08 115.57 90)
 			(effects
 				(font
@@ -4885,6 +5967,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 132.08 115.57 0)
 			(effects
 				(font
@@ -4933,7 +6024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -4976,6 +6067,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e33ff31-31dd-4429-aaaa-5f40cc8d73b8")
+		(property "Reference" "#PWR036"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51be472-dadd-4060-baf2-88f9571e654a")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 129.54 109.22 0)
 		(unit 1)
@@ -5000,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 129.54 109.22 0)
 			(effects
 				(font
@@ -5070,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 85.09 90)
 			(effects
 				(font
@@ -5107,6 +6264,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 125.73 85.09 0)
 			(effects
 				(font
@@ -5155,7 +6321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 104.14 63.5 0)
 			(effects
 				(font
@@ -5225,7 +6391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 74.93 85.09 90)
 			(effects
 				(font
@@ -5262,6 +6428,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 74.93 85.09 0)
 			(effects
 				(font
@@ -5313,7 +6488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 138.43 100.33 90)
 			(effects
 				(font
@@ -5350,6 +6525,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -5398,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 142.24 63.5 0)
 			(effects
 				(font
@@ -5468,7 +6652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 74.93 130.81 90)
 			(effects
 				(font
@@ -5505,6 +6689,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -5556,7 +6749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 132.08 69.85 90)
 			(effects
 				(font
@@ -5593,6 +6786,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 132.08 69.85 0)
 			(effects
 				(font
@@ -5644,7 +6846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 157.48 100.33 90)
 			(effects
 				(font
@@ -5681,6 +6883,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -5732,7 +6943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 157.48 115.57 90)
 			(effects
 				(font
@@ -5769,6 +6980,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 157.48 115.57 0)
 			(effects
 				(font
@@ -5820,7 +7040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 100.33 90)
 			(effects
 				(font
@@ -5857,6 +7077,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 125.73 100.33 0)
 			(effects
 				(font
@@ -5905,7 +7134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -5975,7 +7204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 93.98 115.57 90)
 			(effects
 				(font
@@ -6012,6 +7241,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 93.98 115.57 0)
 			(effects
 				(font
@@ -6060,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 78.74 109.22 0)
 			(effects
 				(font
@@ -6127,7 +7365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -6194,7 +7432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 85.09 93.98 0)
 			(effects
 				(font
@@ -6264,7 +7502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 81.28 115.57 90)
 			(effects
 				(font
@@ -6301,6 +7539,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 81.28 115.57 0)
 			(effects
 				(font
@@ -6349,7 +7596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 154.94 93.98 0)
 			(effects
 				(font
@@ -6416,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -6486,7 +7733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 93.98 100.33 90)
 			(effects
 				(font
@@ -6523,6 +7770,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 93.98 100.33 0)
 			(effects
 				(font
@@ -6574,7 +7830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 130.81 90)
 			(effects
 				(font
@@ -6611,6 +7867,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 100.33 130.81 0)
 			(effects
 				(font
@@ -6659,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.75u_PCB"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -6726,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 91.44 93.98 0)
 			(effects
 				(font
@@ -6793,7 +8058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 110.49 78.74 0)
 			(effects
 				(font
@@ -6836,6 +8101,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 228.6 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e97af56-f099-4924-b8db-df86364467b7")
+		(property "Reference" "SW69"
+			(at 228.6 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC11E15244G1"
+			(at 228.6 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E_Vertical_H20mm"
+			(at 224.79 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "26af510c-d00e-42fe-b1aa-e6635a832f2f")
+		)
+		(pin "A"
+			(uuid "05741de6-12eb-40c8-b653-94e63e788f97")
+		)
+		(pin "S1"
+			(uuid "861d03f0-068c-4f9c-b5ef-6838735899b3")
+		)
+		(pin "S2"
+			(uuid "b489e2ed-372c-47d9-97c6-91aa1e010d1a")
+		)
+		(pin "C"
+			(uuid "09d36ca7-4db9-4880-aa83-d84db0c38397")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "SW69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 72.39 78.74 0)
 		(unit 1)
@@ -6860,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 72.39 78.74 0)
 			(effects
 				(font
@@ -6927,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 129.54 78.74 0)
 			(effects
 				(font
@@ -6970,6 +8311,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 217.17 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51ea47e1-8ae0-4906-ab9e-d35e624d3db3")
+		(property "Reference" "R15"
+			(at 215.138 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.202 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 217.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0335f2f9-e415-4d0d-b260-3e45f8ab8b9a")
+		)
+		(pin "2"
+			(uuid "d5cf0775-6932-454c-873f-4c78b3cb129d")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 123.19 63.5 0)
 		(unit 1)
@@ -6994,7 +8411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -7064,7 +8481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 81.28 130.81 90)
 			(effects
 				(font
@@ -7101,6 +8518,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -7152,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.68 100.33 90)
 			(effects
 				(font
@@ -7189,6 +8615,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -7240,7 +8675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 119.38 130.81 90)
 			(effects
 				(font
@@ -7277,6 +8712,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -7325,7 +8769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 91.44 78.74 0)
 			(effects
 				(font
@@ -7395,7 +8839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 69.85 90)
 			(effects
 				(font
@@ -7440,6 +8884,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44e5574e-7e72-42d2-9c58-5d8e60d8af14")
 		)
@@ -7450,6 +8903,72 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c13514d-ad46-4b2b-adba-a995796db725")
+		(property "Reference" "#PWR033"
+			(at 214.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.678 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a829b11e-f049-41f8-9c44-4edd319a91a2")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7480,7 +8999,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -7547,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 78.74 63.5 0)
 			(effects
 				(font
@@ -7617,7 +9136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.78 69.85 90)
 			(effects
 				(font
@@ -7654,6 +9173,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 144.78 69.85 0)
 			(effects
 				(font
@@ -7702,7 +9230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 135.89 124.46 0)
 			(effects
 				(font
@@ -7769,7 +9297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -7839,7 +9367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 100.33 90)
 			(effects
 				(font
@@ -7876,6 +9404,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 68.58 100.33 0)
 			(effects
 				(font
@@ -7927,7 +9464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 100.33 90)
 			(effects
 				(font
@@ -7964,6 +9501,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 100.33 100.33 0)
 			(effects
 				(font
@@ -8015,7 +9561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 74.93 100.33 90)
 			(effects
 				(font
@@ -8052,6 +9598,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -8100,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 110.49 93.98 0)
 			(effects
 				(font
@@ -8167,7 +9722,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.25u_PCB"
 			(at 72.39 124.46 0)
 			(effects
 				(font
@@ -8234,7 +9789,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_2.25u_PCB"
 			(at 148.59 93.98 0)
 			(effects
 				(font
@@ -8301,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 148.59 124.46 0)
 			(effects
 				(font
@@ -8368,7 +9923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 97.79 109.22 0)
 			(effects
 				(font
@@ -8438,7 +9993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 119.38 100.33 90)
 			(effects
 				(font
@@ -8475,6 +10030,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 119.38 100.33 0)
 			(effects
 				(font
@@ -8523,7 +10087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.25u_PCB"
 			(at 66.04 124.46 0)
 			(effects
 				(font
@@ -8590,7 +10154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 129.54 124.46 0)
 			(effects
 				(font
@@ -8657,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.75u_PCB"
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -8727,7 +10291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 115.57 90)
 			(effects
 				(font
@@ -8764,6 +10328,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 68.58 115.57 0)
 			(effects
 				(font
@@ -8815,7 +10388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 138.43 85.09 90)
 			(effects
 				(font
@@ -8852,6 +10425,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 138.43 85.09 0)
 			(effects
 				(font
@@ -8900,7 +10482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -8970,7 +10552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 119.38 115.57 90)
 			(effects
 				(font
@@ -9007,6 +10589,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 119.38 115.57 0)
 			(effects
 				(font
@@ -9058,7 +10649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 144.78 85.09 90)
 			(effects
 				(font
@@ -9095,6 +10686,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -9146,7 +10746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 138.43 69.85 90)
 			(effects
 				(font
@@ -9183,6 +10783,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 138.43 69.85 0)
 			(effects
 				(font
@@ -9231,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 154.94 63.5 0)
 			(effects
 				(font
@@ -9298,7 +10907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 135.89 93.98 0)
 			(effects
 				(font
@@ -9341,6 +10950,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 240.03 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dddba19-0527-4370-a849-afc07fe83030")
+		(property "Reference" "R14"
+			(at 237.998 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.062 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "481c6bf2-d1ad-40d6-acfd-43540a17e446")
+		)
+		(pin "2"
+			(uuid "e7e058e6-39aa-4dd9-abc0-7042cad551e9")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 68.58 69.85 90)
 		(unit 1)
@@ -9368,7 +11053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 69.85 90)
 			(effects
 				(font
@@ -9405,6 +11090,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 68.58 69.85 0)
 			(effects
 				(font
@@ -9453,7 +11147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_6.25u_PCB"
 			(at 97.79 124.46 0)
 			(effects
 				(font
@@ -9520,7 +11214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -9587,7 +11281,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9657,7 +11351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 115.57 90)
 			(effects
 				(font
@@ -9694,6 +11388,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -9745,7 +11448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 130.81 90)
 			(effects
 				(font
@@ -9782,6 +11485,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 151.13 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 151.13 130.81 0)
 			(effects
 				(font
@@ -9830,7 +11542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -9897,7 +11609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 116.84 78.74 0)
 			(effects
 				(font
@@ -9964,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 110.49 109.22 0)
 			(effects
 				(font
@@ -10034,7 +11746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 85.09 90)
 			(effects
 				(font
@@ -10071,6 +11783,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -10122,7 +11843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.68 85.09 90)
 			(effects
 				(font
@@ -10159,6 +11880,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 106.68 85.09 0)
 			(effects
 				(font
@@ -10207,7 +11937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_2.00u_PCB"
 			(at 148.59 63.5 0)
 			(effects
 				(font
@@ -10274,7 +12004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -10344,7 +12074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 74.93 69.85 90)
 			(effects
 				(font
@@ -10381,6 +12111,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 74.93 69.85 0)
 			(effects
 				(font
@@ -10432,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 113.03 85.09 90)
 			(effects
 				(font
@@ -10469,6 +12208,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 113.03 85.09 0)
 			(effects
 				(font
@@ -10517,7 +12265,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -10584,7 +12332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -10651,7 +12399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_2.25u_PCB"
 			(at 66.04 109.22 0)
 			(effects
 				(font
@@ -10721,7 +12469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 87.63 69.85 90)
 			(effects
 				(font
@@ -10766,6 +12514,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5404d57a-0b36-4d59-9d6e-d552b3e8e807")
 		)
@@ -10776,6 +12533,72 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98fa83cf-7f1d-42cc-9845-a2ca7eb7a964")
+		(property "Reference" "#PWR037"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "637da68b-18ba-4598-8b3c-97d8abad012b")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -10809,7 +12632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 68.58 130.81 90)
 			(effects
 				(font
@@ -10846,6 +12669,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 68.58 130.81 0)
 			(effects
 				(font
@@ -10894,7 +12726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.25u_PCB"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -10937,6 +12769,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 237.49 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14dbdf6-9271-4050-8b58-5ac5ddac6b99")
+		(property "Reference" "#PWR034"
+			(at 237.49 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1df4a3f1-2c53-4e7f-9aa4-026a26529803")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 100.33 69.85 90)
 		(unit 1)
@@ -10964,7 +12861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 69.85 90)
 			(effects
 				(font
@@ -11001,6 +12898,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 100.33 69.85 0)
 			(effects
 				(font
@@ -11052,7 +12958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 132.08 100.33 90)
 			(effects
 				(font
@@ -11089,6 +12995,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 132.08 100.33 0)
 			(effects
 				(font
@@ -11137,7 +13052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 85.09 78.74 0)
 			(effects
 				(font
@@ -11207,7 +13122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 87.63 115.57 90)
 			(effects
 				(font
@@ -11244,6 +13159,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 87.63 115.57 0)
 			(effects
 				(font
@@ -11292,7 +13216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 85.09 109.22 0)
 			(effects
 				(font
@@ -11362,7 +13286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 87.63 85.09 90)
 			(effects
 				(font
@@ -11399,6 +13323,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 87.63 85.09 0)
 			(effects
 				(font
@@ -11447,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 72.39 93.98 0)
 			(effects
 				(font
@@ -11514,7 +13447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -11581,7 +13514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -11648,7 +13581,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.50u_PCB"
 			(at 148.59 78.74 0)
 			(effects
 				(font
@@ -11718,7 +13651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 157.48 85.09 90)
 			(effects
 				(font
@@ -11755,6 +13688,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -11803,7 +13745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 104.14 109.22 0)
 			(effects
 				(font
@@ -11873,7 +13815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 81.28 69.85 90)
 			(effects
 				(font
@@ -11910,6 +13852,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 81.28 69.85 0)
 			(effects
 				(font
@@ -11961,7 +13912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 157.48 69.85 90)
 			(effects
 				(font
@@ -11998,6 +13949,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 157.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 157.48 69.85 0)
 			(effects
 				(font
@@ -12049,7 +14009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 100.33 115.57 90)
 			(effects
 				(font
@@ -12086,6 +14046,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 100.33 115.57 0)
 			(effects
 				(font
@@ -12137,7 +14106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 138.43 115.57 90)
 			(effects
 				(font
@@ -12174,6 +14143,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 138.43 115.57 0)
 			(effects
 				(font
@@ -12225,7 +14203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 132.08 85.09 90)
 			(effects
 				(font
@@ -12262,6 +14240,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 132.08 85.09 0)
 			(effects
 				(font
@@ -12313,7 +14300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 74.93 115.57 90)
 			(effects
 				(font
@@ -12350,6 +14337,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 74.93 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 74.93 115.57 0)
 			(effects
 				(font
@@ -12401,7 +14397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 113.03 100.33 90)
 			(effects
 				(font
@@ -12438,6 +14434,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 113.03 100.33 0)
 			(effects
 				(font
@@ -12486,7 +14491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 72.39 109.22 0)
 			(effects
 				(font
@@ -12556,7 +14561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 125.73 130.81 90)
 			(effects
 				(font
@@ -12593,6 +14598,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 125.73 130.81 0)
 			(effects
 				(font
@@ -12644,7 +14658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 106.68 115.57 90)
 			(effects
 				(font
@@ -12681,6 +14695,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 106.68 115.57 0)
 			(effects
 				(font
@@ -12729,7 +14752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -12799,7 +14822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 81.28 100.33 90)
 			(effects
 				(font
@@ -12836,6 +14859,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 81.28 100.33 0)
 			(effects
 				(font
@@ -12884,7 +14916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 91.44 63.5 0)
 			(effects
 				(font
@@ -12954,7 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 138.43 130.81 90)
 			(effects
 				(font
@@ -12991,6 +15023,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 138.43 130.81 0)
 			(effects
 				(font
@@ -13039,7 +15080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -13109,7 +15150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 81.28 85.09 90)
 			(effects
 				(font
@@ -13146,6 +15187,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -13194,7 +15244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 72.39 63.5 0)
 			(effects
 				(font
@@ -13264,7 +15314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 113.03 69.85 90)
 			(effects
 				(font
@@ -13301,6 +15351,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -13349,7 +15408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 116.84 93.98 0)
 			(effects
 				(font
@@ -13419,7 +15478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 132.08 130.81 90)
 			(effects
 				(font
@@ -13456,6 +15515,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -13504,7 +15572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -13574,7 +15642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 119.38 69.85 90)
 			(effects
 				(font
@@ -13611,6 +15679,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 119.38 69.85 0)
 			(effects
 				(font
@@ -13659,7 +15736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 123.19 124.46 0)
 			(effects
 				(font
@@ -13726,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 			(at 142.24 78.74 0)
 			(effects
 				(font
@@ -13796,7 +15873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 85.09 90)
 			(effects
 				(font
@@ -13841,6 +15918,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88c4ca8b-b7c9-4da4-b7cd-db406c84464f")
 		)
@@ -13851,6 +15937,82 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 217.17 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd5b0a2e-77ba-434b-98ef-4f13f4422081")
+		(property "Reference" "R16"
+			(at 219.202 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 215.138 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25879"
+			(at 217.17 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf8071cf-2d6e-45c6-a150-cdffac885553")
+		)
+		(pin "2"
+			(uuid "4bf928fd-d620-4195-a098-3fd488c96e15")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
+					(reference "R16")
 					(unit 1)
 				)
 			)
