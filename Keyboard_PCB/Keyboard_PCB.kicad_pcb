@@ -55766,6 +55766,19 @@
 		(layer "Edge.Cuts")
 		(uuid "fc464b51-7abf-4ce8-8019-ae6371e5a678")
 	)
+	(gr_text "TODO: MOUNTING HOLES\nTODO: NEW BUCK CONVERTER"
+		(at 211.20375 116.0425 0)
+		(layer "Cmts.User")
+		(uuid "1387a877-8011-4330-93e0-2b08ca8923fd")
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 253.60375 237.8425)
 		(end 252.20375 239.2425)
