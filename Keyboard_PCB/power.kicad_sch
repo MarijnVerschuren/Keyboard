@@ -2203,6 +2203,16 @@
 		)
 		(uuid "f85f5fc1-30d1-436c-97bc-3052c0ea3346")
 	)
+	(text "TODO: different buck converter (less extended parts!)"
+		(exclude_from_sim no)
+		(at 140.97 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "069c5e43-45e8-4dd7-aa70-39610de4a60f")
+	)
 	(text "TODO: fuse?"
 		(exclude_from_sim no)
 		(at 43.434 27.94 0)
