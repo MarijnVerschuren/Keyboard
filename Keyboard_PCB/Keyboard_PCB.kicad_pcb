@@ -334,6 +334,7 @@
 	(net 188 "unconnected-(J2-Pin_6-Pad6)")
 	(net 189 "unconnected-(J2-Pin_5-Pad5)")
 	(net 190 "/LCD/FPC_NRST")
+	(net 191 "Net-(JP1-A)")
 	(footprint "Keyboard_Switch:SW_Cherry_MX1A_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "01d761eb-21b6-4ef6-9724-d0bf3e8867b8")
@@ -341,7 +342,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW24"
-			(at -2.54 -2.794 0)
+			(at 2.485 13.03 0)
 			(layer "F.SilkS")
 			(uuid "fd264b70-9d9e-4fb5-9f10-16e834c2efd2")
 			(effects
@@ -352,8 +353,8 @@
 			)
 		)
 		(property "Value" "I"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.085 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "d000587d-7b1a-495f-8cb9-f3f4bdc7213f")
 			(effects
 				(font
@@ -635,7 +636,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW52"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "b3f5e600-06fe-4c27-992b-be7ef0d529ee")
 			(effects
@@ -646,8 +647,8 @@
 			)
 		)
 		(property "Value" "M"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8475 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "4ed3b5cb-2cce-42ae-8a46-b00c6c03aeff")
 			(effects
 				(font
@@ -931,6 +932,7 @@
 		(property "Reference" "H2"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b36686dc-2df1-48b9-ab4c-586b1caa2705")
 			(effects
 				(font
@@ -1043,7 +1045,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW11"
-			(at -2.54 -2.794 0)
+			(at 2.61 13.08 0)
 			(layer "F.SilkS")
 			(uuid "d30d99a3-a5f8-46ca-ab01-e942cdc93c62")
 			(effects
@@ -1054,8 +1056,8 @@
 			)
 		)
 		(property "Value" "0"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.81 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "dda93364-6c25-4ee6-a7b0-5fd49ffe885a")
 			(effects
 				(font
@@ -1337,7 +1339,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 2.25u PCB")
 		(property "Reference" "SW43"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "ba212c28-aaf0-4344-9645-d90c8d105c91")
 			(effects
@@ -1348,8 +1350,8 @@
 			)
 		)
 		(property "Value" "ENTER"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.00125 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "221f589c-08ab-47a5-9587-22f170f9d34f")
 			(effects
 				(font
@@ -1659,7 +1661,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW19"
-			(at -2.54 -2.794 0)
+			(at 2.435 13.03 0)
 			(layer "F.SilkS")
 			(uuid "bee07131-ec40-477f-8f9e-abf24aa5b464")
 			(effects
@@ -1670,8 +1672,8 @@
 			)
 		)
 		(property "Value" "E"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.835 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "87f6e508-6f7b-4470-ae48-21f8013ecb38")
 			(effects
 				(font
@@ -1953,7 +1955,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW50"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "c71fd4c2-af26-4f98-bbfa-88509153b09f")
 			(effects
@@ -1964,8 +1966,8 @@
 			)
 		)
 		(property "Value" "B"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8475 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "61e87fc1-315c-43ff-b9ad-fab039240ec1")
 			(effects
 				(font
@@ -2247,7 +2249,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW4"
-			(at -2.54 -2.794 0)
+			(at 3.16 13.08 0)
 			(layer "F.SilkS")
 			(uuid "6311cd30-ef52-4607-b67a-6760c8f195a4")
 			(effects
@@ -2258,8 +2260,8 @@
 			)
 		)
 		(property "Value" "3"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.86 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "62045f30-1f9d-4989-a840-ea05c560efaa")
 			(effects
 				(font
@@ -2541,7 +2543,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW9"
-			(at -2.54 -2.794 0)
+			(at 3.01 13.08 0)
 			(layer "F.SilkS")
 			(uuid "7573ff07-acf0-4b03-99bf-28a913d919ca")
 			(effects
@@ -2552,8 +2554,8 @@
 			)
 		)
 		(property "Value" "8"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.81 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "c5f3338d-3260-4343-97a1-db074af38570")
 			(effects
 				(font
@@ -2835,7 +2837,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.75u PCB")
 		(property "Reference" "SW56"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "487994ee-5f4d-43a2-b1d6-48759f2d8f87")
 			(effects
@@ -2846,8 +2848,8 @@
 			)
 		)
 		(property "Value" "SHIFT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.20375 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "7f770ef1-6511-4d6b-b837-478a075607a4")
 			(effects
 				(font
@@ -3129,7 +3131,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW8"
-			(at -2.54 -2.794 0)
+			(at 2.96 13.08 0)
 			(layer "F.SilkS")
 			(uuid "346f13d0-2770-4eb8-9a7a-ac1d54bcdea0")
 			(effects
@@ -3140,8 +3142,8 @@
 			)
 		)
 		(property "Value" "7"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.76 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "90427e1e-e9ef-4eed-8f7f-5b0b155b0388")
 			(effects
 				(font
@@ -3423,7 +3425,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW30"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.03 0)
 			(layer "F.SilkS")
 			(uuid "8145ff9b-4bc2-40ea-87d5-906265962e80")
 			(effects
@@ -3433,9 +3435,9 @@
 				)
 			)
 		)
-		(property "Value" "HOME"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+		(property "Value" "MOD_1"
+			(at 1.86 11.23 0)
+			(layer "F.SilkS" knockout)
 			(uuid "c0ba27f3-f173-4ef0-95a7-b42a3453b58b")
 			(effects
 				(font
@@ -3717,7 +3719,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.25u PCB")
 		(property "Reference" "SW61"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "84fd0cf6-f7ff-4e59-ad1a-2743dd9a468a")
 			(effects
@@ -3728,8 +3730,8 @@
 			)
 		)
 		(property "Value" "ALT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.0125 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "6422b77d-7113-4502-a2c4-0eb00c2cf384")
 			(effects
 				(font
@@ -4011,7 +4013,7 @@
 		(descr "Through hole straight pin header, 2x04, 2.00mm pitch, double rows")
 		(tags "Through hole pin header THT 2x04 2.00mm double row")
 		(property "Reference" "J2"
-			(at 1 -2.06 0)
+			(at 2.6 8.3 0)
 			(layer "F.SilkS")
 			(uuid "f03c5b9a-ff5a-4dda-9a0e-df1ac9f087a0")
 			(effects
@@ -4361,7 +4363,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW20"
-			(at -2.54 -2.794 0)
+			(at 2.485 13.03 0)
 			(layer "F.SilkS")
 			(uuid "97296c8e-c892-400a-aafa-c070221b1f7a")
 			(effects
@@ -4372,8 +4374,8 @@
 			)
 		)
 		(property "Value" "R"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.785 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "b739a521-4381-4592-b311-b5ea03ad446b")
 			(effects
 				(font
@@ -4655,7 +4657,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW55"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "7bc2596e-eab3-478c-a9bb-babcdd57f2fb")
 			(effects
@@ -4666,8 +4668,8 @@
 			)
 		)
 		(property "Value" "/"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.6975 11.03 0)
+			(layer "F.SilkS" knockout)
 			(uuid "01953739-2a78-43cd-86f2-77e952b45f29")
 			(effects
 				(font
@@ -4949,7 +4951,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW53"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "4190d72c-8dd5-4001-b12f-46e9c8cdf9cd")
 			(effects
@@ -4960,8 +4962,8 @@
 			)
 		)
 		(property "Value" ","
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.0975 11.13 0)
+			(layer "F.SilkS" knockout)
 			(uuid "021050ae-87a6-4860-a66b-0a0879bae93a")
 			(effects
 				(font
@@ -5243,7 +5245,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW27"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.03 0)
 			(layer "F.SilkS")
 			(uuid "de9ca333-5daf-4c8b-8e82-75a13f5510cb")
 			(effects
@@ -5254,8 +5256,8 @@
 			)
 		)
 		(property "Value" "["
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.935 10.93 0)
+			(layer "F.SilkS" knockout)
 			(uuid "3638cadd-2d31-4a6d-aec9-61d0d1ef7ed0")
 			(effects
 				(font
@@ -5537,7 +5539,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW58"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "cdfbb847-9226-4fc5-aee5-b119dd336cda")
 			(effects
@@ -5547,9 +5549,9 @@
 				)
 			)
 		)
-		(property "Value" "PG_D"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+		(property "Value" "MOD_3"
+			(at 1.86 11.23 0)
+			(layer "F.SilkS" knockout)
 			(uuid "17b9f442-dfbf-4a45-82fe-41abfacbde63")
 			(effects
 				(font
@@ -5831,7 +5833,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 2.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 2.00u PCB")
 		(property "Reference" "SW14"
-			(at -2.54 -2.794 0)
+			(at 2.535 13.08 0)
 			(layer "F.SilkS")
 			(uuid "3c85577e-f5d3-49d8-93df-f59e6f2a2e76")
 			(effects
@@ -5841,9 +5843,9 @@
 				)
 			)
 		)
-		(property "Value" "<-"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+		(property "Value" "BACKSPACE"
+			(at 0.035 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "cdad8ad0-e9fa-4178-aa9c-ad7c3b3cb709")
 			(effects
 				(font
@@ -6153,7 +6155,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW26"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.03 0)
 			(layer "F.SilkS")
 			(uuid "5a6ce862-786f-434f-a9bd-2114e4d6453b")
 			(effects
@@ -6164,8 +6166,8 @@
 			)
 		)
 		(property "Value" "P"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.785 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "84ca29a2-494c-4d70-a3f1-4a958c76ec77")
 			(effects
 				(font
@@ -6447,7 +6449,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW25"
-			(at -2.54 -2.794 0)
+			(at 2.435 13.03 0)
 			(layer "F.SilkS")
 			(uuid "4e79e524-688f-4b35-881a-38ab54a41eba")
 			(effects
@@ -6458,8 +6460,8 @@
 			)
 		)
 		(property "Value" "O"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.835 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "fcc14e73-a1b4-46e3-8607-2d3682cc6ecb")
 			(effects
 				(font
@@ -6741,7 +6743,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW22"
-			(at -2.54 -2.794 0)
+			(at 2.485 13.03 0)
 			(layer "F.SilkS")
 			(uuid "c0ec566c-8bfa-4629-9996-4e9d8bf297b7")
 			(effects
@@ -6752,8 +6754,8 @@
 			)
 		)
 		(property "Value" "Y"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.785 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "fee0db58-3fb8-4a85-85b5-9ef058865ed2")
 			(effects
 				(font
@@ -7037,6 +7039,7 @@
 		(property "Reference" "H6"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8f332777-29fe-4b9f-b24b-ca3079de2ece")
 			(effects
 				(font
@@ -7149,7 +7152,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW65"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "ab5c7e6c-1778-408c-8959-4394336353ba")
 			(effects
@@ -7160,8 +7163,8 @@
 			)
 		)
 		(property "Value" "CTRL"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.41 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "5e1524e2-bff8-4327-a971-9f6fa7e2a73b")
 			(effects
 				(font
@@ -7445,6 +7448,7 @@
 		(property "Reference" "H5"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ea797352-7115-4799-9dd6-b99c2154dedb")
 			(effects
 				(font
@@ -7557,7 +7561,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW7"
-			(at -2.54 -2.794 0)
+			(at 2.91 13.08 0)
 			(layer "F.SilkS")
 			(uuid "b19ae795-85c4-40e0-a1c2-30eb6a3b49bb")
 			(effects
@@ -7568,8 +7572,8 @@
 			)
 		)
 		(property "Value" "6"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.81 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "d11a043a-c091-459a-a787-755a273b7b63")
 			(effects
 				(font
@@ -7851,7 +7855,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 6.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 6.25u PCB")
 		(property "Reference" "SW62"
-			(at -2.54 -2.794 180)
+			(at -7.66 12.951037 180)
 			(layer "F.SilkS")
 			(uuid "0f6e7f04-2014-42e6-86cc-c7eb19c908ba")
 			(effects
@@ -7862,8 +7866,8 @@
 			)
 		)
 		(property "Value" "SPACE"
-			(at -2.54 12.954 180)
-			(layer "F.Fab")
+			(at -7.06 -1.148963 180)
+			(layer "F.SilkS" knockout)
 			(uuid "f2ca39e4-5d94-4729-8971-6674116535f1")
 			(effects
 				(font
@@ -8173,7 +8177,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.25u PCB")
 		(property "Reference" "SW60"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "08f7f993-4e0a-41ad-a70e-941c6db5ac7a")
 			(effects
@@ -8184,8 +8188,8 @@
 			)
 		)
 		(property "Value" "CODE"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.31625 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "6dcb99a0-3540-4d2b-adf5-4a46dd29d580")
 			(effects
 				(font
@@ -8467,7 +8471,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW21"
-			(at -2.54 -2.794 0)
+			(at 2.635 13.03 0)
 			(layer "F.SilkS")
 			(uuid "bec185a4-c055-4d2c-bea0-488d41f95e79")
 			(effects
@@ -8478,8 +8482,8 @@
 			)
 		)
 		(property "Value" "T"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.835 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "b7143696-b072-449c-b3bc-15aec1fd788c")
 			(effects
 				(font
@@ -8761,7 +8765,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW39"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "681fe221-7e9f-445f-a2be-e1e00996f77f")
 			(effects
@@ -8772,8 +8776,8 @@
 			)
 		)
 		(property "Value" "K"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8225 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "eb49691d-4d58-4b28-a33a-f3b9c7873886")
 			(effects
 				(font
@@ -9055,7 +9059,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW46"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "e58c6285-0e9a-427f-a7d5-26260456fbb3")
 			(effects
@@ -9066,8 +9070,8 @@
 			)
 		)
 		(property "Value" "Z"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8475 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "7cdc8ccf-9ead-4caf-a1f3-a3d342724b23")
 			(effects
 				(font
@@ -9349,7 +9353,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW1"
-			(at -2.54 -2.794 180)
+			(at -8.2 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "cc1ac39e-8378-42e3-980d-52f02d42b28d")
 			(effects
@@ -9360,8 +9364,8 @@
 			)
 		)
 		(property "Value" "ESC"
-			(at -2.54 12.954 180)
-			(layer "F.Fab")
+			(at -8 -1.12 180)
+			(layer "F.SilkS" knockout)
 			(uuid "8b1c162f-96c0-448b-82a6-00e7be3c4c7a")
 			(effects
 				(font
@@ -9643,7 +9647,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW15"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "31b7adda-c475-4efa-86a5-ee67d19a332f")
 			(effects
@@ -9653,9 +9657,9 @@
 				)
 			)
 		)
-		(property "Value" "DEL"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+		(property "Value" "MOD_0"
+			(at 1.86 11.18 0)
+			(layer "F.SilkS" knockout)
 			(uuid "35656df0-2d0c-4a52-a433-a82326d0b3e8")
 			(effects
 				(font
@@ -9937,7 +9941,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW57"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "416f99a9-195f-4596-abcb-07705498b111")
 			(effects
@@ -9948,8 +9952,8 @@
 			)
 		)
 		(property "Value" "UP"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.31 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "24fb140b-9c85-4fbb-91d4-fccb0e82131e")
 			(effects
 				(font
@@ -10231,7 +10235,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW42"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "d35c7966-be34-4a79-bad4-0296802a8724")
 			(effects
@@ -10242,8 +10246,8 @@
 			)
 		)
 		(property "Value" "'"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.0725 12.08 0)
+			(layer "F.SilkS" knockout)
 			(uuid "f76c51a6-d371-4b98-a172-c7b0776d0bcb")
 			(effects
 				(font
@@ -10527,6 +10531,7 @@
 		(property "Reference" "H3"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c3c6ae6a-1cb8-4b4b-aff6-9c16913f94db")
 			(effects
 				(font
@@ -10639,7 +10644,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW67"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "ed2e86a3-a5f9-49c7-8dcf-1f545834d5c9")
 			(effects
@@ -10650,8 +10655,8 @@
 			)
 		)
 		(property "Value" "DOWN"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.21 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "02912719-cd5b-44fc-ad23-90626bd64f66")
 			(effects
 				(font
@@ -10933,7 +10938,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 2.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 2.25u PCB")
 		(property "Reference" "SW45"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "86781f83-8172-4cd2-a912-4a20157c462d")
 			(effects
@@ -10944,8 +10949,8 @@
 			)
 		)
 		(property "Value" "SHIFT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.20375 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "b3ac571f-9350-4c0a-b5e5-a19598db24d4")
 			(effects
 				(font
@@ -11255,7 +11260,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW6"
-			(at -2.54 -2.794 0)
+			(at 3.06 13.08 0)
 			(layer "F.SilkS")
 			(uuid "6115d962-fc4b-4b05-8cb9-253fe9fad827")
 			(effects
@@ -11266,8 +11271,8 @@
 			)
 		)
 		(property "Value" "5"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.86 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "29d98303-dfa9-47dd-979e-fe35cb4700b5")
 			(effects
 				(font
@@ -11549,7 +11554,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW18"
-			(at -2.54 -2.794 0)
+			(at 2.585 13.03 0)
 			(layer "F.SilkS")
 			(uuid "629acf4b-daa2-4794-8c42-21f22382a6ee")
 			(effects
@@ -11560,8 +11565,8 @@
 			)
 		)
 		(property "Value" "W"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.685 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "d1aafab0-c879-4a04-9959-073d9ad1dee2")
 			(effects
 				(font
@@ -11843,7 +11848,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW51"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "afe638a5-d622-48f1-b089-d2ab19dc7426")
 			(effects
@@ -11854,8 +11859,8 @@
 			)
 		)
 		(property "Value" "N"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8975 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "85bf2695-7531-4260-b599-e12fccb231d8")
 			(effects
 				(font
@@ -12137,7 +12142,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW33"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "9d013c4d-bbbf-4052-878d-35183fe93e3f")
 			(effects
@@ -12148,8 +12153,8 @@
 			)
 		)
 		(property "Value" "S"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8225 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "3126067b-d275-449d-b628-a059638e3336")
 			(effects
 				(font
@@ -12431,7 +12436,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW40"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "634db03c-04a7-4cb9-b50b-7f3c0cd9375a")
 			(effects
@@ -12442,8 +12447,8 @@
 			)
 		)
 		(property "Value" "L"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8725 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "2ccdf4d6-6f88-4c8a-8c39-344697d268d9")
 			(effects
 				(font
@@ -12725,7 +12730,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW64"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "140cd080-ba87-47bc-8e02-c83c79885643")
 			(effects
@@ -12736,8 +12741,8 @@
 			)
 		)
 		(property "Value" "CODE"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.36 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "25d7908d-e91e-44ff-9acb-fe663f35285c")
 			(effects
 				(font
@@ -13019,7 +13024,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW28"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.03 0)
 			(layer "F.SilkS")
 			(uuid "8ace1c7a-6d29-4111-9c1f-06a3572766a4")
 			(effects
@@ -13030,8 +13035,8 @@
 			)
 		)
 		(property "Value" "]"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.085 10.93 0)
+			(layer "F.SilkS" knockout)
 			(uuid "511a4d95-2914-453f-b302-b9142639cf76")
 			(effects
 				(font
@@ -13313,7 +13318,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW47"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "acd303b6-f7e3-475e-80a2-9c27b8d38324")
 			(effects
@@ -13324,8 +13329,8 @@
 			)
 		)
 		(property "Value" "X"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.7975 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "90b51f46-724c-4dff-be20-ecc0bea7d108")
 			(effects
 				(font
@@ -13607,7 +13612,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW17"
-			(at -2.54 -2.794 0)
+			(at 2.435 13.03 0)
 			(layer "F.SilkS")
 			(uuid "43e4d96d-5f34-4cf1-943f-9bf820f27cf1")
 			(effects
@@ -13618,8 +13623,8 @@
 			)
 		)
 		(property "Value" "Q"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.735 11.23 0)
+			(layer "F.SilkS" knockout)
 			(uuid "01aa1612-6a63-4ad7-92da-32346ef15a9d")
 			(effects
 				(font
@@ -13901,7 +13906,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW13"
-			(at -2.54 -2.794 0)
+			(at 2.51 13.08 0)
 			(layer "F.SilkS")
 			(uuid "0e84c8a3-e08c-4b06-ad69-58472a7b1f41")
 			(effects
@@ -13912,8 +13917,8 @@
 			)
 		)
 		(property "Value" "="
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.71 11.48 0)
+			(layer "F.SilkS" knockout)
 			(uuid "44f0057b-5507-45f9-a904-90386eb73655")
 			(effects
 				(font
@@ -14195,7 +14200,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW36"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "e3ebf4e4-edbd-4779-8e9b-00edbb81ba0c")
 			(effects
@@ -14206,8 +14211,8 @@
 			)
 		)
 		(property "Value" "G"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.7725 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "9ebf47ff-dfa4-433b-a00e-2cf3773fedcf")
 			(effects
 				(font
@@ -14491,6 +14496,7 @@
 		(property "Reference" "H1"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2fe9b5f0-5a17-4b47-b2f6-0aed1eac0467")
 			(effects
 				(font
@@ -14603,7 +14609,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW44"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "d6616e7d-9f09-44f4-adb5-6effb84e8c44")
 			(effects
@@ -14613,9 +14619,9 @@
 				)
 			)
 		)
-		(property "Value" "PG_U"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+		(property "Value" "MOD_2"
+			(at 1.86 11.18 0)
+			(layer "F.SilkS" knockout)
 			(uuid "dd6e446f-f5e4-4cac-a887-b7477a57fa6b")
 			(effects
 				(font
@@ -14897,7 +14903,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW35"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "c1e8c8e2-8a80-4422-8ff2-46fd44d2c1d2")
 			(effects
@@ -14908,8 +14914,8 @@
 			)
 		)
 		(property "Value" "F"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8225 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "0d5df796-987a-4e4d-9eb8-103e3b4ddc6d")
 			(effects
 				(font
@@ -15191,7 +15197,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW32"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "c1ae6d29-f9c4-494c-9a78-117a043d722d")
 			(effects
@@ -15202,8 +15208,8 @@
 			)
 		)
 		(property "Value" "A"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.7725 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "9ccacf76-0c18-473b-a310-c6cf177087d3")
 			(effects
 				(font
@@ -15485,7 +15491,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW3"
-			(at -2.54 -2.794 0)
+			(at 3.11 13.08 0)
 			(layer "F.SilkS")
 			(uuid "bd808e98-e395-4191-ad35-5aa5244cbf9d")
 			(effects
@@ -15496,8 +15502,8 @@
 			)
 		)
 		(property "Value" "2"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.81 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "3ea00d18-9c97-4a7e-a9ae-3534672c213d")
 			(effects
 				(font
@@ -15779,7 +15785,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.50u PCB")
 		(property "Reference" "SW29"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.03 0)
 			(layer "F.SilkS")
 			(uuid "7bfdb996-0a68-4165-bd92-03668050e8fa")
 			(effects
@@ -15790,8 +15796,8 @@
 			)
 		)
 		(property "Value" "\\"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.6725 11.13 0)
+			(layer "F.SilkS" knockout)
 			(uuid "0dd24031-44e0-46e9-8e2a-a4434dc458b2")
 			(effects
 				(font
@@ -16075,6 +16081,7 @@
 		(property "Reference" "H4"
 			(at 0 -2.9 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7926be50-5954-4c8e-b5ef-286a26f8ac7e")
 			(effects
 				(font
@@ -16187,7 +16194,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW38"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "5f1f1272-e613-4d75-a6ba-9a6cf23c58ca")
 			(effects
@@ -16198,8 +16205,8 @@
 			)
 		)
 		(property "Value" "J"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.9725 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "c2a3214d-ee74-4c9f-acdf-2cd514410e2a")
 			(effects
 				(font
@@ -16481,7 +16488,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW2"
-			(at -2.54 -2.794 180)
+			(at -8.22 -2.92 180)
 			(layer "F.SilkS")
 			(uuid "ad49a9ac-4069-43b7-a02a-0a0e14023847")
 			(effects
@@ -16492,8 +16499,8 @@
 			)
 		)
 		(property "Value" "1"
-			(at -2.54 12.954 180)
-			(layer "F.Fab")
+			(at -8.92 -1.12 180)
+			(layer "F.SilkS" knockout)
 			(uuid "d4789af9-d69e-4d56-982a-8e07589808fc")
 			(effects
 				(font
@@ -16775,7 +16782,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW66"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "8d8a7331-bc55-47a8-9381-83cea3b84b21")
 			(effects
@@ -16786,8 +16793,8 @@
 			)
 		)
 		(property "Value" "LEFT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.56 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "86066ef3-f4b7-474a-8243-229c51594c0f")
 			(effects
 				(font
@@ -17069,7 +17076,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW41"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "25173868-1d86-40a5-84fb-2a059c800c3f")
 			(effects
@@ -17080,8 +17087,8 @@
 			)
 		)
 		(property "Value" ";"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.1225 11.18 0)
+			(layer "F.SilkS" knockout)
 			(uuid "df4b4d29-0350-400b-8eef-a7423da9dead")
 			(effects
 				(font
@@ -17363,7 +17370,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW12"
-			(at -2.54 -2.794 0)
+			(at 2.46 13.08 0)
 			(layer "F.SilkS")
 			(uuid "cf21e657-54f8-4848-b3ef-f1d7b3635be4")
 			(effects
@@ -17374,8 +17381,8 @@
 			)
 		)
 		(property "Value" "-"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.76 11.68 0)
+			(layer "F.SilkS" knockout)
 			(uuid "df45b902-730c-481d-b395-bffa6bafc4ea")
 			(effects
 				(font
@@ -17657,7 +17664,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW63"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "7f273779-9256-4e6d-b93c-38c4a758f30f")
 			(effects
@@ -17668,8 +17675,8 @@
 			)
 		)
 		(property "Value" "ALT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.01 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "d72f6a44-daff-4558-a08d-00ffe0194a62")
 			(effects
 				(font
@@ -17951,7 +17958,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.50u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.50u PCB")
 		(property "Reference" "SW16"
-			(at -2.54 -2.794 0)
+			(at 2.4475 13.03 0)
 			(layer "F.SilkS")
 			(uuid "6d1fd970-a393-4b10-847c-53a349de7816")
 			(effects
@@ -17962,8 +17969,8 @@
 			)
 		)
 		(property "Value" "TAB"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.0475 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "c6b13b10-67aa-4725-9312-1b22758b78a3")
 			(effects
 				(font
@@ -18245,7 +18252,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW34"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "1bcf37a3-8fd7-48f5-b342-fa00d0cb1988")
 			(effects
@@ -18256,8 +18263,8 @@
 			)
 		)
 		(property "Value" "D"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.7725 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "e6b0a0e8-c6ab-4f9a-9330-acae4832a34f")
 			(effects
 				(font
@@ -18539,7 +18546,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.75u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.75u PCB")
 		(property "Reference" "SW31"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "9af5277b-4624-47ff-a8eb-c88e77fde44d")
 			(effects
@@ -18550,8 +18557,8 @@
 			)
 		)
 		(property "Value" "CAPS"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.46625 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "b7ec76a9-b9ca-44c9-8b34-b183343604c8")
 			(effects
 				(font
@@ -18833,7 +18840,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW5"
-			(at -2.54 -2.794 0)
+			(at 3.01 13.08 0)
 			(layer "F.SilkS")
 			(uuid "1dd59c5b-a83d-490c-9945-b461567754a8")
 			(effects
@@ -18844,8 +18851,8 @@
 			)
 		)
 		(property "Value" "4"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.81 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "827dd5f5-4f8a-49e3-994d-8cb3385e83e6")
 			(effects
 				(font
@@ -19127,7 +19134,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW10"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "4535f4a8-2920-4cc4-9dea-f3cdf375482e")
 			(effects
@@ -19138,8 +19145,8 @@
 			)
 		)
 		(property "Value" "9"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.86 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "f414893e-0298-4d8d-93dd-605ac3df2739")
 			(effects
 				(font
@@ -19421,7 +19428,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW54"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "d9553313-00d6-4e0c-8f87-01a18963c590")
 			(effects
@@ -19432,8 +19439,8 @@
 			)
 		)
 		(property "Value" "."
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 4.0475 11.23 0)
+			(layer "F.SilkS" knockout)
 			(uuid "065c02a0-2141-4495-b3bc-d29d3059bbdf")
 			(effects
 				(font
@@ -19715,7 +19722,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW37"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.08 0)
 			(layer "F.SilkS")
 			(uuid "67973e7a-a063-4ebe-9f71-e37569b21cd2")
 			(effects
@@ -19726,8 +19733,8 @@
 			)
 		)
 		(property "Value" "H"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8225 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "1268910a-da79-4fe3-b147-43f1296b262a")
 			(effects
 				(font
@@ -20009,7 +20016,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW48"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "b52011cd-bbbf-4176-bd9f-8c39f8be1ab7")
 			(effects
@@ -20020,8 +20027,8 @@
 			)
 		)
 		(property "Value" "C"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.8475 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "f14eac20-c454-4cde-9d0a-f067d40c8e15")
 			(effects
 				(font
@@ -20303,7 +20310,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW49"
-			(at -2.54 -2.794 0)
+			(at 2.56 13.13 0)
 			(layer "F.SilkS")
 			(uuid "5b15458e-9b5c-4044-89c2-47aa8edfb005")
 			(effects
@@ -20314,8 +20321,8 @@
 			)
 		)
 		(property "Value" "V"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.7975 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "eb098b1d-5256-4663-aed2-3781c4bfcacc")
 			(effects
 				(font
@@ -20597,7 +20604,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW68"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "110f4d2f-9d2e-4f17-9729-bfe6f69586b6")
 			(effects
@@ -20608,8 +20615,8 @@
 			)
 		)
 		(property "Value" "RIGHT"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.06 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "39c54cf3-8d80-4246-a614-068acf0c1082")
 			(effects
 				(font
@@ -20891,7 +20898,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1u PCB")
 		(property "Reference" "SW23"
-			(at -2.54 -2.794 0)
+			(at 2.435 13.03 0)
 			(layer "F.SilkS")
 			(uuid "dda5c99f-5281-4b9a-97bb-d16e851c3f71")
 			(effects
@@ -20902,8 +20909,8 @@
 			)
 		)
 		(property "Value" "U"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 3.835 11.33 0)
+			(layer "F.SilkS" knockout)
 			(uuid "6b14e866-298d-42c6-86ba-8d02077514ec")
 			(effects
 				(font
@@ -21185,7 +21192,7 @@
 		(descr "Cherry MX keyswitch, MX1A, 1.25u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
 		(tags "cherry mx keyswitch MX1A 1.25u PCB")
 		(property "Reference" "SW59"
-			(at -2.54 -2.794 0)
+			(at 2.56 -2.82 0)
 			(layer "F.SilkS")
 			(uuid "d73d87cc-14fa-4ceb-beb4-a96185e275c7")
 			(effects
@@ -21196,8 +21203,8 @@
 			)
 		)
 		(property "Value" "CTRL"
-			(at -2.54 12.954 0)
-			(layer "F.Fab")
+			(at 2.42875 11.28 0)
+			(layer "F.SilkS" knockout)
 			(uuid "64c9825c-aae4-4f2a-9c77-8b034735c42b")
 			(effects
 				(font
@@ -21479,7 +21486,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D62"
-			(at 0 1.850001 0)
+			(at -1.8 -1.7 0)
 			(layer "B.SilkS")
 			(uuid "f1685fb5-c113-4cca-85fb-430b3b95b11a")
 			(effects
@@ -22139,12 +22146,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 1.16 135)
+			(at -1.697056 0 135)
 			(layer "B.SilkS")
 			(uuid "fa5b18e2-d154-4775-9927-0dfbebc5ac83")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -23689,12 +23696,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 1.17 -90)
+			(at -0.8 -1 -90)
 			(layer "B.SilkS")
 			(uuid "bb0e3374-16f0-4a65-97f8-4220f0e783e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -24249,7 +24256,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D2"
-			(at 0 1.850001 -90)
+			(at 0 -1.8 -90)
 			(layer "B.SilkS")
 			(uuid "5fed3f20-88bd-4c75-85a9-54380f2b558a")
 			(effects
@@ -24909,12 +24916,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 1.16 -45)
+			(at 2.192031 0.070711 -45)
 			(layer "B.SilkS")
 			(uuid "63e0e654-df56-454a-8c75-8f378b4aae19")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -25139,7 +25146,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 1.850001 270)
+			(at -3.1 -0.25 180)
 			(layer "B.SilkS")
 			(uuid "d4d65b8c-a3f8-4e57-b82f-36c95ccd91f4")
 			(effects
@@ -25151,7 +25158,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 -1.850001 270)
+			(at 0 -1.850001 -90)
 			(layer "B.Fab")
 			(uuid "52ed49f9-bb5f-46dc-a587-6e38a084a9b6")
 			(effects
@@ -25321,7 +25328,7 @@
 			(uuid "a7033a50-df0e-4aa1-b916-8daeecffb17e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "faf34dfa-7290-4707-9965-f7566be75689")
 			(effects
@@ -25368,7 +25375,7 @@
 		(at 125.10375 166.9425)
 		(tags "ACM2012-900-2P-T002 ")
 		(property "Reference" "FL1"
-			(at 0 0 180)
+			(at 0 2.1 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "a3dc84a7-7002-4b83-b8b5-6de5d498eb47")
@@ -25721,12 +25728,12 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 1.8 -90)
+			(at -0.393979 1.874528 -90)
 			(layer "B.SilkS")
 			(uuid "0de5ea21-5b16-4d58-bb8e-320d489430c8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -26255,12 +26262,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 1.16 -135)
+			(at -0.023052 -1.154124 -135)
 			(layer "B.SilkS")
 			(uuid "e13dab31-88d7-4efa-9d9d-16dbca65c8c4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27145,12 +27152,12 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 1.8 90)
+			(at -2.1126 0.011 0)
 			(layer "B.SilkS")
 			(uuid "d1e55045-e0bd-427c-a2aa-7c16e27a30d8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27297,7 +27304,7 @@
 			(at -0.724999 0 270)
 			(size 0.3 0.3)
 			(layers "B.Cu" "B.Mask")
-			(net 14 "+3V3")
+			(net 191 "Net-(JP1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -27679,12 +27686,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0 1.17 -90)
+			(at 0.3 -1.5 180)
 			(layer "B.SilkS")
 			(uuid "e47f4a12-7d09-4dac-a165-e1a622f28bf1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -27909,12 +27916,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 1.16 -135)
+			(at 1.66057 -0.008202 -135)
 			(layer "B.SilkS")
 			(uuid "389ac440-12ed-4568-88db-0a99f118af2d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -28469,12 +28476,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 0 1.16 135)
+			(at 2.828427 0 135)
 			(layer "B.SilkS")
 			(uuid "eb4afe63-02b3-4852-a29a-8478e3bcce8d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -29029,7 +29036,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 1.850001 360)
+			(at 0 1.850001 0)
 			(layer "B.SilkS")
 			(uuid "194508c2-0c66-4759-bee7-d35509566730")
 			(effects
@@ -29041,7 +29048,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.850001 360)
+			(at 0 -1.850001 0)
 			(layer "B.Fab")
 			(uuid "3c519675-25c7-4033-b81d-1d10177ebb6a")
 			(effects
@@ -29211,7 +29218,7 @@
 			(uuid "ff1e3329-68f6-4a2f-a5ef-85aceb256ab8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0b8b888c-76a4-4085-9f6f-f3ba1bd1e462")
 			(effects
@@ -29919,7 +29926,7 @@
 		(descr "LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
-			(at 0 9.42 -45)
+			(at 0.707107 0.707107 180)
 			(layer "B.SilkS")
 			(uuid "fd938441-5d13-4c63-a710-964f80945896")
 			(effects
@@ -31729,12 +31736,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 1.16 135)
+			(at 1.626346 -0.070711 135)
 			(layer "B.SilkS")
 			(uuid "4b15c39c-b5fc-4519-896b-f2834e979736")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -31959,12 +31966,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 1.16 135)
+			(at 1.994213 -0.834213 135)
 			(layer "B.SilkS")
 			(uuid "a34330db-8b00-428b-ab17-d913eb72ea29")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -32189,7 +32196,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 1.43 90)
+			(at 0.8 -1.5 -90)
 			(layer "B.SilkS")
 			(uuid "4cf76c36-571b-4225-bd92-a9159074cda5")
 			(effects
@@ -32419,7 +32426,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 1.17 90)
+			(at 0 -1.4 90)
 			(layer "B.SilkS")
 			(uuid "7b9e6e89-3fcd-4ec5-8331-54b983298d54")
 			(effects
@@ -32649,12 +32656,12 @@
 		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 		(tags "SMD SMT Crystal")
 		(property "Reference" "Y2"
-			(at 0 2.000001 -45)
+			(at -2.899138 0.777817 -45)
 			(layer "B.SilkS")
 			(uuid "7578894f-ae4e-4d33-8b12-caf07cfb31f2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -33202,6 +33209,236 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "B.Cu")
+		(uuid "54a25818-7007-420e-83a9-e719a6cdf3ba")
+		(at 277.30375 222.0425 180)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R17"
+			(at 0 1.2 180)
+			(layer "B.SilkS")
+			(uuid "912c8799-e200-42b2-8369-361910218bfc")
+			(effects
+				(font
+					(size 0.65 0.65)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 -1.43 180)
+			(layer "B.Fab")
+			(uuid "00ca81ae-3a04-46b8-81c3-46d31920deda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61f41229-8f7e-4573-abd7-92ff4c11a048")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a4ccdfd6-0095-4ffd-9241-51052c8c034d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3586da2-17ee-48b1-a643-665ea766c335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01824376-ff5f-436d-bb18-aee5ed859c83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/d704172a-f1e1-44e3-9e74-cac36d9566f2")
+		(sheetname "Root")
+		(sheetfile "Keyboard_PCB.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.237258 0.5225)
+			(end -0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "94e97f3f-4df8-487e-9369-c74a3466805a")
+		)
+		(fp_line
+			(start 0.237258 -0.5225)
+			(end -0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f7648736-9288-45dc-9710-5cb67a78c49f")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "8e9c8e9a-e027-49ef-9633-d195458563ab")
+		)
+		(fp_line
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "ddcf3ca5-6293-4f4f-a368-d7d4616c499c")
+		)
+		(fp_line
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5e6f93ec-5cb0-4391-8b98-659b7bc0fde4")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "133f2db2-be8d-496f-b42a-fc5ea6095393")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0f0307b3-ea49-41fa-b88a-2680cbf93834")
+		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9e064ed0-9763-4609-bd18-140280511777")
+		)
+		(fp_line
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c607cd23-3d4c-47cb-9f07-2a6ac86795ac")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "43804246-6357-40cc-8ab5-dc7d4e3c5618")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "B.Fab")
+			(uuid "36488b66-3073-473f-a025-616ac63e3bb0")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0 180)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 14 "+3V3")
+			(pintype "passive")
+			(uuid "7ea479cb-529d-41b4-bb04-acc9567d36be")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0 180)
+			(size 0.8 0.95)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(roundrect_rratio 0.25)
+			(net 191 "Net-(JP1-A)")
+			(pintype "passive")
+			(uuid "55a2c552-befc-4a62-b280-305805f897ae")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "B.Cu")
 		(uuid "57cca03d-52cb-4831-84a4-41f092a6079b")
@@ -33539,12 +33776,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 1.16 -45)
+			(at 0.042144 1.48351 -45)
 			(layer "B.SilkS")
 			(uuid "78628471-f4fa-47ce-bbad-af2137711e2d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -34099,7 +34336,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
-			(at 0 2.4 90)
+			(at 1.5625 2.650001 0)
 			(layer "B.SilkS")
 			(uuid "480e0141-e46f-4225-ab82-21fd742e547e")
 			(effects
@@ -34413,7 +34650,7 @@
 		(descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
 		(tags "Diode SOD523")
 		(property "Reference" "D69"
-			(at 0 1.3 270)
+			(at 1.975 0 180)
 			(layer "B.SilkS")
 			(uuid "1e9e766c-98e8-46f3-bd5b-12521d4194ea")
 			(effects
@@ -34425,7 +34662,7 @@
 			)
 		)
 		(property "Value" "10v"
-			(at 0 -1.399999 270)
+			(at 0 -1.399999 -90)
 			(layer "B.Fab")
 			(uuid "082ab8d5-50ba-4754-ac82-552830568561")
 			(effects
@@ -34665,7 +34902,7 @@
 			(uuid "c623393e-0361-4ab7-bc80-69fe382148cf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.3 270)
+			(at 0 1.3 -90)
 			(layer "B.Fab")
 			(uuid "54c5ca05-2d89-47c7-963c-a5768ef840da")
 			(effects
@@ -35045,7 +35282,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 1.17 270)
+			(at -1.9 0 180)
 			(layer "B.SilkS")
 			(uuid "f24cd008-76a3-4343-91ce-3a9c6b8971cd")
 			(effects
@@ -35057,7 +35294,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "eda42d8e-4a15-42a3-88e9-5ea0c77b8570")
 			(effects
@@ -35227,7 +35464,7 @@
 			(uuid "4f52298f-07b0-432a-9b8a-49016079d6b5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "679b115d-3e50-48dc-96cf-c992b486ff43")
 			(effects
@@ -35605,7 +35842,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 1.43 90)
+			(at -2.175 0 0)
 			(layer "B.SilkS")
 			(uuid "2665f8cb-887f-4253-a1af-96c2b89b64c1")
 			(effects
@@ -36165,7 +36402,7 @@
 		(descr "Inductor, Changjiang, FNR3015S, 3.0x3.0x1.5mm, https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf")
 		(tags "Inductor wirewound power shielded")
 		(property "Reference" "L2"
-			(at 0 2.5 360)
+			(at 0 2.5 0)
 			(layer "B.SilkS")
 			(uuid "c8ee92b3-e892-4a3c-9b72-1b22b945520e")
 			(effects
@@ -36177,7 +36414,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "416e55f6-3f69-4215-9eae-5f3c37bac51c")
 			(effects
@@ -36387,7 +36624,7 @@
 			(uuid "856dfab0-a773-4d09-89cd-42e3342709a1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1a6efd66-db22-4625-b166-fdbbf62c45d8")
 			(effects
@@ -36433,12 +36670,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 1.17 90)
+			(at 1.5 0 0)
 			(layer "B.SilkS")
 			(uuid "ce5589b5-7b12-4310-9c7c-ec2ad6ef2437")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -36993,12 +37230,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C22"
-			(at 0 1.16 45)
+			(at -0.043841 -1.65265 45)
 			(layer "B.SilkS")
 			(uuid "3cf5263d-622e-4b2f-8789-2251dd4c5afb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -37553,12 +37790,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.17 135)
+			(at 2.880329 -1.836639 135)
 			(layer "B.SilkS")
 			(uuid "1fcf4bd1-ad4d-4754-aa51-800d9b09e3d0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -38397,19 +38634,19 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 1.17 270)
+			(at -0.8 1 -90)
 			(layer "B.SilkS")
 			(uuid "aa661aa9-ca66-431b-8853-ea0ad27e0814")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "1eb70581-630e-4859-8dc9-928d00fb5fa6")
 			(effects
@@ -38579,7 +38816,7 @@
 			(uuid "e9aa1a59-a94f-4c98-91f1-a66bed82e9d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "5611d631-a5ab-4fff-8b0e-225fed6b3683")
 			(effects
@@ -38957,7 +39194,7 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "FB1"
-			(at 0 1.550001 360)
+			(at -3.2 0.025 0)
 			(layer "B.SilkS")
 			(uuid "23c2491f-cb7e-419b-93cc-cc563f6beab9")
 			(effects
@@ -38969,7 +39206,7 @@
 			)
 		)
 		(property "Value" "600Ω@100MHz"
-			(at 0 -1.550001 360)
+			(at 0 -1.550001 0)
 			(layer "B.Fab")
 			(uuid "d0f6d58c-e768-4bd9-abd7-daa2facd4291")
 			(effects
@@ -39139,7 +39376,7 @@
 			(uuid "2a0a50b8-8fcd-43ab-8354-98d2d671ba52")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e8ea986a-31b8-49f4-bc40-9998d044f7f4")
 			(effects
@@ -39187,7 +39424,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
-			(at 0 2.4 360)
+			(at -2.8 -0.8 -90)
 			(layer "B.SilkS")
 			(uuid "218e39ad-1be4-4511-ab97-b177fe403242")
 			(effects
@@ -39199,7 +39436,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "0867660f-61f2-4867-8ed8-f6355e6eda7d")
 			(effects
@@ -39410,7 +39647,7 @@
 			(uuid "596ccde8-2d04-4d8b-82db-02e5b8fb7887")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "35816b1a-e791-42fc-a86f-80907883ad67")
 			(effects
@@ -40821,6 +41058,7 @@
 			(at 0 4.775 0)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "f148bd64-f95a-4766-9780-4cbce1eaaae2")
 			(effects
 				(font
@@ -41521,12 +41759,12 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at 0 1.43 -135)
+			(at 1.343503 1.484924 135)
 			(layer "B.SilkS")
 			(uuid "da3915af-515d-4540-8eb8-a5d04272d114")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -42081,12 +42319,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 1.17 90)
+			(at -0.1 -1.2 90)
 			(layer "B.SilkS")
 			(uuid "76fe9af3-7da7-42ca-859d-7645e2f37667")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -42641,12 +42879,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 1.16 45)
+			(at -0.053882 -4.188759 45)
 			(layer "B.SilkS")
 			(uuid "f051cede-f29b-4451-84f2-9d2216c6c58f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -44191,12 +44429,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 1.16 45)
+			(at 1.555635 0 -45)
 			(layer "B.SilkS")
 			(uuid "85e69f0b-3431-4983-a79f-260def388ee9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -44421,7 +44659,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 1.850001 90)
+			(at 0.4 2.3 90)
 			(layer "B.SilkS")
 			(uuid "36b677c6-d5e9-4a26-ba73-0323b081522b")
 			(effects
@@ -44651,7 +44889,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 1.850001 270)
+			(at -3.1 0.2 180)
 			(layer "B.SilkS")
 			(uuid "4a543e6d-9c39-4ce7-b834-f7fc1275df83")
 			(effects
@@ -44663,7 +44901,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 -1.850001 270)
+			(at 0 -1.850001 -90)
 			(layer "B.Fab")
 			(uuid "660231b8-720b-43a3-9343-fd07d2b8bfc8")
 			(effects
@@ -44833,7 +45071,7 @@
 			(uuid "26e9286e-7836-4cc4-b416-728a5ea398a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "bd3a5f87-9f4b-4323-9dda-160fa7fe5231")
 			(effects
@@ -45541,12 +45779,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 1.16 -45)
+			(at 2.262742 -0.141421 -45)
 			(layer "B.SilkS")
 			(uuid "51ba8f32-d6c4-4de4-a8a9-9cff653bb772")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -45771,12 +46009,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 1.17 -135)
+			(at -0.077233 4.204191 -135)
 			(layer "B.SilkS")
 			(uuid "bfb4dd89-258a-4374-b328-a4f7857bea3b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -47321,12 +47559,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 1.17 180)
+			(at -1.8 0 180)
 			(layer "B.SilkS")
 			(uuid "09433f2c-c7c7-43c2-83c3-7143b915ab55")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -49201,7 +49439,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 1.43 90)
+			(at 0 -1.5 90)
 			(layer "B.SilkS")
 			(uuid "514d92d7-8a04-4347-a1e2-4264f4248bb1")
 			(effects
@@ -50421,12 +50659,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C20"
-			(at 0 1.16 0)
+			(at 2.02 0 0)
 			(layer "B.SilkS")
 			(uuid "692517aa-b079-4dac-ab32-63f997fdaaba")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -50981,7 +51219,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at 0 1.850001 90)
+			(at -3.7 -1.9 0)
 			(layer "B.SilkS")
 			(uuid "6e27dba4-f24a-4fb2-a375-3aea4e5cf6fb")
 			(effects
@@ -51211,7 +51449,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 1.43 -90)
+			(at -2.3 0 180)
 			(layer "B.SilkS")
 			(uuid "4ea434e2-22c6-441e-b61c-20198b08b9c9")
 			(effects
@@ -51446,7 +51684,7 @@
 			(uuid "51f6ad79-29c2-4f93-980f-c00dcdf7c673")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -52991,12 +53229,12 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 2.4 90)
+			(at -2.562499 0.5 0)
 			(layer "B.SilkS")
 			(uuid "58d64b89-13c0-419a-a929-90bb7f1f2f2a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -53605,7 +53843,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 1.17 90)
+			(at -1.8 0 0)
 			(layer "B.SilkS")
 			(uuid "e0cfc50a-af03-4b75-8a4c-2e3230b33813")
 			(effects
@@ -53835,12 +54073,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 1.16 -135)
+			(at 0.015839 4.182678 45)
 			(layer "B.SilkS")
 			(uuid "7a75790e-976b-4ccf-b1f7-ac6ee936478f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -54395,7 +54633,7 @@
 		(descr "16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
-			(at 0 5.645 0)
+			(at 0 0.36 0)
 			(layer "B.SilkS")
 			(uuid "b9dd70b4-fce5-48b6-aee4-74f5172a6ba7")
 			(effects
@@ -55227,12 +55465,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at 0 1.16 -45)
+			(at -0.917117 -1.025163 -45)
 			(layer "B.SilkS")
 			(uuid "328c7218-2436-4acc-83f5-06a075b653d4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -55457,7 +55695,7 @@
 		(descr "Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html")
 		(tags "rotary encoder")
 		(property "Reference" "SW69"
-			(at 2.8 4.7 -90)
+			(at 14.55 3.4 180)
 			(layer "B.SilkS")
 			(uuid "8c7f202b-62ba-4ed6-859e-1266a3d2871f")
 			(effects
@@ -55888,12 +56126,12 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.16 135)
+			(at 2.192031 -0.070711 135)
 			(layer "B.SilkS")
 			(uuid "939fd04c-fb7c-4603-a08a-305f7d0a92f7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -56448,19 +56686,19 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 1.16 360)
+			(at 2.02 0 0)
 			(layer "B.SilkS")
 			(uuid "23bacb5c-7c99-4201-a762-7b8a95ad01a7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "6e21867e-170c-4787-814a-4ed664a46735")
 			(effects
@@ -56630,7 +56868,7 @@
 			(uuid "08a909a2-2657-4183-bef3-4d37254490cc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e7c316bf-bc46-44fa-a7f2-968b6b675577")
 			(effects
@@ -57998,19 +58236,19 @@
 		(descr "Power-Integrations variant of 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC], see https://ac-dc.power.com/sites/default/files/product-docs/senzero_family_datasheet.pdf")
 		(tags "SOIC 1.27")
 		(property "Reference" "U4"
-			(at 0 3.5 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "51ce1224-fa32-4be0-916b-e1f4ce6f0007")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "~"
-			(at 0 -3.5 360)
+			(at 0 -3.5 0)
 			(layer "B.Fab")
 			(uuid "cb40475c-2869-419a-8e6e-6c093a6be0fa")
 			(effects
@@ -58187,7 +58425,7 @@
 			(uuid "5bc580ad-a1ab-49bb-a0a1-6cdd18b6a420")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "cd5c8bf2-ff7d-4940-8fca-fbb5eea85b25")
 			(effects
@@ -59279,12 +59517,12 @@
 		(descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at 0 2.450001 -135)
+			(at 0.296985 -2.357179 -135)
 			(layer "B.SilkS")
 			(uuid "9fe925ed-f5a6-4f5f-ab3a-2a849e1b30bc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.65 0.65)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -59531,6 +59769,66 @@
 		)
 	)
 	(gr_line
+		(start 274.20375 239.3425)
+		(end 273.20375 239.3425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "3cdec356-d1f1-4362-a0ed-67965ae57cd0")
+	)
+	(gr_line
+		(start 147.80375 161.4425)
+		(end 148.10375 161.4425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "789f5478-e918-4419-9e39-c93ad453eb07")
+	)
+	(gr_line
+		(start 273.20375 239.3425)
+		(end 273.40375 239.5425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c0b614ca-64bd-4c2c-9f27-97d41c57c1ed")
+	)
+	(gr_line
+		(start 148.40375 160.8425)
+		(end 147.80375 161.4425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "e4b4db9d-ac90-48cb-95cb-7899cc1c92a5")
+	)
+	(gr_line
+		(start 147.80375 161.4425)
+		(end 147.80375 161.1425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "e6f8d8fe-e52d-4c5e-b283-b8a819089c24")
+	)
+	(gr_line
+		(start 273.20375 239.3425)
+		(end 273.40375 239.1425)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f85640d9-1d5d-4493-bd55-a25f553e23af")
+	)
+	(gr_line
 		(start 119.00375 246.0425)
 		(end 107.90375 246.0425)
 		(stroke
@@ -59693,6 +59991,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fc464b51-7abf-4ce8-8019-ae6371e5a678")
+	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 267.70375 233.3425 0)
+		(layer "B.SilkS")
+		(uuid "574b472e-5d2f-4456-a567-2a7b121e853b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 278.10375 227.2425 0)
+		(layer "B.SilkS")
+		(uuid "b98c132c-2bbf-4768-aece-7b17a1b33b10")
+		(effects
+			(font
+				(size 0.65 0.65)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(segment
 		(start 253.60375 237.8425)
@@ -60439,6 +60761,14 @@
 		(uuid "87c90e49-7ced-4b18-bcab-ed2c9b957879")
 	)
 	(via
+		(at 278.60375 223.6425)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 9)
+		(uuid "8a0592e5-4801-40d3-b2bc-37dd5f2040a6")
+	)
+	(via
 		(at 207.20375 241.2425)
 		(size 0.6)
 		(drill 0.3)
@@ -60501,14 +60831,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 9)
 		(uuid "ab480086-f11a-4bfb-b812-5bbd74c67ce0")
-	)
-	(via
-		(at 277.02935 222.2945)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 9)
-		(uuid "ab7cd1a8-ad1e-4009-90d8-fe4411bfb8a1")
 	)
 	(via
 		(at 274.00375 240.0425)
@@ -60797,6 +61119,14 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "15e5d0f1-1f7d-4923-92e9-034fe826afb8")
+	)
+	(segment
+		(start 278.422728 223.823522)
+		(end 278.60375 223.6425)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "1a848523-1d17-44eb-aaf7-73fb411d8cf2")
 	)
 	(segment
 		(start 128.00375 163.5675)
@@ -61199,6 +61529,14 @@
 		(uuid "72a3ebdc-4a16-475f-81cf-307a313c2663")
 	)
 	(segment
+		(start 277.029222 223.823522)
+		(end 278.422728 223.823522)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "73132e72-da4d-4262-93e0-a8b400745f79")
+	)
+	(segment
 		(start 268.343161 243.581911)
 		(end 267.543161 244.381911)
 		(width 0.2)
@@ -61511,14 +61849,6 @@
 		(uuid "b56ecf5c-6f35-48f2-8b7a-874471dda468")
 	)
 	(segment
-		(start 277.029222 222.294628)
-		(end 277.02935 222.2945)
-		(width 0.15)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "b59927ec-afb2-4a41-a8aa-c91d61b6cb70")
-	)
-	(segment
 		(start 153.25375 170.9925)
 		(end 153.20375 171.0425)
 		(width 0.3)
@@ -61597,14 +61927,6 @@
 		(layer "B.Cu")
 		(net 9)
 		(uuid "caeaec97-b015-4885-8845-0a318bcf3aa9")
-	)
-	(segment
-		(start 277.029222 223.823522)
-		(end 277.029222 222.294628)
-		(width 0.15)
-		(layer "B.Cu")
-		(net 9)
-		(uuid "cbec64dd-5b12-4062-ad68-9b45d178a065")
 	)
 	(segment
 		(start 142.928749 164.2425)
@@ -62807,6 +63129,14 @@
 		(uuid "af333ae8-3f57-48a7-bb8e-495912ea2fed")
 	)
 	(via
+		(at 279.20375 222.0425)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 14)
+		(uuid "afba7001-c859-44bf-ae76-70f68f0234a3")
+	)
+	(via
 		(at 275.00375 228.0425)
 		(size 0.6)
 		(drill 0.3)
@@ -62861,14 +63191,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 14)
 		(uuid "f6855064-ff14-49ae-9c08-ad815e861513")
-	)
-	(via
-		(at 274.51475 222.2945)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 14)
-		(uuid "fa89f8c6-aaf8-4221-8ef4-8ed3d06e3212")
 	)
 	(segment
 		(start 206.30375 241.3425)
@@ -62949,6 +63271,14 @@
 		(layer "B.Cu")
 		(net 14)
 		(uuid "1a47853c-ab53-48a3-9250-0a0e2c8bb533")
+	)
+	(segment
+		(start 278.12875 222.0425)
+		(end 279.20375 222.0425)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "1d498cf3-7f1e-4a7c-8c1d-c14f8b42be3b")
 	)
 	(segment
 		(start 273.543161 229.381911)
@@ -63373,14 +63703,6 @@
 		(layer "B.Cu")
 		(net 14)
 		(uuid "e6f7149f-bfa4-421a-9fc8-fbf13bea50e9")
-	)
-	(segment
-		(start 274.51475 223.830101)
-		(end 274.51475 222.2945)
-		(width 0.15)
-		(layer "B.Cu")
-		(net 14)
-		(uuid "ea4dc542-0cfd-4bc9-bf45-404a40a67e8b")
 	)
 	(segment
 		(start 155.80375 172.0425)
@@ -63847,6 +64169,14 @@
 		(uuid "5c03dd61-7cb6-4972-907d-3719f4cafa62")
 	)
 	(segment
+		(start 281.00375 224.2425)
+		(end 273.10375 224.2425)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 27)
+		(uuid "678d12c5-972a-41eb-b873-31d6621ae092")
+	)
+	(segment
 		(start 254.00375 224.2425)
 		(end 234.80375 224.2425)
 		(width 0.15)
@@ -63861,14 +64191,6 @@
 		(layer "F.Cu")
 		(net 27)
 		(uuid "83d2a073-a7f6-41b1-b22f-5551377a8d2a")
-	)
-	(segment
-		(start 281.00375 224.2425)
-		(end 273.00375 224.2425)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 27)
-		(uuid "87d713f2-96d0-4786-a47b-d15866a0212f")
 	)
 	(segment
 		(start 330.00375 224.2425)
@@ -63895,12 +64217,12 @@
 		(uuid "ac559762-9bc7-4cd6-b37c-42bd32a05f10")
 	)
 	(segment
-		(start 273.00375 224.2425)
+		(start 273.10375 224.2425)
 		(end 254.00375 224.2425)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 27)
-		(uuid "da6e3bb7-4854-48f9-8ddb-5e0644454d23")
+		(uuid "c6b2af20-f9d3-4926-9d59-5a04e69aaee8")
 	)
 	(segment
 		(start 292.00375 224.2425)
@@ -64015,7 +64337,7 @@
 		(uuid "d30dc81f-4e38-4b50-870c-4e41d98ae503")
 	)
 	(via
-		(at 273.00375 224.2425)
+		(at 273.10375 224.2425)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -64111,20 +64433,20 @@
 		(uuid "5213464e-9384-404c-a8a0-3083fb202974")
 	)
 	(segment
-		(start 272.94625 224.3)
-		(end 273.00375 224.2425)
-		(width 0.15)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "55286ff3-6e05-4cb5-9ec6-b3ad04e68d20")
-	)
-	(segment
 		(start 381.75 224.3)
 		(end 382.54625 224.3)
 		(width 0.15)
 		(layer "B.Cu")
 		(net 27)
 		(uuid "565cdb45-92bf-4707-a9f4-764a22460942")
+	)
+	(segment
+		(start 273.10375 224.2425)
+		(end 273.04625 224.3)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "5c39f5f7-b604-40de-81c3-ae228b231e0e")
 	)
 	(segment
 		(start 271.537559 232.2425)
@@ -64231,6 +64553,14 @@
 		(uuid "a34bcebf-497a-44e6-9af6-65c4f5a863d3")
 	)
 	(segment
+		(start 273.04625 224.3)
+		(end 272.15 224.3)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "a69f6632-4f80-41e1-958d-fbf9ecd4326d")
+	)
+	(segment
 		(start 400.75 224.3)
 		(end 401.54625 224.3)
 		(width 0.15)
@@ -64253,14 +64583,6 @@
 		(layer "B.Cu")
 		(net 27)
 		(uuid "c185912c-000a-42ad-92e8-759ab69decb7")
-	)
-	(segment
-		(start 272.15 224.3)
-		(end 272.94625 224.3)
-		(width 0.15)
-		(layer "B.Cu")
-		(net 27)
-		(uuid "d86d813d-2359-4c7a-bd3a-1f4b6bd8729b")
 	)
 	(segment
 		(start 253.94625 224.3)
@@ -70973,6 +71295,30 @@
 		(layer "B.Cu")
 		(net 190)
 		(uuid "8be805d7-91d6-4741-80e9-c7c995ce9bfd")
+	)
+	(segment
+		(start 276.47875 222.0425)
+		(end 275.20375 222.0425)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 191)
+		(uuid "111a4302-5153-4e2f-aa5c-56a905272972")
+	)
+	(segment
+		(start 274.51475 222.7315)
+		(end 274.51475 223.830101)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 191)
+		(uuid "21eccb24-ce3b-4477-8dd1-00750a6a849d")
+	)
+	(segment
+		(start 275.20375 222.0425)
+		(end 274.51475 222.7315)
+		(width 0.15)
+		(layer "B.Cu")
+		(net 191)
+		(uuid "7e560f07-c2f1-42a6-a0ba-09ece3a631cb")
 	)
 	(zone
 		(net 9)
