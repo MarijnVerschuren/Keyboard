@@ -1,3 +1,7 @@
 *.lck
 Keyboard_PCB-backups/
 fp-info-cache
+assembly/
+assembly.zip
+gerber/
+gerber.zip
