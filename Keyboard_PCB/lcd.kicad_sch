@@ -2933,7 +2933,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6fc44674-078e-46c3-a604-62078a98b614")
 		(property "Reference" "U5"
 			(at 217.932 39.624 0)
