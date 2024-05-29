@@ -488,7 +488,7 @@
       "plot": "gerber/",
       "pos_files": "assembly/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Keyboard_PCB.step",
       "svg": "",
       "vrml": ""
     },
