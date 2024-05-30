@@ -8526,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Marijn_KiCad:EC11E-Switch-No_MP"
 			(at 81.28 162.306 0)
 			(effects
 				(font
