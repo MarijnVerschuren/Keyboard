@@ -4151,7 +4151,7 @@
 		)
 		(uuid "3583f338-4aa0-41dc-9440-c9940bfc287d")
 	)
-	(hierarchical_label "ROT_SW"
+	(hierarchical_label "ROT0_SW"
 		(shape input)
 		(at 100.33 163.83 0)
 		(fields_autoplaced yes)
@@ -4175,7 +4175,7 @@
 		)
 		(uuid "3cc85f15-efa2-4daf-b630-73edea958100")
 	)
-	(hierarchical_label "ROT_B"
+	(hierarchical_label "ROT0_B"
 		(shape input)
 		(at 71.12 168.91 180)
 		(fields_autoplaced yes)
@@ -4199,7 +4199,7 @@
 		)
 		(uuid "504c891e-073d-451d-bf15-d71d50010d79")
 	)
-	(hierarchical_label "ROT_B"
+	(hierarchical_label "ROT1_B"
 		(shape input)
 		(at 124.46 168.91 180)
 		(fields_autoplaced yes)
@@ -4223,7 +4223,7 @@
 		)
 		(uuid "528d2275-c281-407d-b01a-092399118fb8")
 	)
-	(hierarchical_label "ROT_A"
+	(hierarchical_label "ROT0_A"
 		(shape input)
 		(at 71.12 163.83 180)
 		(fields_autoplaced yes)
@@ -4235,7 +4235,7 @@
 		)
 		(uuid "6fae0088-b94f-490e-8a12-6cd1361af0f7")
 	)
-	(hierarchical_label "ROT_A"
+	(hierarchical_label "ROT1_A"
 		(shape input)
 		(at 124.46 163.83 180)
 		(fields_autoplaced yes)
@@ -4295,7 +4295,7 @@
 		)
 		(uuid "855b91ed-ba65-4b8d-9884-334126257250")
 	)
-	(hierarchical_label "ROT_SW"
+	(hierarchical_label "ROT1_SW"
 		(shape input)
 		(at 153.67 163.83 0)
 		(fields_autoplaced yes)
