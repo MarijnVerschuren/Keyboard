@@ -5898,10 +5898,6 @@
 		(uuid "cf267fb9-f2fa-464c-95a7-8e655e794d85")
 	)
 	(no_connect
-		(at 83.82 124.46)
-		(uuid "d6c0e6a3-c963-44a6-ae6d-0b9c5a88c86d")
-	)
-	(no_connect
 		(at 83.82 50.8)
 		(uuid "ef973346-d347-474e-a99a-953af1413709")
 	)
@@ -6232,6 +6228,16 @@
 			(type default)
 		)
 		(uuid "26c2b66f-c4aa-4c8a-bb7a-24b1451b3924")
+	)
+	(wire
+		(pts
+			(xy 83.82 125.73) (xy 83.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f1a11a-9ea7-40c9-b3cc-c38c24d8c6fb")
 	)
 	(wire
 		(pts
@@ -7929,6 +7935,16 @@
 		)
 		(uuid "12ceb7f7-d0c5-445f-a619-2f88e3ef87de")
 	)
+	(text "TODO: battery charging"
+		(exclude_from_sim no)
+		(at 179.07 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "170ce41b-0df8-4168-9dfb-9d9e70ad14e1")
+	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 113.03 149.86 0)
@@ -8018,16 +8034,6 @@
 			)
 		)
 		(uuid "c5c4f340-c507-467e-ad39-e5039efc9461")
-	)
-	(text "TODO:\nbattery header!!"
-		(exclude_from_sim no)
-		(at 195.072 56.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d18e781c-e994-47fc-90d0-3cd300ee2da0")
 	)
 	(text "LED"
 		(exclude_from_sim no)
@@ -9138,6 +9144,17 @@
 			(justify right bottom)
 		)
 		(uuid "f3f8e549-16ee-4634-b2bc-f182bf524e7d")
+	)
+	(label "STATUS"
+		(at 83.82 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f544cf3e-c1e2-4ee0-b406-39b79bbb8c31")
 	)
 	(label "USB_DN"
 		(at 83.82 67.31 0)
