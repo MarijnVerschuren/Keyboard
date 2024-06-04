@@ -4434,7 +4434,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "008a3030-9f01-4c4a-bc97-a5d3c1c75cb2")
 		(property "Reference" "SW36"
 			(at 97.79 89.662 0)
@@ -4501,7 +4501,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "01580f6d-df5c-4392-966a-f57d54a302ac")
 		(property "Reference" "SW68"
 			(at 154.94 120.142 0)
@@ -4634,7 +4634,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "031d04bd-3928-4ca6-9981-da914003ca87")
 		(property "Reference" "SW63"
 			(at 116.84 120.142 0)
@@ -5283,7 +5283,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0d00c54e-1726-4e2d-b82b-6fc4db9873aa")
 		(property "Reference" "SW27"
 			(at 135.89 74.422 0)
@@ -5350,7 +5350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0d8996c6-1a38-48ab-9e2b-883b451c5795")
 		(property "Reference" "SW4"
 			(at 85.09 59.182 0)
@@ -5514,7 +5514,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "136b02bd-ff09-4a1e-964c-09b01b8ee1fe")
 		(property "Reference" "SW11"
 			(at 129.54 59.182 0)
@@ -5581,7 +5581,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "137506b5-d5f9-4d75-9e8c-9a1e668bf4a0")
 		(property "Reference" "SW40"
 			(at 123.19 89.662 0)
@@ -6102,7 +6102,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1c72d3ed-ccad-4f97-9d29-d646305962d1")
 		(property "Reference" "SW16"
 			(at 66.04 74.422 0)
@@ -6266,7 +6266,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1ced6a35-3c1c-4b86-ac05-05c15c95e551")
 		(property "Reference" "SW25"
 			(at 123.19 74.422 0)
@@ -6399,7 +6399,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "1f0affa3-70e2-480c-9087-3999e53fbe8c")
 		(property "Reference" "SW55"
 			(at 129.54 104.902 0)
@@ -6563,7 +6563,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "223f1b83-8740-4203-a8c3-393d5fa7609a")
 		(property "Reference" "SW7"
 			(at 104.14 59.182 0)
@@ -6824,7 +6824,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2db4398e-d00c-4010-a1e9-92f6abacb460")
 		(property "Reference" "SW13"
 			(at 142.24 59.182 0)
@@ -7376,7 +7376,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "39e5ca29-beb9-4530-b116-88e618a4ade6")
 		(property "Reference" "SW49"
 			(at 91.44 104.902 0)
@@ -7540,7 +7540,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3c8196c9-eea6-4589-812e-9efdad58460e")
 		(property "Reference" "SW47"
 			(at 78.74 104.902 0)
@@ -7607,7 +7607,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3f36628b-0b66-4cc5-bfe1-c36afcc3af86")
 		(property "Reference" "SW57"
 			(at 148.59 104.902 0)
@@ -7674,7 +7674,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3fc0ac63-6d70-4790-b513-038af49f06a4")
 		(property "Reference" "SW34"
 			(at 85.09 89.662 0)
@@ -7838,7 +7838,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "42a33d54-9754-46e0-b825-c32f5fcb29ce")
 		(property "Reference" "SW44"
 			(at 154.94 89.662 0)
@@ -7905,7 +7905,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "43944ca0-f468-4ec8-b3ec-ef6d00fa9e6f")
 		(property "Reference" "SW41"
 			(at 129.54 89.662 0)
@@ -8166,7 +8166,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4aab533f-ddb6-4d63-9e36-849dcf3032d2")
 		(property "Reference" "SW56"
 			(at 135.89 104.902 0)
@@ -8233,7 +8233,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4b87f04d-265e-47a1-9ad8-732d219d0d45")
 		(property "Reference" "SW35"
 			(at 91.44 89.662 0)
@@ -8365,7 +8365,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4d533daf-d939-4b40-8da4-c979034d4863")
 		(property "Reference" "SW23"
 			(at 110.49 74.422 0)
@@ -8450,7 +8450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 173.99 0)
 			(effects
 				(font
@@ -8508,7 +8508,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4e97af56-f099-4924-b8db-df86364467b7")
 		(property "Reference" "SW69"
 			(at 85.09 159.766 0)
@@ -8584,7 +8584,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "514406ef-c6c9-48c0-a402-e1d9cf84c5f7")
 		(property "Reference" "SW17"
 			(at 72.39 74.422 0)
@@ -8651,7 +8651,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5148274c-d307-45af-a96f-18947ee0aeb7")
 		(property "Reference" "SW26"
 			(at 129.54 74.422 0)
@@ -8736,7 +8736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 158.75 0)
 			(effects
 				(font
@@ -8794,7 +8794,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "524d4dc5-19d2-403d-8c94-cdc900f2a311")
 		(property "Reference" "SW10"
 			(at 123.19 59.182 0)
@@ -9152,7 +9152,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "55be5c10-8235-4b4f-a1b0-d138ba036026")
 		(property "Reference" "SW20"
 			(at 91.44 74.422 0)
@@ -9382,7 +9382,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5ce9e32a-d7d4-4c40-9bf4-6f32ccd06895")
 		(property "Reference" "SW9"
 			(at 116.84 59.182 0)
@@ -9449,7 +9449,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5d25108c-df24-441f-8dae-23e33b128183")
 		(property "Reference" "SW3"
 			(at 78.74 59.182 0)
@@ -9613,7 +9613,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5da14703-69d6-447e-a7f0-d0762577c6f3")
 		(property "Reference" "SW66"
 			(at 135.89 120.142 0)
@@ -9680,7 +9680,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5f1500cf-40b2-495b-9202-43c825cdff86")
 		(property "Reference" "SW8"
 			(at 110.49 59.182 0)
@@ -10038,7 +10038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "635db487-79e2-4f7f-8efb-d700ef9eca4f")
 		(property "Reference" "SW38"
 			(at 110.49 89.662 0)
@@ -10105,7 +10105,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "64b155f2-f945-49ce-9f53-45efef016827")
 		(property "Reference" "SW60"
 			(at 72.39 120.142 0)
@@ -10172,7 +10172,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "67b5ea00-ea8d-41c3-a1b5-76047e231987")
 		(property "Reference" "SW43"
 			(at 148.59 89.662 0)
@@ -10239,7 +10239,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "67d3114b-d73a-4e67-b973-5dca86e073a5")
 		(property "Reference" "SW67"
 			(at 148.59 120.142 0)
@@ -10306,7 +10306,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "68d7a930-175d-42e0-8e34-e156ad9b2331")
 		(property "Reference" "SW50"
 			(at 97.79 104.902 0)
@@ -10470,7 +10470,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6b5d1579-6385-43e5-b53a-428d9aa45685")
 		(property "Reference" "SW59"
 			(at 66.04 120.142 0)
@@ -10537,7 +10537,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6b614955-8ec3-4a08-9e5c-e10cd2f5619d")
 		(property "Reference" "SW65"
 			(at 129.54 120.142 0)
@@ -10604,7 +10604,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6d67490c-d39d-40ac-be87-4af996e993b2")
 		(property "Reference" "SW31"
 			(at 66.04 89.662 0)
@@ -10865,7 +10865,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6f132787-3620-4590-9d08-ee67e1162909")
 		(property "Reference" "SW54"
 			(at 123.19 104.902 0)
@@ -11210,7 +11210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.86 158.75 0)
 			(effects
 				(font
@@ -11365,7 +11365,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7a205fbb-f99d-4e20-8053-57866f26b7dc")
 		(property "Reference" "SW15"
 			(at 154.94 59.182 0)
@@ -11432,7 +11432,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7d5c2e5f-b24a-4a0a-8f20-91a75a9d4056")
 		(property "Reference" "SW42"
 			(at 135.89 89.662 0)
@@ -11517,7 +11517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 96.52 158.75 0)
 			(effects
 				(font
@@ -11672,7 +11672,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8096987a-c44e-420d-8b17-c70c8c2f4750")
 		(property "Reference" "SW62"
 			(at 97.79 120.142 0)
@@ -11739,7 +11739,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "82d79993-595e-46c9-9419-b42af99c7d1d")
 		(property "Reference" "SW33"
 			(at 78.74 89.662 0)
@@ -11806,7 +11806,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "839502e2-016f-45e1-8461-9abec4956e72")
 		(property "Reference" "SW1"
 			(at 66.04 59.182 0)
@@ -12067,7 +12067,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "87c74336-981c-43c4-b6cd-a299bdd93edb")
 		(property "Reference" "SW21"
 			(at 97.79 74.422 0)
@@ -12134,7 +12134,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "889448ed-f091-4e71-a634-6d4db39f51c3")
 		(property "Reference" "SW24"
 			(at 116.84 74.422 0)
@@ -12201,7 +12201,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "88c73d15-fb91-423d-b807-bbac65a6df35")
 		(property "Reference" "SW52"
 			(at 110.49 104.902 0)
@@ -12462,7 +12462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8d6f9dd8-1bb9-40ef-b7bd-0b8fb0560474")
 		(property "Reference" "SW14"
 			(at 148.59 59.182 0)
@@ -12529,7 +12529,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8e8475e1-8651-4413-8b75-99bcb7df1834")
 		(property "Reference" "SW18"
 			(at 78.74 74.422 0)
@@ -12790,7 +12790,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "92664d67-fedd-455c-af21-b74a2bb9fd7c")
 		(property "Reference" "SW37"
 			(at 104.14 89.662 0)
@@ -12857,7 +12857,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "94f85ba6-3a1b-49df-b890-a059afbb7a64")
 		(property "Reference" "SW58"
 			(at 154.94 104.902 0)
@@ -12924,7 +12924,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "96245174-e865-4e7e-acc2-4077d9f0a341")
 		(property "Reference" "SW45"
 			(at 66.04 104.902 0)
@@ -13106,7 +13106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 158.75 0)
 			(effects
 				(font
@@ -13327,7 +13327,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9d476bb2-1537-4f28-9601-f231a3d1682a")
 		(property "Reference" "SW61"
 			(at 78.74 120.142 0)
@@ -13719,7 +13719,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a61c532e-5417-4d2c-a1f6-48bb1d270d96")
 		(property "Reference" "SW19"
 			(at 85.09 74.422 0)
@@ -13883,7 +13883,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b1b29fb4-a5cf-460a-8bd2-b91c6a9de4ab")
 		(property "Reference" "SW48"
 			(at 85.09 104.902 0)
@@ -14047,7 +14047,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b5c1e62c-6145-484b-b964-6bedd8a291c3")
 		(property "Reference" "SW32"
 			(at 72.39 89.662 0)
@@ -14114,7 +14114,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "b7536def-a62d-4953-a4c8-8beb9a177feb")
 		(property "Reference" "SW6"
 			(at 97.79 59.182 0)
@@ -14181,7 +14181,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "bba0a898-dbec-4b5a-b866-c1a0837d5ffe")
 		(property "Reference" "SW22"
 			(at 104.14 74.422 0)
@@ -14248,7 +14248,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c0a85f67-16b6-408a-aa2a-556372ca27fe")
 		(property "Reference" "SW29"
 			(at 148.59 74.422 0)
@@ -14412,7 +14412,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c30c3827-bf7c-4776-9cd9-32ba109e221a")
 		(property "Reference" "SW51"
 			(at 104.14 104.902 0)
@@ -15158,7 +15158,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d304a5b0-b46e-48e3-88b0-8b42b422bfee")
 		(property "Reference" "SW46"
 			(at 72.39 104.902 0)
@@ -15419,7 +15419,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d888bd89-549b-46c7-b7b7-2a0dfdc0147c")
 		(property "Reference" "SW53"
 			(at 116.84 104.902 0)
@@ -15583,7 +15583,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dc5b72fb-abd9-45b3-97dd-11e139ce92f7")
 		(property "Reference" "SW5"
 			(at 91.44 59.182 0)
@@ -15747,7 +15747,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "dd1ed9b8-d20f-4e57-b260-54fcbbd8136f")
 		(property "Reference" "SW30"
 			(at 154.94 74.422 0)
@@ -15911,7 +15911,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "df4565a4-48e0-43a8-8cdd-b7275ac913c2")
 		(property "Reference" "SW2"
 			(at 72.39 59.182 0)
@@ -16075,7 +16075,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "ed08bb2e-fbdd-42e5-ba88-aec626c8ee9a")
 		(property "Reference" "SW39"
 			(at 116.84 89.662 0)
@@ -16239,7 +16239,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "eed08681-2f38-4ecf-bd45-0bcc43617134")
 		(property "Reference" "SW12"
 			(at 135.89 59.182 0)
@@ -16403,7 +16403,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f8770e62-3dab-473b-81ad-54f090297938")
 		(property "Reference" "SW64"
 			(at 123.19 120.142 0)
@@ -16470,7 +16470,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f9533ba5-4010-4b6e-8eef-c438816cea54")
 		(property "Reference" "SW28"
 			(at 142.24 74.422 0)
@@ -16700,7 +16700,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "fd38a71e-c802-42f1-9b5c-53c07eb3d389")
 		(property "Reference" "SW70"
 			(at 138.43 159.766 0)
@@ -16794,7 +16794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 173.99 0)
 			(effects
 				(font
