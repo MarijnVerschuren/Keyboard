@@ -15715,7 +15715,7 @@
 			)
 		)
 		(property "Value" "(1200 / batt_mAh) K ohm"
-			(at 208.28 71.374 90)
+			(at 196.342 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -10,17 +10,8 @@
 /*!<
  * defines
  */
-#ifdef DEBUG
-/*<! debug barrier:
- * used as a recognizable marker for places where the software waits on the hardware when emulating
- * the emulator will search for the compiled version code of the barrier:
- * thumb: "\xff\x46\xff\x46", arm: "\x0f\xf0\xa0\xe1\x0f\xf0\xa0\xe1"
- * and enact the appropriate actions at the found location
- */
-#define DBAR() asm volatile("mov pc, pc\n\tmov pc, pc")
-#else
-#define DBAR()
-#endif
+#define PROGMEM __attribute__((section(".progmem.data")))
+
 
 /*!<
  * device types
@@ -73,7 +64,6 @@ void disable_dev(void* dev);
 
 dev_id_t dev_to_id(void* dev);
 void* id_to_dev(dev_id_t id);
-void* pin_to_dev(dev_pin_t pin);
 
 uint8_t dev_to_int(void* dev);
 

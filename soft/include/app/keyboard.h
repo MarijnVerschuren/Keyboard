@@ -15,8 +15,26 @@
 
 
 /*!<
+ * config
+ * */
+#define ROW_PORT		GPIOE
+#define ROW_COUNT		5
+#define COL_PORT		GPIOD
+#define COL_COUNT		15
+extern const uint16_t PROGMEM key_map[][ROW_COUNT][COL_COUNT];
+
+
+// tmp
+uint16_t last_key;
+
+
+// TODO: keymap
+
+/*!<
  * functions
  * */
+void init_grid(void);
+void scan_grid(void);
 void send_text(const uint8_t* str);
 
 
