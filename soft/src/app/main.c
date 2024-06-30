@@ -13,6 +13,8 @@
 #include "usb/hid.h"
 #include "hash.h"
 #include "cryp.h"
+#include "spi/ospi.h"
+#include "spi/W25Q64.h"
 
 #include "app/keyboard.h"
 
@@ -29,19 +31,20 @@ extern void TIM8_UP_TIM13_IRQHandler(void) {
 
 
 void run(void) {
-	/* structure TODO:
-	 A buffer for 7 descriptors will be used where the center 3 are displayed on the screen
-	 so that when scrolling new descriptors may be loaded to the buffer (each descriptor takes about 13ms).
-	 Only when pressed will the password be read and decrypted (this takes ...ms).
-	 Finally the password is typed out (this will take around 2n ms where n is the number of characters).
-	 */
 	init_grid();
+	init_encoders();			// TODO: validate ROT0 connection!!
+	// W25Q64_init(OCTOSPI1);	// TODO: validate connection!!
+	// init_LCD();				// TODO
+
+	start_USB(USB1_OTG_HS);		// TODO: re-solder FL1
+	start_scan();
+	start_encoders();
 	start_watchdog();
 
 	// main loop
 	for(;;) {
 		reset_watchdog();
-		scan_grid();
+
 	}
 }
 
@@ -99,13 +102,27 @@ int main(void) {
 	config_RNG_kernel_clock(RNG_CLK_SRC_HSI48);
 	start_RNG(); config_CRC(); config_HASH(); config_CRYP();
 
+	/* SPI config */
+	config_SPI_kernel_clocks(SPI123_CLK_SRC_PLL1_Q, SPI456_CLK_SRC_APBx, SPI456_CLK_SRC_APBx);
+
+	/* QSPI config */
+	config_OSPI_kernel_clock(OSPI_CLK_SRC_PLL1_Q);
+	config_QSPI(
+		OCTOSPI1, OSPIM_PORT1_SCK_B2,
+		OSPIM_PORT1_IO0_B1, OSPIM_PORT1_IO1_B0,
+		OSPIM_PORT1_IO2_A7, OSPIM_PORT1_IO3_A6,
+		OSPIM_PORT1_NSS_B6, 0U, OPSI_MEMORY_MICRON, 31
+	);
+
 	/* USB config */  // TODO: do low power later (when debugging is fixed)
 	config_USB_kernel_clock(USB_CLK_SRC_HSI48);
 	config_USB(USB1_OTG_HS, &HID_class, &FS_Desc, 0, 0);  // TODO low power doesnt work!!
-	start_USB(USB1_OTG_HS);
+	// TODO: RESOLDER FL1!!!!!
 
 	/* watchdog config */
 	config_watchdog(0, 0xFFFUL);	// 1s
+
+	// TODO: RTC!!!
 
 	// start the program
 	run();

@@ -3,10 +3,22 @@
 //
 #ifndef SOFT_KEYMAP_H
 #define SOFT_KEYMAP_H
-#include "app/keyboard.h"
+#include "base.h"
 
+
+
+/*!<
+ * config
+ * */
+#define ROW_COUNT 5
+#define COL_COUNT 15
+
+
+/*!<
+ * types
+ * */
 typedef enum {
-	____ = 0x0001,
+	____ = 0x0001,	// transparent
 	KC_A = 0x0004,
 	KC_B = 0x0005,
 	KC_C = 0x0006,
