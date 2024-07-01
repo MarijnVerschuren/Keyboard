@@ -6,20 +6,7 @@
 #define SOFT_LCD_H
 #include "spi/spi.h"
 
-
-/*!<
- * defines
- * */
-#define LCD_SPI			SPI2
-#define LCD_SPI_DIV		SPI_DIV_32	/* 280 Mhz / 32 */
-#define LCD_PORT		GPIOB
-#define LCD_CMD_PIN 	10
-#define LCD_NRST_PIN	11
-#define LCD_NCS_PIN		12
-#define LCD_CLK_PIN		SPI2_SCK_B13
-#define LCD_BL_PIN		14
-#define LCD_MOSI_PIN	SPI2_MOSI_B15
-
+#include "config.h"
 
 /*!<
  * types

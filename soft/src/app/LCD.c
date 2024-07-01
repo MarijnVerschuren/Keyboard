@@ -27,6 +27,7 @@ static inline void send_LCD_cmd(const uint8_t* commands) {
 	uint8_t count = *commands++;
 	uint8_t arg_count, delay;
 
+	GPIO_write(LCD_PORT, LCD_CMD_PIN, 0);
 	while (count--) {
 		SPI_master_transmit(LCD_SPI, LCD_PORT, LCD_NCS_PIN, commands++, 1, 10);
 		arg_count = *commands++;
@@ -48,5 +49,11 @@ void init_LCD(void) {
 	config_GPIO(LCD_PORT, LCD_NCS_PIN, GPIO_output, GPIO_no_pull, GPIO_push_pull);
 	config_GPIO(LCD_PORT, LCD_BL_PIN, GPIO_output, GPIO_no_pull, GPIO_push_pull);
 	config_SPI_master(LCD_CLK_PIN, LCD_MOSI_PIN, SPI_PIN_DISABLE, LCD_SPI_DIV);
+
+	GPIO_write(LCD_PORT, LCD_CMD_PIN, 1);
+	GPIO_write(LCD_PORT, LCD_NRST_PIN, 1);
+	GPIO_write(LCD_PORT, LCD_NCS_PIN, 1);
+	GPIO_write(LCD_PORT, LCD_BL_PIN, 1);
+
 	send_LCD_cmd(init_sequence);
 }

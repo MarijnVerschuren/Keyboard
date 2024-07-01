@@ -5,13 +5,7 @@
 #define SOFT_KEYMAP_H
 #include "base.h"
 
-
-
-/*!<
- * config
- * */
-#define ROW_COUNT 5
-#define COL_COUNT 15
+#include "config.h"
 
 
 /*!<

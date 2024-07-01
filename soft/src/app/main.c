@@ -33,8 +33,8 @@ extern void TIM8_UP_TIM13_IRQHandler(void) {
 void run(void) {
 	init_grid();
 	init_encoders();			// TODO: validate ROT0 connection!!
-	// W25Q64_init(OCTOSPI1);	// TODO: validate connection!!
-	// init_LCD();				// TODO
+	W25Q64_init(OCTOSPI1);	// TODO: validate connection!!
+	//init_LCD();					// TODO
 
 	start_USB(USB1_OTG_HS);		// TODO: re-solder FL1
 	start_scan();
@@ -69,7 +69,7 @@ int main(void) {
 	set_RTC_config(0, RCC_SRC_DISABLED, 0);				// disable RTC
 	set_clock_config(
 		0, 1, 0, 0, 0, 1,								// disable HSI, enable HSE, enable HSI48
-		0, 0, 1, 0, HSI_DIV_1, 25000000,				// enable HSE_CSS, HSE_freq = 25MHz
+		0, 0, 1, 0, HSI_DIV_1, 25000000,				// disable HSE_CSS, HSE_freq = 25MHz
 		PLL_SRC_HSE										// set HSE as PLL source clock
 	);
 	set_SYS_config(
