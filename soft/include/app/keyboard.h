@@ -36,6 +36,9 @@ void init_encoders(void);
 void start_encoders(void);
 void stop_encoders(void);
 /*!< misc */
+void press_key(uint16_t code);
+void release_key(uint16_t code);
+void release_all(void);
 void send_text(const uint8_t* str);
 
 

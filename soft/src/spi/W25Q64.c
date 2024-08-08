@@ -16,7 +16,7 @@ static inline uint8_t W25Q64_id(OCTOSPI_TypeDef* qspi) {
 		.address_size =		OSPI_SIZE_24B,
 		.admode =			OSPI_MODE_SINGLE
 	};
-	uint32_t a = OSPI_transmit(qspi, &tx, 100);
+	OSPI_transmit(qspi, &tx, 100);
 	OSPI_test_receive(qspi, &id);
 	return id;
 }

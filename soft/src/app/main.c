@@ -32,19 +32,18 @@ extern void TIM8_UP_TIM13_IRQHandler(void) {
 
 void run(void) {
 	init_grid();
-	init_encoders();			// TODO: validate ROT0 connection!!
-	W25Q64_init(OCTOSPI1);	// TODO: validate connection!!
-	//init_LCD();					// TODO
+	init_encoders();			// TODO: validate ROT0_SW connection!!
+	//W25Q64_init(OCTOSPI1);	// TODO: validate connection!! (and lib)
+	//init_LCD();				// TODO (backlight on display[module] works, still black)
 
-	start_USB(USB1_OTG_HS);		// TODO: re-solder FL1
 	start_scan();
 	start_encoders();
 	start_watchdog();
 
+	release_all();
 	// main loop
 	for(;;) {
 		reset_watchdog();
-
 	}
 }
 
@@ -116,14 +115,14 @@ int main(void) {
 
 	/* USB config */  // TODO: do low power later (when debugging is fixed)
 	config_USB_kernel_clock(USB_CLK_SRC_HSI48);
-	config_USB(USB1_OTG_HS, &HID_class, &FS_Desc, 0, 0);  // TODO low power doesnt work!!
-	// TODO: RESOLDER FL1!!!!!
-
+	config_USB(USB1_OTG_HS, &HID_class, &FS_Desc, 0, 0);	// TODO low power doesnt work!!
+	start_USB(USB1_OTG_HS);
+	
 	/* watchdog config */
 	config_watchdog(0, 0xFFFUL);	// 1s
 
 	// TODO: RTC!!!
-
+	for(;;);
 	// start the program
 	run();
 }
