@@ -1,7 +1,0 @@
-.pio
-CMakeListsPrivate.txt
-cmake-build-*/ 
-CMakeLists.txt
-.idea
-.vscode
-include/app/passwd.h

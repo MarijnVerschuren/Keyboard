@@ -2157,7 +2157,7 @@
 				)
 			)
 		)
-		(property "Value" " TDK ACM2012-900"
+		(property "Value" "TDK ACM2012-900"
 			(at 80.01 43.942 0)
 			(effects
 				(font

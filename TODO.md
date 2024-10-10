@@ -1,2 +1,0 @@
-# Parts!
-1. LCD: DEP 256064F-W

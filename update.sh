@@ -1,16 +1,21 @@
 git submodule foreach git pull origin main
 
-rm ./soft/doc -rf
-rm ./soft/include/*.h
-rm ./soft/src/*.c
-rm ./soft/include/usb -rf
-rm ./soft/include/spi -rf
-rm ./soft/src/usb -rf
-rm ./soft/test -rf
+mv ./software/src/main.c main.c
 
-cp ./STM32H7B0_CMSIS/doc ./soft/doc -r
-cp ./STM32H7B0_CMSIS/include/* ./soft/include/ -r
-cp ./STM32H7B0_CMSIS/src/* ./soft/src/ -r
-rm ./soft/src/main.c
-cp ./STM32H7B0_CMSIS/test ./soft/test -r
+rm ./software/inc -rf
+rm ./software/lib -rf
+rm ./software/lnk -rf
+rm ./software/src -rf
+rm ./software/targets -rf
+rm ./software/.run -rf
+
+cp ./STM32F412/inc ./software/ -r
+cp ./STM32F412/lib ./software/ -r
+cp ./STM32F412/lnk ./software/ -r
+cp ./STM32F412/src ./software/ -r
+cp ./STM32F412/targets ./software/ -r
+cp ./STM32F412/.run ./software/ -rf
+
+rm ./software/src/main.c
+mv main.c ./software/src
 

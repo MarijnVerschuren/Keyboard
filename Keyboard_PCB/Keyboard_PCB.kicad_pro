@@ -84,6 +84,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -528,6 +529,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -660,16 +662,8 @@
       "Root"
     ],
     [
-      "e3625a1b-6baf-4e69-b4b7-43d96a453f37",
-      "Grid"
-    ],
-    [
       "f183b390-0c59-4c65-8a55-408064b389c7",
       "USB"
-    ],
-    [
-      "be93370b-758f-484c-a808-ffde66bdd413",
-      "LCD"
     ]
   ],
   "text_variables": {}
