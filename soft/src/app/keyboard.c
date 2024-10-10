@@ -9,7 +9,7 @@
  */
 static volatile uint8_t		scan_iter = 0;
 static volatile uint8_t		HID_buffer[8] = {0, 0, 0, 0, 0, 0, 0, 0};
-static volatile uint16_t	matrix[ROW_COUNT];
+static volatile uint8_t		update = 0;
 
 
 /*!<
@@ -125,6 +125,7 @@ void release_all(void) {
 	*(uint64_t*)HID_buffer = 0x0000000000000000;
 }
 void send_text(const uint8_t* str) {
+	release_all();
 	while (*str) {
 		HID_buffer[2] = 0x4 + (*str++ - 'a');
 		send_HID_report(&USB_handle, HID_buffer, 8);

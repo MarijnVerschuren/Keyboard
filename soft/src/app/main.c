@@ -36,14 +36,17 @@ void run(void) {
 	//W25Q64_init(OCTOSPI1);	// TODO: validate connection!! (and lib)
 	//init_LCD();				// TODO (backlight on display[module] works, still black)
 
-	start_scan();
+	//start_scan();
 	start_encoders();
-	start_watchdog();
+	//start_watchdog();
 
 	release_all();
 	// main loop
 	for(;;) {
-		reset_watchdog();
+		press_key(KC_L);
+		delay_ms(100);
+		release_key(KC_L);
+		delay_ms(500);
 	}
 }
 
@@ -122,9 +125,13 @@ int main(void) {
 	config_watchdog(0, 0xFFFUL);	// 1s
 
 	// TODO: RTC!!!
-	for(;;);
+
 	// start the program
-	run();
+	//run();
+
+	while (1) {
+		__NOP();
+	}
 }
 
 
@@ -136,3 +143,14 @@ int main(void) {
 // TODO: make HASH, CRYP, RNG interrupt based for faster / parallel processing
 
 // TODO: look at WKUPCR in PWR in USB wakup it
+
+
+// PCB issues!!!!!!!!!!!!
+// TODO: STM does not work correctly
+//  - TODO: check pwr
+//  - TODO: remove broken screen
+// TODO: solder pads instead of through hole for no_MP rotaries
+// TODO: use correct FL1 footprint
+// TODO: edit W25Q64 footprint!!!
+// TODO: connector footprints
+// TODO: edge connector??
