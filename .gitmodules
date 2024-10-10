@@ -1,0 +1,3 @@
+[submodule "STM32F412"]
+	path = STM32F412
+	url = https://github.com/MarijnVerschuren/STM32F412.git
