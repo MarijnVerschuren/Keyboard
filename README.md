@@ -1,2 +1,2 @@
 # Keyboard
-Custom 65% keyboard PCB featuring the STM32H750VBT6
+Custom keyboard PCB featuring the STM32F412
