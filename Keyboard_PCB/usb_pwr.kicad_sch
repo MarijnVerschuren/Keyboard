@@ -5445,6 +5445,26 @@
 		)
 		(uuid "751b0ede-672f-4e15-acb3-9a874cc8ba88")
 	)
+	(text_box "| stat[1,2], nPG | MODE                                |\n|----------------|-------------------------------------|\n| 0, 0, 0        | fault (temp | timer)                |\n| 0, 1, 0        | pre_cond, const current/volt        |\n| 0, 1, 1        | battery low                         |\n| 1, 0, 0        | stadby (charge complete)            |\n| 1, 1, 0        | shutdown (Vout=Vin | CE=0 | no bat) |\n| 1, 1, 1        | shutdown (Vout=Vbat | no power)     |\n"
+		(exclude_from_sim no)
+		(at 105.41 105.41 0)
+		(size 62.23 18.415)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Andale Mono")
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "fa4002bd-3ad2-49ab-bdf9-f583d7a1f15c")
+	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 14.986 14.224 0)
@@ -6758,7 +6778,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "10k"
 			(at 19.812 161.29 90)
 			(effects
 				(font
@@ -10689,7 +10709,7 @@
 				)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "10k"
 			(at 21.082 104.14 90)
 			(effects
 				(font
