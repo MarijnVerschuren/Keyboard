@@ -2922,6 +2922,187 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Marijn:TPS63020"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2951,8 +3132,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63020.pdf?ts=1728564305031&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D14%2526searchTerm%253DTPS63020DSJR"
+				(at 3.048 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3699,6 +3880,339 @@
 				)
 			)
 		)
+		(symbol "TPS63020_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 5.588 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Marijn_KiCad:QFN_DSJ"
+				(at -13.97 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63020.pdf?ts=1728564305031&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D14%2526searchTerm%253DTPS63020DSJR"
+				(at 3.048 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS63020_1_0_1"
+				(rectangle
+					(start -6.35 12.7)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPS63020_1_1_1"
+				(pin input line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "VINA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 7.62 0)
+					(length 2.54)
+					(name "V_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 7.62 0)
+					(length 2.54) hide
+					(name "V_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "PS/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -10.16 90)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 7.62 180)
+					(length 2.54)
+					(name "V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 7.62 180)
+					(length 2.54) hide
+					(name "V_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 15.24 270)
+					(length 2.54)
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 15.24 270)
+					(length 2.54) hide
+					(name "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 15.24 270)
+					(length 2.54)
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 15.24 270)
+					(length 2.54) hide
+					(name "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -4109,6 +4623,12 @@
 		(uuid "51a7f56b-a5b2-481c-bee6-5b0000a91ad2")
 	)
 	(junction
+		(at 124.46 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "567a3a06-ad22-48d1-a79b-8f3e398e31e6")
+	)
+	(junction
 		(at 165.1 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4221,12 +4741,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d17e7505-2510-4250-bfb3-0d38a694be61")
-	)
-	(junction
-		(at 124.46 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d86d7cbe-7aa2-4dc1-abeb-52f36706cabc")
 	)
 	(junction
 		(at 77.47 99.06)
@@ -4722,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 25.4) (xy 143.51 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f27084f-ffcc-411f-9e1e-bd06c0ad54c4")
-	)
-	(wire
-		(pts
 			(xy 46.99 39.37) (xy 49.53 39.37)
 		)
 		(stroke
@@ -4739,6 +5243,16 @@
 			(type default)
 		)
 		(uuid "532ae8bd-49f4-4e4e-b91a-c614b8cba81a")
+	)
+	(wire
+		(pts
+			(xy 124.46 34.29) (xy 130.81 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55bbc915-7c51-4f80-a753-7ffdae056b14")
 	)
 	(wire
 		(pts
@@ -4799,6 +5313,16 @@
 			(type default)
 		)
 		(uuid "5e511c0a-a027-4ae7-9d67-5fc976305bcc")
+	)
+	(wire
+		(pts
+			(xy 135.89 26.67) (xy 135.89 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61042298-09ac-4046-a4a2-c39938ac8521")
 	)
 	(wire
 		(pts
@@ -4892,6 +5416,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 26.67) (xy 143.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a7d028-e5df-4a93-a710-5d5fb0195856")
+	)
+	(wire
+		(pts
 			(xy 77.47 163.83) (xy 80.01 163.83)
 		)
 		(stroke
@@ -4909,16 +5443,6 @@
 			(type default)
 		)
 		(uuid "69b2ba7b-c6e5-4dae-8b68-667867adb70b")
-	)
-	(wire
-		(pts
-			(xy 130.81 34.29) (xy 124.46 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69fb1a43-f753-4868-8123-4874ab2bb16c")
 	)
 	(wire
 		(pts
@@ -4959,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "6d9b12d6-0ed9-4a14-a5e0-6ce5c4649cb9")
-	)
-	(wire
-		(pts
-			(xy 135.89 26.67) (xy 135.89 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee049c1-7652-4b34-b594-4e5d4589b656")
 	)
 	(wire
 		(pts
@@ -5062,7 +5576,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 120.65 34.29)
+			(xy 120.65 34.29) (xy 124.46 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6858,7 +7372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63020.pdf?ts=1728564305031&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D14%2526searchTerm%253DTPS63020DSJR"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -7471,6 +7985,73 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 120.65 30.48 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2913f28e-e592-4d4b-ae6e-0f17d60ce44a")
+		(property "Reference" "JP2"
+			(at 118.364 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT_BYP"
+			(at 126.492 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06608361-61cf-4da7-ac76-a89805b5f298")
+		)
+		(pin "1"
+			(uuid "ca2f74a7-c57d-4a90-b1a1-ba578e99eb16")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -8205,114 +8786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Marijn:TPS63020")
-		(at 139.7 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41d7dc68-3df4-4529-90cb-8633430279e5")
-		(property "Reference" "U3"
-			(at 144.272 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 145.7041 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Marijn_KiCad:QFN_DSJ"
-			(at 125.73 51.054 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9a390688-de5b-4f3d-9248-e736c328d8e1")
-		)
-		(pin "9"
-			(uuid "c923e4a8-e856-4b94-bd5b-d855978605ca")
-		)
-		(pin "13"
-			(uuid "3191d9b6-d81b-4ac5-856a-a7182e62aaae")
-		)
-		(pin "4"
-			(uuid "395b96fc-c62d-4b25-b25f-5b23242416b2")
-		)
-		(pin "14"
-			(uuid "752965bb-2c11-4f0a-a750-f6155e9b0f67")
-		)
-		(pin "7"
-			(uuid "2a4f1519-2ad9-435e-b491-51302a7d7352")
-		)
-		(pin "8"
-			(uuid "38a45a2d-6ef1-44bf-9250-fd3fe305f353")
-		)
-		(pin "6"
-			(uuid "2a41dc7c-6e78-45ee-b9a2-5f1302bfecbe")
-		)
-		(pin "5"
-			(uuid "381543b8-46e4-4871-a865-d7b208a81225")
-		)
-		(pin "2"
-			(uuid "fe2b2201-1126-40b7-9082-d8b92ca4a89b")
-		)
-		(pin "11"
-			(uuid "44edf74a-c6f6-4c20-97b1-13606dd034d7")
-		)
-		(pin "15"
-			(uuid "0ddeda37-5f5b-4319-891d-d4557749629a")
-		)
-		(pin "10"
-			(uuid "8ca2d6bb-0fae-4bf2-9a4c-14cd1914a98f")
-		)
-		(pin "12"
-			(uuid "2a03daf5-a5a3-4e4f-ad9b-8519d20c7be4")
-		)
-		(pin "1"
-			(uuid "8f3c7cdf-c37d-4082-ab38-410d464da9d8")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 173.99 85.09 180)
 		(unit 1)
@@ -8340,7 +8813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 168.91 85.09 0)
 			(effects
 				(font
@@ -9731,7 +10204,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 60.452 52.07 0)
+			(at 60.452 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9833,7 +10306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 168.91 43.18 0)
 			(effects
 				(font
@@ -11208,7 +11681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5v6"
+		(property "Value" "5v1"
 			(at 57.912 26.416 0)
 			(effects
 				(font
@@ -12525,6 +12998,116 @@
 		)
 	)
 	(symbol
+		(lib_name "TPS63020_1")
+		(lib_id "Marijn:TPS63020")
+		(at 139.7 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e17a48b1-c62c-48e5-8de8-d0357ad0f5c4")
+		(property "Reference" "U3"
+			(at 145.7041 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 145.7041 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Marijn_KiCad:QFN_DSJ"
+			(at 125.73 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63020.pdf?ts=1728564305031&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526nr%253D14%2526searchTerm%253DTPS63020DSJR"
+			(at 142.748 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "be6ccc8c-a935-415d-8fec-530034afa1f7")
+		)
+		(pin "12"
+			(uuid "55048ad9-0009-4b4c-aeea-57e5f5a45029")
+		)
+		(pin "13"
+			(uuid "e2c8b11f-483b-4f0e-8010-3de2a36b1c94")
+		)
+		(pin "1"
+			(uuid "ecba059d-f537-4d56-8e55-0f1fb04bd0e7")
+		)
+		(pin "5"
+			(uuid "d58d6df1-ff7a-4ed5-bf7d-93ec0aa77402")
+		)
+		(pin "11"
+			(uuid "8fb18fcd-3d33-4ca0-9c68-14daba674a58")
+		)
+		(pin "4"
+			(uuid "934b8e64-8a6b-4ff6-ab5b-3fc06ebd9286")
+		)
+		(pin "2"
+			(uuid "7cd0f253-9c21-4af6-a23d-54c460e358e6")
+		)
+		(pin "10"
+			(uuid "d4cb0524-6221-4c4a-be77-2210b7ce5631")
+		)
+		(pin "3"
+			(uuid "aba653b6-b6cd-4828-93e5-d47b2c565624")
+		)
+		(pin "7"
+			(uuid "ff027853-981e-49c1-a6ef-e47f43e9a3b9")
+		)
+		(pin "9"
+			(uuid "d43546b7-4ad4-4d6c-aad4-811be1cddd05")
+		)
+		(pin "15"
+			(uuid "5cdb9fde-e84b-4257-a511-e26cf590a197")
+		)
+		(pin "6"
+			(uuid "4fa8926a-f323-4151-bb64-f9fecdf70818")
+		)
+		(pin "8"
+			(uuid "b1d4e519-6e9e-4e20-9f05-b7f7c02af2ed")
+		)
+		(instances
+			(project ""
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 80.01 0)
 		(unit 1)
@@ -13666,6 +14249,71 @@
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f620ceed-9c4f-4619-9075-38fa1c663c52")
+		(property "Reference" "#PWR099"
+			(at 120.65 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa67b61-4e55-4e9e-9a66-3e5666e81576")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/f183b390-0c59-4c65-8a55-408064b389c7"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
