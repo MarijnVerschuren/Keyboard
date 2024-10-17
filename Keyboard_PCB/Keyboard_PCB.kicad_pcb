@@ -8074,7 +8074,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "BT1"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "2b192e90-7063-4549-8e31-39710f47bdd3")
 			(effects
@@ -8085,7 +8085,7 @@
 			)
 		)
 		(property "Value" "APP"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "0ff81ca6-e744-47b7-8d70-d49d8eb94af6")
 			(effects
@@ -8779,7 +8779,7 @@
 		(descr "16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J2"
-			(at -13.2 -0.25 360)
+			(at -13.2 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "af3bc342-7bdb-4c08-ab99-47ba04b2dcbd")
 			(effects
@@ -9277,7 +9277,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "ed81f025-2f7f-4420-adf7-6590355675cd")
 			(effects
@@ -9288,7 +9288,7 @@
 			)
 		)
 		(property "Value" "PG"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "6d36d2e3-7c8a-4e2d-80af-c95f0d085a82")
 			(effects
@@ -9463,7 +9463,7 @@
 			(uuid "42d4aa11-388f-4ce3-969c-bdcf121a6ed7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ed9a6afa-6ae0-4f71-8beb-da53c729e405")
 			(effects
@@ -10183,7 +10183,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "fd7c0667-fa91-46ff-9eb8-9bf3c6f1a688")
 			(effects
@@ -10194,7 +10194,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9dc0b192-597f-43c2-aa35-48435aff6d65")
 			(effects
@@ -10362,7 +10362,7 @@
 			(uuid "2d4aed40-1fbb-46fc-8a03-f75a5b070727")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "367b206d-2a13-4067-80b2-3ebb25380776")
 			(effects
@@ -10409,7 +10409,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C31"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "36e75731-2728-4fd5-9760-af4113037f9a")
 			(effects
@@ -10420,7 +10420,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "e8432302-b27b-437e-9999-e540acc4b3da")
 			(effects
@@ -10575,7 +10575,7 @@
 			(uuid "132e3769-db93-430f-a7cf-48cd713927bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f1216c07-adff-47bc-aef9-326387292ce1")
 			(effects
@@ -14570,7 +14570,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D7"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "4335dbb5-bd50-44a2-afbb-0d59ee0a56f3")
 			(effects
@@ -14581,7 +14581,7 @@
 			)
 		)
 		(property "Value" "STAT2"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "0fd5d20f-c413-44c7-b300-f02c6b9d1baa")
 			(effects
@@ -14756,7 +14756,7 @@
 			(uuid "540e7eff-c785-412f-942e-e7ac4dca4b4b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a499e50-10cc-431e-884e-e686ca7fdb66")
 			(effects
@@ -15657,7 +15657,7 @@
 		(descr "QFN, 20 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=274), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U5"
-			(at 0 -3.299999 360)
+			(at 0 -3.299999 0)
 			(layer "F.SilkS")
 			(uuid "4512ae79-fbbf-467a-82f2-173a29690761")
 			(effects
@@ -15668,7 +15668,7 @@
 			)
 		)
 		(property "Value" "MCP73871"
-			(at 0 3.299999 360)
+			(at 0 3.299999 0)
 			(layer "F.Fab")
 			(uuid "5b250dce-d951-4a67-965a-d7f603a9210c")
 			(effects
@@ -15905,7 +15905,7 @@
 			(uuid "8c022525-1a10-4695-be3b-ddb470981255")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "414442e6-5c1e-482a-ae09-657bb4ac0e81")
 			(effects
@@ -16173,7 +16173,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "166cb6e5-17a3-4ba9-ac8c-80476c99a17a")
 			(effects
@@ -16184,7 +16184,7 @@
 			)
 		)
 		(property "Value" "STAT1"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "74a6e3b6-a388-4c10-b751-5e51e948655b")
 			(effects
@@ -16359,7 +16359,7 @@
 			(uuid "6c99877e-f661-4de9-a56e-d7422ca98348")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3e7362fd-eb5f-4e90-81a7-5b66c1779acf")
 			(effects
@@ -23731,7 +23731,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "9a90c4a9-1bd9-408b-ac75-a9c4bbad4a6e")
 			(effects
@@ -23742,7 +23742,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "baec6de5-4671-49f6-828b-18d37a0998e3")
 			(effects
@@ -23910,7 +23910,7 @@
 			(uuid "35c75f66-91f5-4fdc-891c-939d29b86f6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "454252fb-1d67-4133-92fd-04f11d6a5d70")
 			(effects
@@ -24383,7 +24383,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "5750a05d-a7dd-486e-9706-5ca684514237")
 			(effects
@@ -24394,7 +24394,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "5a341f62-642b-462f-915e-16d8eaae5739")
 			(effects
@@ -24562,7 +24562,7 @@
 			(uuid "2a9b0d8b-dbaa-4971-9e8f-cf821ce592f4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f91fda7a-be62-423a-bedf-8c2c57f51e53")
 			(effects
@@ -28806,25 +28806,26 @@
 			(pts
 				(xy 116.50375 229.1925) (xy 116.50375 229.9925) (xy 117.15375 229.9925) (xy 118.15375 230.9925)
 				(xy 118.15375 232.285385) (xy 119.55375 232.288185) (xy 119.55375 231.759775) (xy 120.067871 231.1925)
-				(xy 121.05375 231.1925) (xy 121.70375 231.8425) (xy 125.15375 231.8425) (xy 125.15375 229.6925)
-				(xy 118.25375 229.6925) (xy 117.75375 229.1925)
+				(xy 121.05375 231.1925) (xy 121.70375 231.8425) (xy 125.15375 231.8425) (xy 125.15375 229.4425)
+				(xy 118.00375 229.4425) (xy 117.75375 229.1925)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 117.775424 229.214174) (xy 118.25375 229.6925) (xy 120.703812 229.6925) (xy 120.718325 229.693937)
-				(xy 120.727455 229.695763) (xy 125.079455 229.700362) (xy 125.079494 229.700362) (xy 125.07975 229.700362)
-				(xy 125.132076 229.722036) (xy 125.15375 229.774362) (xy 125.15375 231.7685) (xy 125.132076 231.820826)
-				(xy 125.07975 231.8425) (xy 121.734402 231.8425) (xy 121.682076 231.820826) (xy 121.05375 231.1925)
-				(xy 120.067871 231.1925) (xy 119.55375 231.759775) (xy 119.55375 232.214036) (xy 119.532076 232.266362)
-				(xy 119.47975 232.288036) (xy 119.479602 232.288036) (xy 119.120609 232.287318) (xy 119.08075 232.275571)
-				(xy 119.013804 232.232547) (xy 119.0138 232.232546) (xy 118.875714 232.192) (xy 118.875711 232.192)
-				(xy 118.731789 232.192) (xy 118.731786 232.192) (xy 118.593699 232.232546) (xy 118.593691 232.232549)
-				(xy 118.528714 232.274307) (xy 118.48856 232.286054) (xy 118.227602 232.285532) (xy 118.17532 232.263753)
-				(xy 118.15375 232.211532) (xy 118.15375 230.9925) (xy 117.15375 229.9925) (xy 116.57775 229.9925)
-				(xy 116.525424 229.970826) (xy 116.50375 229.9185) (xy 116.50375 229.2665) (xy 116.525424 229.214174)
-				(xy 116.57775 229.1925) (xy 117.723098 229.1925)
+				(xy 117.775424 229.214174) (xy 118.00375 229.4425) (xy 120.550668 229.4425) (xy 120.593552 229.456193)
+				(xy 120.596526 229.458308) (xy 120.596527 229.458308) (xy 120.596528 229.458309) (xy 120.648829 229.480037)
+				(xy 120.648831 229.480038) (xy 120.727455 229.495763) (xy 125.079455 229.500362) (xy 125.079494 229.500362)
+				(xy 125.07975 229.500362) (xy 125.132076 229.522036) (xy 125.15375 229.574362) (xy 125.15375 231.7685)
+				(xy 125.132076 231.820826) (xy 125.07975 231.8425) (xy 121.734402 231.8425) (xy 121.682076 231.820826)
+				(xy 121.05375 231.1925) (xy 120.067871 231.1925) (xy 119.55375 231.759775) (xy 119.55375 232.214036)
+				(xy 119.532076 232.266362) (xy 119.47975 232.288036) (xy 119.479602 232.288036) (xy 119.120609 232.287318)
+				(xy 119.08075 232.275571) (xy 119.013804 232.232547) (xy 119.0138 232.232546) (xy 118.875714 232.192)
+				(xy 118.875711 232.192) (xy 118.731789 232.192) (xy 118.731786 232.192) (xy 118.593699 232.232546)
+				(xy 118.593691 232.232549) (xy 118.528714 232.274307) (xy 118.48856 232.286054) (xy 118.227602 232.285532)
+				(xy 118.17532 232.263753) (xy 118.15375 232.211532) (xy 118.15375 230.9925) (xy 117.15375 229.9925)
+				(xy 116.57775 229.9925) (xy 116.525424 229.970826) (xy 116.50375 229.9185) (xy 116.50375 229.2665)
+				(xy 116.525424 229.214174) (xy 116.57775 229.1925) (xy 117.723098 229.1925)
 			)
 		)
 	)
@@ -28847,8 +28848,8 @@
 		(polygon
 			(pts
 				(xy 116.25375 228.4925) (xy 117.60375 228.4925) (xy 117.95375 228.1425) (xy 119.10375 228.1425)
-				(xy 120.65375 228.1425) (xy 120.65375 229.490185) (xy 125.15375 229.494941) (xy 125.15375 228.1425)
-				(xy 125.15375 227.3425) (xy 121.50375 227.3425) (xy 119.10375 224.9425) (xy 119.10375 224.9425)
+				(xy 120.35375 228.1425) (xy 120.65375 228.4425) (xy 120.65375 229.290185) (xy 125.15375 229.294941)
+				(xy 125.15375 228.1425) (xy 125.15375 227.3425) (xy 121.50375 227.3425) (xy 119.10375 224.9425)
 				(xy 117.75375 224.9425) (xy 117.75375 226.4925) (xy 117.30375 226.4925) (xy 117.30375 227.9925)
 				(xy 117.10375 228.1925) (xy 116.25375 228.1925)
 			)
@@ -28857,15 +28858,15 @@
 			(layer "F.Cu")
 			(pts
 				(xy 119.125424 224.964174) (xy 121.50375 227.3425) (xy 125.07975 227.3425) (xy 125.132076 227.364174)
-				(xy 125.15375 227.4165) (xy 125.15375 229.420862) (xy 125.132076 229.473188) (xy 125.07975 229.494862)
-				(xy 125.079672 229.494862) (xy 120.727672 229.490263) (xy 120.675369 229.468534) (xy 120.65375 229.416263)
-				(xy 120.65375 228.1425) (xy 119.10375 228.1425) (xy 117.95375 228.1425) (xy 117.625424 228.470826)
-				(xy 117.573098 228.4925) (xy 116.25375 228.4925) (xy 116.25375 228.1925) (xy 117.10375 228.1925)
-				(xy 117.30375 227.9925) (xy 117.30375 227.894001) (xy 117.30425 227.886371) (xy 117.30425 227.798636)
-				(xy 117.30375 227.790999) (xy 117.30375 227.437069) (xy 117.304503 227.426538) (xy 117.305946 227.4165)
-				(xy 117.309397 227.3925) (xy 117.304503 227.358459) (xy 117.30375 227.347929) (xy 117.30375 226.5665)
-				(xy 117.325424 226.514174) (xy 117.37775 226.4925) (xy 117.75375 226.4925) (xy 117.75375 225.0165)
-				(xy 117.775424 224.964174) (xy 117.82775 224.9425) (xy 119.073098 224.9425)
+				(xy 125.15375 227.4165) (xy 125.15375 229.220862) (xy 125.132076 229.273188) (xy 125.07975 229.294862)
+				(xy 125.079672 229.294862) (xy 120.727672 229.290263) (xy 120.675369 229.268534) (xy 120.65375 229.216263)
+				(xy 120.65375 228.4425) (xy 120.35375 228.1425) (xy 119.10375 228.1425) (xy 117.95375 228.1425)
+				(xy 117.625424 228.470826) (xy 117.573098 228.4925) (xy 116.25375 228.4925) (xy 116.25375 228.1925)
+				(xy 117.10375 228.1925) (xy 117.30375 227.9925) (xy 117.30375 227.894001) (xy 117.30425 227.886371)
+				(xy 117.30425 227.798636) (xy 117.30375 227.790999) (xy 117.30375 227.437069) (xy 117.304503 227.426538)
+				(xy 117.305946 227.4165) (xy 117.309397 227.3925) (xy 117.304503 227.358459) (xy 117.30375 227.347929)
+				(xy 117.30375 226.5665) (xy 117.325424 226.514174) (xy 117.37775 226.4925) (xy 117.75375 226.4925)
+				(xy 117.75375 225.0165) (xy 117.775424 224.964174) (xy 117.82775 224.9425) (xy 119.073098 224.9425)
 			)
 		)
 	)
@@ -29133,7 +29134,7 @@
 		(polygon
 			(pts
 				(xy 105.10375 228.9925) (xy 105.10375 230.2425) (xy 98.75375 230.2425) (xy 98.75375 227.8925) (xy 103.55375 227.8925)
-				(xy 103.55375 227.8925) (xy 104.50375 227.8925) (xy 104.50375 228.8925) (xy 104.60375 228.9925)
+				(xy 104.50375 227.8925) (xy 104.50375 228.8925) (xy 104.60375 228.9925)
 			)
 		)
 		(filled_polygon
