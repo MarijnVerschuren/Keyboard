@@ -7870,16 +7870,6 @@
 		)
 		(uuid "7c910643-f5c5-4248-bfa4-334984714f5c")
 	)
-	(text "TODO: back conn markings"
-		(exclude_from_sim no)
-		(at 241.046 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "858b2d83-03a1-4211-b935-1c014569a10e")
-	)
 	(text "I2C LCD (failsafe)"
 		(exclude_from_sim no)
 		(at 219.964 14.478 0)

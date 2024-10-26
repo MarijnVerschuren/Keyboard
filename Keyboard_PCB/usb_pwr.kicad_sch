@@ -6021,6 +6021,16 @@
 		)
 		(uuid "26a45e77-46c2-4334-a74f-261fdb65b728")
 	)
+	(text "AMI-MF"
+		(exclude_from_sim no)
+		(at 67.818 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27f996b2-e0ef-46e6-b523-96209c1daeec")
+	)
 	(text "CC1"
 		(exclude_from_sim no)
 		(at 44.45 30.226 0)
@@ -6040,6 +6050,16 @@
 			)
 		)
 		(uuid "a466fc5e-e782-4ee7-acc6-bb91746bc44b")
+	)
+	(text "AMI-MF"
+		(exclude_from_sim no)
+		(at 67.818 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b193daac-7701-49ea-abfd-30212317f8a6")
 	)
 	(text "BAT"
 		(exclude_from_sim no)
