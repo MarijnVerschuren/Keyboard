@@ -9480,13 +9480,12 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 127 57.658 0)
+			(at 126.746 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
