@@ -170,513 +170,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:RotaryEncoder_Switch"
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "rotary switch encoder switch push button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RotaryEncoder*Switch*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -0.381 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 2.667)
-					(mid -3.0988 -0.0635)
-					(end -0.381 -2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.778) (xy -0.635 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 -1.778) (xy -0.381 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 1.778) (xy -0.127 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.429 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.016) (xy 3.81 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 1.016)
-					(radius 0.127)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RotaryEncoder_Switch_1_1"
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers hide)
 			(pin_names
@@ -846,222 +339,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 107.95 76.2)
@@ -1212,12 +489,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42258310-f86c-4b28-a972-1298d03b1c91")
-	)
-	(junction
-		(at 149.86 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4294cda5-2958-4f4a-8d18-00aaecebda0b")
 	)
 	(junction
 		(at 119.38 133.35)
@@ -1406,18 +677,6 @@
 		(uuid "7d542f41-bb5f-4b92-a960-3faf275acd01")
 	)
 	(junction
-		(at 96.52 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f1ab484-2f05-4f7a-9c6f-ce15e5eed10d")
-	)
-	(junction
-		(at 127 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81504977-5b82-49f3-b5c1-574141c5fecb")
-	)
-	(junction
 		(at 146.05 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1544,12 +803,6 @@
 		(uuid "ae3b24d6-3bc7-4b75-b54f-7d900e8b6c94")
 	)
 	(junction
-		(at 73.66 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aec1cd7d-24ef-46d5-af1a-fea6e282e2de")
-	)
-	(junction
 		(at 74.93 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1602,12 +855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc65b27d-f82a-4f1c-bf43-df4e57fe618c")
-	)
-	(junction
-		(at 73.66 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcc22d8b-872a-486c-a929-667ac85843ee")
 	)
 	(junction
 		(at 74.93 102.87)
@@ -1710,12 +957,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df41f192-e680-4673-aaff-6d7bfc350d25")
-	)
-	(junction
-		(at 127 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e16c608e-8c3c-47ad-8721-576521037478")
 	)
 	(junction
 		(at 63.5 60.96)
@@ -1827,16 +1068,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 168.91) (xy 93.98 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03687156-1369-444a-91a6-ec5a4d820e45")
-	)
-	(wire
-		(pts
 			(xy 113.03 102.87) (xy 119.38 102.87)
 		)
 		(stroke
@@ -1844,26 +1075,6 @@
 			(type default)
 		)
 		(uuid "038390fa-7e65-4405-88b3-d6910538c81c")
-	)
-	(wire
-		(pts
-			(xy 149.86 161.29) (xy 149.86 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05dd4852-a90f-4f58-9296-9c6a85ea3c23")
-	)
-	(wire
-		(pts
-			(xy 127 168.91) (xy 130.81 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06aa17c6-40f5-4937-9c83-90fa1f0f12f8")
 	)
 	(wire
 		(pts
@@ -1954,16 +1165,6 @@
 			(type default)
 		)
 		(uuid "123153a3-c910-4b47-86c2-2f07eef7f300")
-	)
-	(wire
-		(pts
-			(xy 100.33 163.83) (xy 96.52 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1408ea06-4ff9-451c-a000-2931aaec9c10")
 	)
 	(wire
 		(pts
@@ -2077,16 +1278,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 177.8) (xy 73.66 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f30abee-6a11-432b-88ce-f8922a0106ef")
-	)
-	(wire
-		(pts
 			(xy 144.78 82.55) (xy 144.78 81.28)
 		)
 		(stroke
@@ -2137,16 +1328,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 154.94) (xy 73.66 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a67a7ec-abb6-4a6b-8a3b-5a9b00735bae")
-	)
-	(wire
-		(pts
 			(xy 76.2 50.8) (xy 76.2 60.96)
 		)
 		(stroke
@@ -2164,16 +1345,6 @@
 			(type default)
 		)
 		(uuid "2c138344-7923-4a15-9e24-4cb6c538dcef")
-	)
-	(wire
-		(pts
-			(xy 124.46 163.83) (xy 127 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c40191f-b568-4c14-a20b-e9d5cdf2bf7b")
 	)
 	(wire
 		(pts
@@ -2204,16 +1375,6 @@
 			(type default)
 		)
 		(uuid "2e0ebca3-fcdd-4b20-bd2f-9a19dfc12d3a")
-	)
-	(wire
-		(pts
-			(xy 96.52 163.83) (xy 92.71 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e19313b-9949-4c46-b7db-89f53e4a5578")
 	)
 	(wire
 		(pts
@@ -2254,16 +1415,6 @@
 			(type default)
 		)
 		(uuid "3291e1c4-b305-4bbe-92c1-b48e892d3982")
-	)
-	(wire
-		(pts
-			(xy 71.12 168.91) (xy 73.66 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ecb462-94cf-4beb-ba9e-86755420d94a")
 	)
 	(wire
 		(pts
@@ -2407,16 +1558,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 163.83) (xy 146.05 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41424cc4-9738-46e9-b6c5-72dbcdfd5f1c")
-	)
-	(wire
-		(pts
 			(xy 76.2 91.44) (xy 76.2 106.68)
 		)
 		(stroke
@@ -2484,16 +1625,6 @@
 			(type default)
 		)
 		(uuid "46009985-3def-485c-8c01-31f2598aa9ec")
-	)
-	(wire
-		(pts
-			(xy 127 171.45) (xy 127 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470d6234-a49e-470c-b3de-a45c655392ab")
 	)
 	(wire
 		(pts
@@ -2637,16 +1768,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 154.94) (xy 96.52 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "627238d3-2ea7-42a2-8021-04c04b7e2a00")
-	)
-	(wire
-		(pts
 			(xy 138.43 118.11) (xy 151.13 118.11)
 		)
 		(stroke
@@ -2667,16 +1788,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 154.94) (xy 149.86 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6576dd22-cd93-485a-b788-fb0719ae659e")
-	)
-	(wire
-		(pts
 			(xy 87.63 113.03) (xy 87.63 111.76)
 		)
 		(stroke
@@ -2694,16 +1805,6 @@
 			(type default)
 		)
 		(uuid "69160d2b-8c0c-492f-98a6-ff292cc54638")
-	)
-	(wire
-		(pts
-			(xy 127 154.94) (xy 127 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69cfe165-5894-41c2-ba50-3c7153a3f98a")
 	)
 	(wire
 		(pts
@@ -2787,16 +1888,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 161.29) (xy 127 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7220efb9-d032-43a9-91b9-e27d3c990b02")
-	)
-	(wire
-		(pts
 			(xy 101.6 50.8) (xy 101.6 60.96)
 		)
 		(stroke
@@ -2807,16 +1898,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 161.29) (xy 96.52 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743c4382-de70-488a-b847-e80e4a1528a1")
-	)
-	(wire
-		(pts
 			(xy 138.43 102.87) (xy 151.13 102.87)
 		)
 		(stroke
@@ -2824,26 +1905,6 @@
 			(type default)
 		)
 		(uuid "74cb6d1d-3e9e-4745-a692-45289e75f513")
-	)
-	(wire
-		(pts
-			(xy 127 163.83) (xy 130.81 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752916d6-8ff0-43b3-8181-aec01f636f67")
-	)
-	(wire
-		(pts
-			(xy 124.46 168.91) (xy 127 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7622189b-02e4-41a8-ac57-e22102389cdf")
 	)
 	(wire
 		(pts
@@ -2974,16 +2035,6 @@
 			(type default)
 		)
 		(uuid "84a0c847-ee60-496c-8f6b-39997b6e9237")
-	)
-	(wire
-		(pts
-			(xy 147.32 168.91) (xy 147.32 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850a3221-ad1e-45d6-927b-75d80ef87d35")
 	)
 	(wire
 		(pts
@@ -3227,16 +2278,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 163.83) (xy 73.66 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b70ded-5467-4037-941b-6679e2246c22")
-	)
-	(wire
-		(pts
 			(xy 74.93 102.87) (xy 81.28 102.87)
 		)
 		(stroke
@@ -3304,16 +2345,6 @@
 			(type default)
 		)
 		(uuid "b111d593-7798-4385-a079-0b9172421d4e")
-	)
-	(wire
-		(pts
-			(xy 127 177.8) (xy 127 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b172ba6c-9575-4f84-a77e-c319baee15b7")
 	)
 	(wire
 		(pts
@@ -3424,16 +2455,6 @@
 			(type default)
 		)
 		(uuid "b73c64b0-f032-49ff-9347-f074f5be5b5e")
-	)
-	(wire
-		(pts
-			(xy 153.67 163.83) (xy 149.86 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b87cc83f-de21-49d8-b877-361a97ffab48")
 	)
 	(wire
 		(pts
@@ -3597,16 +2618,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 171.45) (xy 73.66 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf7ad04b-6080-4d31-84f3-86b2bc5524ca")
-	)
-	(wire
-		(pts
 			(xy 100.33 102.87) (xy 106.68 102.87)
 		)
 		(stroke
@@ -3727,16 +2738,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 168.91) (xy 93.98 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc3ec347-9aa0-44b3-898f-a2694ef1db2a")
-	)
-	(wire
-		(pts
 			(xy 100.33 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -3787,16 +2788,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 168.91) (xy 147.32 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "defc7cb4-59c9-4022-bb7d-6cd202744cce")
-	)
-	(wire
-		(pts
 			(xy 101.6 76.2) (xy 101.6 91.44)
 		)
 		(stroke
@@ -3804,16 +2795,6 @@
 			(type default)
 		)
 		(uuid "df2e4332-6490-4390-b05e-465cac701dc1")
-	)
-	(wire
-		(pts
-			(xy 73.66 168.91) (xy 77.47 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5417f9f-70e4-421c-b4bb-70bf67a13034")
 	)
 	(wire
 		(pts
@@ -3967,16 +2948,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 163.83) (xy 77.47 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61e62ee-7236-4497-8d2d-46d6a08090db")
-	)
-	(wire
-		(pts
 			(xy 76.2 76.2) (xy 76.2 91.44)
 		)
 		(stroke
@@ -4024,16 +2995,6 @@
 			(type default)
 		)
 		(uuid "f7e87f94-8c35-4d31-a08b-037ef0d65eb9")
-	)
-	(wire
-		(pts
-			(xy 73.66 161.29) (xy 73.66 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f803a166-4b28-4f10-952b-1bab25c9fd02")
 	)
 	(wire
 		(pts
@@ -4118,7 +3079,6 @@
 	(hierarchical_label "COL_13"
 		(shape input)
 		(at 146.05 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4130,7 +3090,6 @@
 	(hierarchical_label "COL_10"
 		(shape input)
 		(at 127 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4142,7 +3101,6 @@
 	(hierarchical_label "COL_8"
 		(shape input)
 		(at 114.3 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,22 +3109,9 @@
 		)
 		(uuid "3583f338-4aa0-41dc-9440-c9940bfc287d")
 	)
-	(hierarchical_label "ROT0_SW"
-		(shape input)
-		(at 100.33 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3ca1f5d9-2815-4ce3-a59f-2f848feb94a6")
-	)
 	(hierarchical_label "COL_7"
 		(shape input)
 		(at 107.95 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,22 +3120,9 @@
 		)
 		(uuid "3cc85f15-efa2-4daf-b630-73edea958100")
 	)
-	(hierarchical_label "ROT0_B"
-		(shape input)
-		(at 71.12 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a286acb-3bac-415b-8de0-3946ace590b3")
-	)
 	(hierarchical_label "COL_2"
 		(shape input)
 		(at 76.2 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4199,22 +3131,9 @@
 		)
 		(uuid "504c891e-073d-451d-bf15-d71d50010d79")
 	)
-	(hierarchical_label "ROT1_B"
-		(shape input)
-		(at 124.46 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50680e6f-f900-4c2e-aecb-fac0b6ad5509")
-	)
 	(hierarchical_label "COL_3"
 		(shape input)
 		(at 82.55 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4223,34 +3142,9 @@
 		)
 		(uuid "528d2275-c281-407d-b01a-092399118fb8")
 	)
-	(hierarchical_label "ROT0_A"
-		(shape input)
-		(at 71.12 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6fae0088-b94f-490e-8a12-6cd1361af0f7")
-	)
-	(hierarchical_label "ROT1_A"
-		(shape input)
-		(at 124.46 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "712a165f-9477-4994-bf25-b622ff66a509")
-	)
 	(hierarchical_label "ROW_1"
 		(shape input)
 		(at 165.1 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4262,7 +3156,6 @@
 	(hierarchical_label "ROW_4"
 		(shape input)
 		(at 165.1 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,7 +3167,6 @@
 	(hierarchical_label "COL_6"
 		(shape input)
 		(at 101.6 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4286,7 +3178,6 @@
 	(hierarchical_label "COL_5"
 		(shape input)
 		(at 95.25 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,22 +3186,9 @@
 		)
 		(uuid "855b91ed-ba65-4b8d-9884-334126257250")
 	)
-	(hierarchical_label "ROT1_SW"
-		(shape input)
-		(at 153.67 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90128314-fad4-4fbf-af55-9f2a89852c6e")
-	)
 	(hierarchical_label "COL_9"
 		(shape input)
 		(at 120.65 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,7 +3200,6 @@
 	(hierarchical_label "COL_11"
 		(shape input)
 		(at 133.35 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +3211,6 @@
 	(hierarchical_label "ROW_3"
 		(shape input)
 		(at 165.1 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4346,7 +3222,6 @@
 	(hierarchical_label "ROW_2"
 		(shape input)
 		(at 165.1 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4358,7 +3233,6 @@
 	(hierarchical_label "COL_12"
 		(shape input)
 		(at 139.7 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4370,7 +3244,6 @@
 	(hierarchical_label "COL_1"
 		(shape input)
 		(at 69.85 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,7 +3255,6 @@
 	(hierarchical_label "ROW_0"
 		(shape input)
 		(at 165.1 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4394,7 +3266,6 @@
 	(hierarchical_label "COL_0"
 		(shape input)
 		(at 63.5 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4406,7 +3277,6 @@
 	(hierarchical_label "COL_14"
 		(shape input)
 		(at 152.4 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4418,7 +3288,6 @@
 	(hierarchical_label "COL_4"
 		(shape input)
 		(at 88.9 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4436,7 +3305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "008a3030-9f01-4c4a-bc97-a5d3c1c75cb2")
-		(property "Reference" "SW36"
+		(property "Reference" "SW39"
 			(at 97.79 89.662 0)
 			(effects
 				(font
@@ -4487,8 +3356,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW36")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -4503,7 +3372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01580f6d-df5c-4392-966a-f57d54a302ac")
-		(property "Reference" "SW68"
+		(property "Reference" "SW71"
 			(at 154.94 120.142 0)
 			(effects
 				(font
@@ -4554,74 +3423,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 177.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01fc9d3f-6951-4c6d-b9af-ad3345daf2c3")
-		(property "Reference" "#PWR036"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f25030fa-7ac9-43ba-ade7-742868173686")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR036")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW71")
 					(unit 1)
 				)
 			)
@@ -4636,7 +3439,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "031d04bd-3928-4ca6-9981-da914003ca87")
-		(property "Reference" "SW63"
+		(property "Reference" "SW66"
 			(at 116.84 120.142 0)
 			(effects
 				(font
@@ -4687,8 +3490,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW63")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW66")
 					(unit 1)
 				)
 			)
@@ -4703,7 +3506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03e0a73f-986a-4a0c-a091-c72e021945d6")
-		(property "Reference" "D7"
+		(property "Reference" "D18"
 			(at 102.87 69.85 90)
 			(effects
 				(font
@@ -4784,8 +3587,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D7")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4800,7 +3603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "069f0db1-4abf-440c-bc81-c23a618d928b")
-		(property "Reference" "D52"
+		(property "Reference" "D63"
 			(at 108.204 115.57 90)
 			(effects
 				(font
@@ -4881,8 +3684,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D52")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -4897,7 +3700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07ccda1e-c6dc-41a8-9dc2-8b901759a376")
-		(property "Reference" "D24"
+		(property "Reference" "D35"
 			(at 114.554 85.09 90)
 			(effects
 				(font
@@ -4978,8 +3781,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D24")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -4994,7 +3797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09866d4f-7ef9-4626-a94f-dc0ad4667897")
-		(property "Reference" "D68"
+		(property "Reference" "D79"
 			(at 152.654 130.81 90)
 			(effects
 				(font
@@ -5075,8 +3878,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D68")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D79")
 					(unit 1)
 				)
 			)
@@ -5091,7 +3894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a1d6094-4a9e-4572-8a46-42ee44811f1f")
-		(property "Reference" "D57"
+		(property "Reference" "D68"
 			(at 146.304 115.57 90)
 			(effects
 				(font
@@ -5172,8 +3975,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D57")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -5188,7 +3991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c8fba02-85a2-464c-a073-2c861b01601c")
-		(property "Reference" "D5"
+		(property "Reference" "D16"
 			(at 90.17 69.85 90)
 			(effects
 				(font
@@ -5269,8 +4072,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D5")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -5285,7 +4088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d00c54e-1726-4e2d-b82b-6fc4db9873aa")
-		(property "Reference" "SW27"
+		(property "Reference" "SW29"
 			(at 135.89 74.422 0)
 			(effects
 				(font
@@ -5336,8 +4139,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW27")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -5352,7 +4155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d8996c6-1a38-48ab-9e2b-883b451c5795")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 85.09 59.182 0)
 			(effects
 				(font
@@ -5403,8 +4206,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW4")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -5419,7 +4222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11b4f33f-b150-4b53-af3c-8ffb0e9f9148")
-		(property "Reference" "D43"
+		(property "Reference" "D54"
 			(at 146.304 100.33 90)
 			(effects
 				(font
@@ -5500,8 +4303,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D43")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -5516,7 +4319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "136b02bd-ff09-4a1e-964c-09b01b8ee1fe")
-		(property "Reference" "SW11"
+		(property "Reference" "SW13"
 			(at 129.54 59.182 0)
 			(effects
 				(font
@@ -5567,8 +4370,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW11")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -5583,7 +4386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "137506b5-d5f9-4d75-9e8c-9a1e668bf4a0")
-		(property "Reference" "SW40"
+		(property "Reference" "SW43"
 			(at 123.19 89.662 0)
 			(effects
 				(font
@@ -5634,8 +4437,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW40")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW43")
 					(unit 1)
 				)
 			)
@@ -5650,7 +4453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1439215b-5394-4071-95d6-8b9c31e1a549")
-		(property "Reference" "D21"
+		(property "Reference" "D32"
 			(at 95.504 85.09 90)
 			(effects
 				(font
@@ -5731,8 +4534,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D21")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -5747,7 +4550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14d3ce1d-574e-4679-80b3-880cce4b750e")
-		(property "Reference" "D20"
+		(property "Reference" "D31"
 			(at 89.154 85.09 90)
 			(effects
 				(font
@@ -5828,8 +4631,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D20")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -5844,7 +4647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15f2ceae-9f9d-49ff-946a-94c5671c52e6")
-		(property "Reference" "D34"
+		(property "Reference" "D45"
 			(at 82.804 100.33 90)
 			(effects
 				(font
@@ -5925,74 +4728,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "171fb681-dac1-41ab-bbdc-45e8fa76c7af")
-		(property "Reference" "#PWR017"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.52 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e82a2ed1-9577-4e22-a3bb-6ecf0719fcf6")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR017")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -6007,7 +4744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "191850ee-2502-4639-9abe-28ea9b772e2c")
-		(property "Reference" "D10"
+		(property "Reference" "D21"
 			(at 120.904 69.85 90)
 			(effects
 				(font
@@ -6088,8 +4825,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D10")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -6104,7 +4841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c72d3ed-ccad-4f97-9d29-d646305962d1")
-		(property "Reference" "SW16"
+		(property "Reference" "SW18"
 			(at 66.04 74.422 0)
 			(effects
 				(font
@@ -6155,8 +4892,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW16")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -6171,7 +4908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cda9309-8fbb-4c71-a118-bf55a3c5ecbb")
-		(property "Reference" "D55"
+		(property "Reference" "D66"
 			(at 127.254 115.57 90)
 			(effects
 				(font
@@ -6252,8 +4989,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D55")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -6268,7 +5005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ced6a35-3c1c-4b86-ac05-05c15c95e551")
-		(property "Reference" "SW25"
+		(property "Reference" "SW27"
 			(at 123.19 74.422 0)
 			(effects
 				(font
@@ -6319,74 +5056,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e33ff31-31dd-4429-aaaa-5f40cc8d73b8")
-		(property "Reference" "#PWR016"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e51be472-dadd-4060-baf2-88f9571e654a")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR016")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -6401,7 +5072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f0affa3-70e2-480c-9087-3999e53fbe8c")
-		(property "Reference" "SW55"
+		(property "Reference" "SW58"
 			(at 129.54 104.902 0)
 			(effects
 				(font
@@ -6452,8 +5123,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW55")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW58")
 					(unit 1)
 				)
 			)
@@ -6468,7 +5139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fc2861d-4a15-4b21-a0c9-398b378fc3b6")
-		(property "Reference" "D25"
+		(property "Reference" "D36"
 			(at 120.904 85.09 90)
 			(effects
 				(font
@@ -6549,8 +5220,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D25")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -6565,7 +5236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "223f1b83-8740-4203-a8c3-393d5fa7609a")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 104.14 59.182 0)
 			(effects
 				(font
@@ -6616,8 +5287,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW7")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -6632,7 +5303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2251d976-6a75-4f5a-bc97-e7cb80871111")
-		(property "Reference" "D17"
+		(property "Reference" "D28"
 			(at 70.104 85.09 90)
 			(effects
 				(font
@@ -6713,8 +5384,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D17")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -6729,7 +5400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d07ffa3-3676-424a-a35c-961e9e8d72f0")
-		(property "Reference" "D42"
+		(property "Reference" "D53"
 			(at 133.604 100.33 90)
 			(effects
 				(font
@@ -6810,8 +5481,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D42")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -6826,7 +5497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2db4398e-d00c-4010-a1e9-92f6abacb460")
-		(property "Reference" "SW13"
+		(property "Reference" "SW15"
 			(at 142.24 59.182 0)
 			(effects
 				(font
@@ -6877,8 +5548,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW13")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -6893,7 +5564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31a80763-1a06-4ea0-b0ad-1caa97b2816a")
-		(property "Reference" "D60"
+		(property "Reference" "D71"
 			(at 70.104 130.81 90)
 			(effects
 				(font
@@ -6974,8 +5645,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D60")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D71")
 					(unit 1)
 				)
 			)
@@ -6990,7 +5661,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31f366c6-2b9d-4d9c-95f6-0299aa7c23da")
-		(property "Reference" "D11"
+		(property "Reference" "D22"
 			(at 127.254 69.85 90)
 			(effects
 				(font
@@ -7071,8 +5742,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D11")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -7087,7 +5758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "340da8c4-7de6-4654-815e-b78b59a3cc58")
-		(property "Reference" "D44"
+		(property "Reference" "D55"
 			(at 152.654 100.33 90)
 			(effects
 				(font
@@ -7168,8 +5839,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D44")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -7184,7 +5855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3446b598-684d-4916-ba2c-469a84edd5fd")
-		(property "Reference" "D58"
+		(property "Reference" "D69"
 			(at 152.654 115.57 90)
 			(effects
 				(font
@@ -7265,8 +5936,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D58")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -7281,7 +5952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "372ce5e1-6afd-431a-9ab0-d3fe8c4ea79b")
-		(property "Reference" "D40"
+		(property "Reference" "D51"
 			(at 120.904 100.33 90)
 			(effects
 				(font
@@ -7362,8 +6033,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D40")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -7378,7 +6049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39e5ca29-beb9-4530-b116-88e618a4ade6")
-		(property "Reference" "SW49"
+		(property "Reference" "SW52"
 			(at 91.44 104.902 0)
 			(effects
 				(font
@@ -7429,8 +6100,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW49")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW52")
 					(unit 1)
 				)
 			)
@@ -7445,7 +6116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b46e628-b476-4ac1-a76f-863afe712670")
-		(property "Reference" "D49"
+		(property "Reference" "D60"
 			(at 89.154 115.57 90)
 			(effects
 				(font
@@ -7526,8 +6197,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D49")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -7542,7 +6213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c8196c9-eea6-4589-812e-9efdad58460e")
-		(property "Reference" "SW47"
+		(property "Reference" "SW50"
 			(at 78.74 104.902 0)
 			(effects
 				(font
@@ -7593,8 +6264,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW47")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW50")
 					(unit 1)
 				)
 			)
@@ -7609,7 +6280,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f36628b-0b66-4cc5-bfe1-c36afcc3af86")
-		(property "Reference" "SW57"
+		(property "Reference" "SW60"
 			(at 148.59 104.902 0)
 			(effects
 				(font
@@ -7660,8 +6331,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW57")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW60")
 					(unit 1)
 				)
 			)
@@ -7676,7 +6347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fc0ac63-6d70-4790-b513-038af49f06a4")
-		(property "Reference" "SW34"
+		(property "Reference" "SW37"
 			(at 85.09 89.662 0)
 			(effects
 				(font
@@ -7727,8 +6398,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW34")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -7743,7 +6414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41d22c5d-319b-4f3d-9cfc-0342deb85f94")
-		(property "Reference" "D47"
+		(property "Reference" "D58"
 			(at 76.454 115.57 90)
 			(effects
 				(font
@@ -7824,8 +6495,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D47")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -7840,7 +6511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a33d54-9754-46e0-b825-c32f5fcb29ce")
-		(property "Reference" "SW44"
+		(property "Reference" "SW47"
 			(at 154.94 89.662 0)
 			(effects
 				(font
@@ -7891,8 +6562,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW44")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -7907,7 +6578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43944ca0-f468-4ec8-b3ec-ef6d00fa9e6f")
-		(property "Reference" "SW41"
+		(property "Reference" "SW44"
 			(at 129.54 89.662 0)
 			(effects
 				(font
@@ -7958,8 +6629,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW41")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -7974,7 +6645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4447f224-7389-415e-ae33-2a99599364f9")
-		(property "Reference" "D35"
+		(property "Reference" "D46"
 			(at 89.154 100.33 90)
 			(effects
 				(font
@@ -8055,8 +6726,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D35")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -8071,7 +6742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "468fa501-3dc6-4ddb-a466-2ddff1e4da3b")
-		(property "Reference" "D62"
+		(property "Reference" "D73"
 			(at 95.504 130.81 90)
 			(effects
 				(font
@@ -8152,8 +6823,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D62")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D73")
 					(unit 1)
 				)
 			)
@@ -8168,7 +6839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4aab533f-ddb6-4d63-9e36-849dcf3032d2")
-		(property "Reference" "SW56"
+		(property "Reference" "SW59"
 			(at 135.89 104.902 0)
 			(effects
 				(font
@@ -8219,8 +6890,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW56")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW59")
 					(unit 1)
 				)
 			)
@@ -8235,7 +6906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b87f04d-265e-47a1-9ad8-732d219d0d45")
-		(property "Reference" "SW35"
+		(property "Reference" "SW38"
 			(at 91.44 89.662 0)
 			(effects
 				(font
@@ -8286,73 +6957,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d527731-0021-4cbe-8224-78ef7cfd1fb1")
-		(property "Reference" "#PWR034"
-			(at 147.32 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09a2eeb8-cd0a-4e8e-9b75-e44fdd4e0020")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR034")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -8367,7 +6973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d533daf-d939-4b40-8da4-c979034d4863")
-		(property "Reference" "SW23"
+		(property "Reference" "SW25"
 			(at 110.49 74.422 0)
 			(effects
 				(font
@@ -8418,160 +7024,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e353e38-3b1b-409c-8f28-79090c8d1185")
-		(property "Reference" "R16"
-			(at 129.032 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 124.968 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 127 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3ba9694-9ad8-4d91-bde1-21adb882282b")
-		)
-		(pin "2"
-			(uuid "f614cd7f-9ec8-4fda-aa64-fd8faefff558")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 85.09 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e97af56-f099-4924-b8db-df86364467b7")
-		(property "Reference" "SW69"
-			(at 85.09 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC11E15244G1"
-			(at 85.09 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Marijn_KiCad:EC11E-Switch-No_MP"
-			(at 81.28 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 85.09 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 85.09 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B"
-			(uuid "26af510c-d00e-42fe-b1aa-e6635a832f2f")
-		)
-		(pin "A"
-			(uuid "05741de6-12eb-40c8-b653-94e63e788f97")
-		)
-		(pin "S1"
-			(uuid "861d03f0-068c-4f9c-b5ef-6838735899b3")
-		)
-		(pin "S2"
-			(uuid "b489e2ed-372c-47d9-97c6-91aa1e010d1a")
-		)
-		(pin "C"
-			(uuid "09d36ca7-4db9-4880-aa83-d84db0c38397")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW69")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -8586,7 +7040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514406ef-c6c9-48c0-a402-e1d9cf84c5f7")
-		(property "Reference" "SW17"
+		(property "Reference" "SW19"
 			(at 72.39 74.422 0)
 			(effects
 				(font
@@ -8637,8 +7091,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW17")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -8653,7 +7107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5148274c-d307-45af-a96f-18947ee0aeb7")
-		(property "Reference" "SW26"
+		(property "Reference" "SW28"
 			(at 129.54 74.422 0)
 			(effects
 				(font
@@ -8704,84 +7158,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51ea47e1-8ae0-4906-ab9e-d35e624d3db3")
-		(property "Reference" "R4"
-			(at 71.628 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 75.692 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 73.66 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0335f2f9-e415-4d0d-b260-3e45f8ab8b9a")
-		)
-		(pin "2"
-			(uuid "d5cf0775-6932-454c-873f-4c78b3cb129d")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R4")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -8796,7 +7174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "524d4dc5-19d2-403d-8c94-cdc900f2a311")
-		(property "Reference" "SW10"
+		(property "Reference" "SW12"
 			(at 123.19 59.182 0)
 			(effects
 				(font
@@ -8847,8 +7225,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW10")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -8863,7 +7241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54680a5c-efe2-49ce-b874-70eed96675e4")
-		(property "Reference" "D61"
+		(property "Reference" "D72"
 			(at 76.454 130.81 90)
 			(effects
 				(font
@@ -8944,8 +7322,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D61")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D72")
 					(unit 1)
 				)
 			)
@@ -8960,7 +7338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5555d6ef-f374-491d-ac5a-b1633bc8ba26")
-		(property "Reference" "D37"
+		(property "Reference" "D48"
 			(at 101.854 100.33 90)
 			(effects
 				(font
@@ -9041,8 +7419,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D37")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -9057,7 +7435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5587bfa8-c7b7-49de-a6b4-0fca5660d647")
-		(property "Reference" "D63"
+		(property "Reference" "D74"
 			(at 114.554 130.81 90)
 			(effects
 				(font
@@ -9138,8 +7516,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D63")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D74")
 					(unit 1)
 				)
 			)
@@ -9154,7 +7532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55be5c10-8235-4b4f-a1b0-d138ba036026")
-		(property "Reference" "SW20"
+		(property "Reference" "SW22"
 			(at 91.44 74.422 0)
 			(effects
 				(font
@@ -9205,8 +7583,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW20")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -9221,7 +7599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58f5f0d3-9b51-48e5-a71e-a753317299d6")
-		(property "Reference" "D14"
+		(property "Reference" "D25"
 			(at 146.304 69.85 90)
 			(effects
 				(font
@@ -9302,74 +7680,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 166.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c13514d-ad46-4b2b-adba-a995796db725")
-		(property "Reference" "#PWR021"
-			(at 71.12 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.168 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a829b11e-f049-41f8-9c44-4edd319a91a2")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR021")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -9384,7 +7696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ce9e32a-d7d4-4c40-9bf4-6f32ccd06895")
-		(property "Reference" "SW9"
+		(property "Reference" "SW11"
 			(at 116.84 59.182 0)
 			(effects
 				(font
@@ -9435,8 +7747,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW9")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -9451,7 +7763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d25108c-df24-441f-8dae-23e33b128183")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 78.74 59.182 0)
 			(effects
 				(font
@@ -9502,8 +7814,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW3")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -9518,7 +7830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d7b719a-c5af-4f7f-8ff6-3d248533bdf9")
-		(property "Reference" "D13"
+		(property "Reference" "D24"
 			(at 139.954 69.85 90)
 			(effects
 				(font
@@ -9599,8 +7911,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D13")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -9615,7 +7927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5da14703-69d6-447e-a7f0-d0762577c6f3")
-		(property "Reference" "SW66"
+		(property "Reference" "SW69"
 			(at 135.89 120.142 0)
 			(effects
 				(font
@@ -9666,8 +7978,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW66")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW69")
 					(unit 1)
 				)
 			)
@@ -9682,7 +7994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f1500cf-40b2-495b-9202-43c825cdff86")
-		(property "Reference" "SW8"
+		(property "Reference" "SW10"
 			(at 110.49 59.182 0)
 			(effects
 				(font
@@ -9733,8 +8045,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW8")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -9749,7 +8061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60308699-bd0a-484f-b3b1-611a84a05376")
-		(property "Reference" "D31"
+		(property "Reference" "D42"
 			(at 63.754 100.33 90)
 			(effects
 				(font
@@ -9830,8 +8142,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D31")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -9846,7 +8158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6316745e-afe5-443a-a433-4adc68077227")
-		(property "Reference" "D36"
+		(property "Reference" "D47"
 			(at 95.504 100.33 90)
 			(effects
 				(font
@@ -9927,8 +8239,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D36")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D47")
 					(unit 1)
 				)
 			)
@@ -9943,7 +8255,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63306d54-beb8-4a81-b0c8-c8b633dc6758")
-		(property "Reference" "D32"
+		(property "Reference" "D43"
 			(at 70.104 100.33 90)
 			(effects
 				(font
@@ -10024,8 +8336,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D32")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D43")
 					(unit 1)
 				)
 			)
@@ -10040,7 +8352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "635db487-79e2-4f7f-8efb-d700ef9eca4f")
-		(property "Reference" "SW38"
+		(property "Reference" "SW41"
 			(at 110.49 89.662 0)
 			(effects
 				(font
@@ -10091,8 +8403,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW38")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -10107,7 +8419,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64b155f2-f945-49ce-9f53-45efef016827")
-		(property "Reference" "SW60"
+		(property "Reference" "SW63"
 			(at 72.39 120.142 0)
 			(effects
 				(font
@@ -10158,8 +8470,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW60")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW63")
 					(unit 1)
 				)
 			)
@@ -10174,7 +8486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67b5ea00-ea8d-41c3-a1b5-76047e231987")
-		(property "Reference" "SW43"
+		(property "Reference" "SW46"
 			(at 148.59 89.662 0)
 			(effects
 				(font
@@ -10225,8 +8537,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW43")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -10241,7 +8553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67d3114b-d73a-4e67-b973-5dca86e073a5")
-		(property "Reference" "SW67"
+		(property "Reference" "SW70"
 			(at 148.59 120.142 0)
 			(effects
 				(font
@@ -10292,8 +8604,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW67")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW70")
 					(unit 1)
 				)
 			)
@@ -10308,7 +8620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68d7a930-175d-42e0-8e34-e156ad9b2331")
-		(property "Reference" "SW50"
+		(property "Reference" "SW53"
 			(at 97.79 104.902 0)
 			(effects
 				(font
@@ -10359,8 +8671,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW50")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW53")
 					(unit 1)
 				)
 			)
@@ -10375,7 +8687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6923094b-1f5d-47d6-8b4d-f8cee729c312")
-		(property "Reference" "D39"
+		(property "Reference" "D50"
 			(at 114.554 100.33 90)
 			(effects
 				(font
@@ -10456,8 +8768,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D39")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -10472,7 +8784,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b5d1579-6385-43e5-b53a-428d9aa45685")
-		(property "Reference" "SW59"
+		(property "Reference" "SW62"
 			(at 66.04 120.142 0)
 			(effects
 				(font
@@ -10523,8 +8835,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW59")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW62")
 					(unit 1)
 				)
 			)
@@ -10539,7 +8851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b614955-8ec3-4a08-9e5c-e10cd2f5619d")
-		(property "Reference" "SW65"
+		(property "Reference" "SW68"
 			(at 129.54 120.142 0)
 			(effects
 				(font
@@ -10590,8 +8902,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW65")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW68")
 					(unit 1)
 				)
 			)
@@ -10606,7 +8918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d67490c-d39d-40ac-be87-4af996e993b2")
-		(property "Reference" "SW31"
+		(property "Reference" "SW34"
 			(at 66.04 89.662 0)
 			(effects
 				(font
@@ -10657,8 +8969,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW31")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -10673,7 +8985,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dcc99ab-a472-4412-b763-54c288836d4b")
-		(property "Reference" "D45"
+		(property "Reference" "D56"
 			(at 63.754 115.57 90)
 			(effects
 				(font
@@ -10754,8 +9066,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D45")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -10770,7 +9082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e26dfb6-594e-4586-9462-85efc17a7fbe")
-		(property "Reference" "D27"
+		(property "Reference" "D38"
 			(at 133.604 85.09 90)
 			(effects
 				(font
@@ -10851,8 +9163,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D27")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -10867,7 +9179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f132787-3620-4590-9d08-ee67e1162909")
-		(property "Reference" "SW54"
+		(property "Reference" "SW57"
 			(at 123.19 104.902 0)
 			(effects
 				(font
@@ -10918,74 +9230,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 149.86 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f25a074-94e2-44ee-9abc-a9e1a9749759")
-		(property "Reference" "#PWR020"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2105de1-e88a-459a-b4a7-1ed4b38cef0d")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR020")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW57")
 					(unit 1)
 				)
 			)
@@ -11000,7 +9246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71393ac8-953d-4b3a-aa24-eaa038c4bd78")
-		(property "Reference" "D53"
+		(property "Reference" "D64"
 			(at 114.554 115.57 90)
 			(effects
 				(font
@@ -11081,8 +9327,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D53")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -11097,7 +9343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77afc910-0613-40a6-89fc-7eee234f942e")
-		(property "Reference" "D28"
+		(property "Reference" "D39"
 			(at 139.954 85.09 90)
 			(effects
 				(font
@@ -11178,84 +9424,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 149.86 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78c9aac1-d803-465a-b8eb-f8bd3909d39d")
-		(property "Reference" "R14"
-			(at 147.828 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 151.892 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 149.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00d0e362-8a27-4c45-ade1-d52c77d39e3a")
-		)
-		(pin "2"
-			(uuid "23d6dd3f-a3ac-4302-8fcf-8cab3092905e")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R14")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -11270,7 +9440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79a7a269-93ea-4c53-a923-cab0f875960a")
-		(property "Reference" "D12"
+		(property "Reference" "D23"
 			(at 133.604 69.85 90)
 			(effects
 				(font
@@ -11351,8 +9521,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D12")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -11367,7 +9537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a205fbb-f99d-4e20-8053-57866f26b7dc")
-		(property "Reference" "SW15"
+		(property "Reference" "SW17"
 			(at 154.94 59.182 0)
 			(effects
 				(font
@@ -11418,8 +9588,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW15")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -11434,7 +9604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d5c2e5f-b24a-4a0a-8f20-91a75a9d4056")
-		(property "Reference" "SW42"
+		(property "Reference" "SW45"
 			(at 135.89 89.662 0)
 			(effects
 				(font
@@ -11485,84 +9655,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 96.52 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dddba19-0527-4370-a849-afc07fe83030")
-		(property "Reference" "R5"
-			(at 94.488 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 98.552 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 96.52 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "481c6bf2-d1ad-40d6-acfd-43540a17e446")
-		)
-		(pin "2"
-			(uuid "e7e058e6-39aa-4dd9-abc0-7042cad551e9")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R5")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -11577,7 +9671,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f8f4b07-e6fa-43e1-bac4-1d7b2da3838e")
-		(property "Reference" "D1"
+		(property "Reference" "D12"
 			(at 64.77 69.85 90)
 			(effects
 				(font
@@ -11658,8 +9752,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D1")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -11674,7 +9768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8096987a-c44e-420d-8b17-c70c8c2f4750")
-		(property "Reference" "SW62"
+		(property "Reference" "SW65"
 			(at 97.79 120.142 0)
 			(effects
 				(font
@@ -11725,8 +9819,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW62")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW65")
 					(unit 1)
 				)
 			)
@@ -11741,7 +9835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82d79993-595e-46c9-9419-b42af99c7d1d")
-		(property "Reference" "SW33"
+		(property "Reference" "SW36"
 			(at 78.74 89.662 0)
 			(effects
 				(font
@@ -11792,8 +9886,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW33")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -11808,7 +9902,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "839502e2-016f-45e1-8461-9abec4956e72")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 66.04 59.182 0)
 			(effects
 				(font
@@ -11859,8 +9953,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW1")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -11875,7 +9969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "876d9c87-9bbd-4d7d-9f8a-7a485bc0ed9b")
-		(property "Reference" "D54"
+		(property "Reference" "D65"
 			(at 120.904 115.57 90)
 			(effects
 				(font
@@ -11956,8 +10050,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D54")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -11972,7 +10066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87a37b10-30b4-4bb6-89a6-688282e451bb")
-		(property "Reference" "D67"
+		(property "Reference" "D78"
 			(at 146.304 130.81 90)
 			(effects
 				(font
@@ -12053,8 +10147,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D67")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D78")
 					(unit 1)
 				)
 			)
@@ -12069,7 +10163,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87c74336-981c-43c4-b6cd-a299bdd93edb")
-		(property "Reference" "SW21"
+		(property "Reference" "SW23"
 			(at 97.79 74.422 0)
 			(effects
 				(font
@@ -12120,8 +10214,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW21")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -12136,7 +10230,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "889448ed-f091-4e71-a634-6d4db39f51c3")
-		(property "Reference" "SW24"
+		(property "Reference" "SW26"
 			(at 116.84 74.422 0)
 			(effects
 				(font
@@ -12187,8 +10281,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW24")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -12203,7 +10297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88c73d15-fb91-423d-b807-bbac65a6df35")
-		(property "Reference" "SW52"
+		(property "Reference" "SW55"
 			(at 110.49 104.902 0)
 			(effects
 				(font
@@ -12254,8 +10348,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW52")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW55")
 					(unit 1)
 				)
 			)
@@ -12270,7 +10364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89e9ec77-a589-4258-a594-3845e32458c8")
-		(property "Reference" "D16"
+		(property "Reference" "D27"
 			(at 63.754 85.09 90)
 			(effects
 				(font
@@ -12351,8 +10445,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D16")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -12367,7 +10461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b397040-ebd8-41e9-87a0-241d4d6622ff")
-		(property "Reference" "D22"
+		(property "Reference" "D33"
 			(at 101.854 85.09 90)
 			(effects
 				(font
@@ -12448,8 +10542,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D22")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -12464,7 +10558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d6f9dd8-1bb9-40ef-b7bd-0b8fb0560474")
-		(property "Reference" "SW14"
+		(property "Reference" "SW16"
 			(at 148.59 59.182 0)
 			(effects
 				(font
@@ -12515,8 +10609,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW14")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -12531,7 +10625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e8475e1-8651-4413-8b75-99bcb7df1834")
-		(property "Reference" "SW18"
+		(property "Reference" "SW20"
 			(at 78.74 74.422 0)
 			(effects
 				(font
@@ -12582,8 +10676,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW18")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -12598,7 +10692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "909e117f-5657-48fd-9e0a-f8936e8ab8ce")
-		(property "Reference" "D2"
+		(property "Reference" "D13"
 			(at 71.12 69.85 90)
 			(effects
 				(font
@@ -12679,8 +10773,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D2")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -12695,7 +10789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9233f873-6078-4a49-b470-e01fe581bb91")
-		(property "Reference" "D23"
+		(property "Reference" "D34"
 			(at 108.204 85.09 90)
 			(effects
 				(font
@@ -12776,8 +10870,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D23")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -12792,7 +10886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92664d67-fedd-455c-af21-b74a2bb9fd7c")
-		(property "Reference" "SW37"
+		(property "Reference" "SW40"
 			(at 104.14 89.662 0)
 			(effects
 				(font
@@ -12843,8 +10937,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW37")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -12859,7 +10953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94f85ba6-3a1b-49df-b890-a059afbb7a64")
-		(property "Reference" "SW58"
+		(property "Reference" "SW61"
 			(at 154.94 104.902 0)
 			(effects
 				(font
@@ -12910,8 +11004,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW58")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW61")
 					(unit 1)
 				)
 			)
@@ -12926,7 +11020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96245174-e865-4e7e-acc2-4077d9f0a341")
-		(property "Reference" "SW45"
+		(property "Reference" "SW48"
 			(at 66.04 104.902 0)
 			(effects
 				(font
@@ -12977,8 +11071,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW45")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW48")
 					(unit 1)
 				)
 			)
@@ -12993,7 +11087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96dfdf9a-9bb8-47c9-a580-69e6e903922b")
-		(property "Reference" "D4"
+		(property "Reference" "D15"
 			(at 83.82 69.85 90)
 			(effects
 				(font
@@ -13074,150 +11168,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "980be163-6f8c-4112-a7d1-9f3df5cb37b4")
-		(property "Reference" "R6"
-			(at 124.968 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 129.032 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79b4d6fe-2b0f-43f6-8927-7a8f8b3f2d3c")
-		)
-		(pin "2"
-			(uuid "499cc6f2-8870-49fb-8aed-6aff9249b61c")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 177.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98fa83cf-7f1d-42cc-9845-a2ca7eb7a964")
-		(property "Reference" "#PWR035"
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "637da68b-18ba-4598-8b3c-97d8abad012b")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR035")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -13232,7 +11184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9af5312d-255d-40f8-9af0-308918450f61")
-		(property "Reference" "D59"
+		(property "Reference" "D70"
 			(at 63.754 130.81 90)
 			(effects
 				(font
@@ -13313,8 +11265,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D59")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D70")
 					(unit 1)
 				)
 			)
@@ -13329,7 +11281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d476bb2-1537-4f28-9601-f231a3d1682a")
-		(property "Reference" "SW61"
+		(property "Reference" "SW64"
 			(at 78.74 120.142 0)
 			(effects
 				(font
@@ -13380,73 +11332,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a14dbdf6-9271-4050-8b58-5ac5ddac6b99")
-		(property "Reference" "#PWR033"
-			(at 93.98 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 174.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1df4a3f1-2c53-4e7f-9aa4-026a26529803")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR033")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -13461,7 +11348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2303cb0-4393-48bc-980b-f486f543c39c")
-		(property "Reference" "D6"
+		(property "Reference" "D17"
 			(at 96.52 69.85 90)
 			(effects
 				(font
@@ -13542,74 +11429,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 127 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a35979ad-6b19-4e30-8ca7-ac0abf9e9075")
-		(property "Reference" "#PWR018"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 127 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 127 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee2995ea-24fb-44fd-b198-2dea0d30c0ad")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR018")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -13624,7 +11445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4151dd4-9c00-43ba-adcb-8c1a9d1c30b5")
-		(property "Reference" "D41"
+		(property "Reference" "D52"
 			(at 127.254 100.33 90)
 			(effects
 				(font
@@ -13705,8 +11526,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D41")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -13721,7 +11542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a61c532e-5417-4d2c-a1f6-48bb1d270d96")
-		(property "Reference" "SW19"
+		(property "Reference" "SW21"
 			(at 85.09 74.422 0)
 			(effects
 				(font
@@ -13772,8 +11593,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW19")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -13788,7 +11609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aba0ef5e-a215-41f2-addb-a46ef95da75d")
-		(property "Reference" "D48"
+		(property "Reference" "D59"
 			(at 82.804 115.57 90)
 			(effects
 				(font
@@ -13869,8 +11690,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D48")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -13885,7 +11706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1b29fb4-a5cf-460a-8bd2-b91c6a9de4ab")
-		(property "Reference" "SW48"
+		(property "Reference" "SW51"
 			(at 85.09 104.902 0)
 			(effects
 				(font
@@ -13936,8 +11757,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW48")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW51")
 					(unit 1)
 				)
 			)
@@ -13952,7 +11773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b37a1e47-3868-4175-a8bd-32ef1ea3df22")
-		(property "Reference" "D19"
+		(property "Reference" "D30"
 			(at 82.804 85.09 90)
 			(effects
 				(font
@@ -14033,8 +11854,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D19")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -14049,7 +11870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c1e62c-6145-484b-b964-6bedd8a291c3")
-		(property "Reference" "SW32"
+		(property "Reference" "SW35"
 			(at 72.39 89.662 0)
 			(effects
 				(font
@@ -14100,8 +11921,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW32")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -14116,7 +11937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7536def-a62d-4953-a4c8-8beb9a177feb")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 97.79 59.182 0)
 			(effects
 				(font
@@ -14167,8 +11988,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW6")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -14183,7 +12004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba0a898-dbec-4b5a-b866-c1a0837d5ffe")
-		(property "Reference" "SW22"
+		(property "Reference" "SW24"
 			(at 104.14 74.422 0)
 			(effects
 				(font
@@ -14234,8 +12055,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW22")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -14250,7 +12071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0a85f67-16b6-408a-aa2a-556372ca27fe")
-		(property "Reference" "SW29"
+		(property "Reference" "SW31"
 			(at 148.59 74.422 0)
 			(effects
 				(font
@@ -14301,8 +12122,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW29")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -14317,7 +12138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c241b2ae-4542-42a7-920a-147f41f10631")
-		(property "Reference" "D30"
+		(property "Reference" "D41"
 			(at 152.654 85.09 90)
 			(effects
 				(font
@@ -14398,8 +12219,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D30")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -14414,7 +12235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c30c3827-bf7c-4776-9cd9-32ba109e221a")
-		(property "Reference" "SW51"
+		(property "Reference" "SW54"
 			(at 104.14 104.902 0)
 			(effects
 				(font
@@ -14465,8 +12286,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW51")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW54")
 					(unit 1)
 				)
 			)
@@ -14481,7 +12302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3a06c19-8a90-41ea-8152-64578819e719")
-		(property "Reference" "D3"
+		(property "Reference" "D14"
 			(at 77.47 69.85 90)
 			(effects
 				(font
@@ -14562,8 +12383,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D3")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -14578,7 +12399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c61af670-ecce-4d33-b954-a13c1aac79b1")
-		(property "Reference" "D15"
+		(property "Reference" "D26"
 			(at 152.654 69.85 90)
 			(effects
 				(font
@@ -14659,8 +12480,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D15")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -14675,7 +12496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7b673fa-bae9-42fd-9d3f-976777cb2f78")
-		(property "Reference" "D50"
+		(property "Reference" "D61"
 			(at 95.504 115.57 90)
 			(effects
 				(font
@@ -14756,8 +12577,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D50")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -14772,7 +12593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c968fe21-37c2-48df-a846-9fc0580123ac")
-		(property "Reference" "D56"
+		(property "Reference" "D67"
 			(at 133.604 115.57 90)
 			(effects
 				(font
@@ -14853,8 +12674,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D56")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -14869,7 +12690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9fbafd9-cc1b-491e-b403-386cad10df35")
-		(property "Reference" "D26"
+		(property "Reference" "D37"
 			(at 127.254 85.09 90)
 			(effects
 				(font
@@ -14950,8 +12771,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D26")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -14966,7 +12787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd30dbff-71b2-4f98-8d31-c7282356d346")
-		(property "Reference" "D46"
+		(property "Reference" "D57"
 			(at 70.104 115.57 90)
 			(effects
 				(font
@@ -15047,8 +12868,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D46")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -15063,7 +12884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d20cf322-de74-4ece-957b-ce2c0d5f4fed")
-		(property "Reference" "D38"
+		(property "Reference" "D49"
 			(at 108.204 100.33 90)
 			(effects
 				(font
@@ -15144,8 +12965,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D38")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -15160,7 +12981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d304a5b0-b46e-48e3-88b0-8b42b422bfee")
-		(property "Reference" "SW46"
+		(property "Reference" "SW49"
 			(at 72.39 104.902 0)
 			(effects
 				(font
@@ -15211,8 +13032,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW46")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW49")
 					(unit 1)
 				)
 			)
@@ -15227,7 +13048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d515a7f4-6363-4a3d-bfcf-38250935c02a")
-		(property "Reference" "D64"
+		(property "Reference" "D75"
 			(at 120.904 130.81 90)
 			(effects
 				(font
@@ -15308,8 +13129,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D64")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D75")
 					(unit 1)
 				)
 			)
@@ -15324,7 +13145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7a003ea-694b-4022-9165-265e4b3b6198")
-		(property "Reference" "D51"
+		(property "Reference" "D62"
 			(at 101.854 115.57 90)
 			(effects
 				(font
@@ -15405,8 +13226,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D51")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -15421,7 +13242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d888bd89-549b-46c7-b7b7-2a0dfdc0147c")
-		(property "Reference" "SW53"
+		(property "Reference" "SW56"
 			(at 116.84 104.902 0)
 			(effects
 				(font
@@ -15472,8 +13293,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW53")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW56")
 					(unit 1)
 				)
 			)
@@ -15488,7 +13309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dab5444b-edab-4537-9d12-74a798aa34f2")
-		(property "Reference" "D33"
+		(property "Reference" "D44"
 			(at 76.454 100.33 90)
 			(effects
 				(font
@@ -15569,8 +13390,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D33")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D44")
 					(unit 1)
 				)
 			)
@@ -15585,7 +13406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc5b72fb-abd9-45b3-97dd-11e139ce92f7")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 91.44 59.182 0)
 			(effects
 				(font
@@ -15636,8 +13457,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW5")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -15652,7 +13473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc84c3a6-db97-4494-8ad1-4118e32b610f")
-		(property "Reference" "D66"
+		(property "Reference" "D77"
 			(at 133.604 130.81 90)
 			(effects
 				(font
@@ -15733,8 +13554,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D66")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D77")
 					(unit 1)
 				)
 			)
@@ -15749,7 +13570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd1ed9b8-d20f-4e57-b260-54fcbbd8136f")
-		(property "Reference" "SW30"
+		(property "Reference" "SW32"
 			(at 154.94 74.422 0)
 			(effects
 				(font
@@ -15800,8 +13621,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW30")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -15816,7 +13637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de1bee59-997a-47f0-9289-0d2c6d69d314")
-		(property "Reference" "D18"
+		(property "Reference" "D29"
 			(at 76.454 85.09 90)
 			(effects
 				(font
@@ -15897,8 +13718,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D18")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -15913,7 +13734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df4565a4-48e0-43a8-8cdd-b7275ac913c2")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 72.39 59.182 0)
 			(effects
 				(font
@@ -15964,8 +13785,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW2")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -15980,7 +13801,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ccd8c4-9c91-4a56-a4cd-da5b097aa142")
-		(property "Reference" "D8"
+		(property "Reference" "D19"
 			(at 109.22 69.85 90)
 			(effects
 				(font
@@ -16061,8 +13882,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D8")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -16077,7 +13898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed08bb2e-fbdd-42e5-ba88-aec626c8ee9a")
-		(property "Reference" "SW39"
+		(property "Reference" "SW42"
 			(at 116.84 89.662 0)
 			(effects
 				(font
@@ -16128,8 +13949,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW39")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -16144,7 +13965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee831cbe-e839-4c5d-be46-533e0ceb6c69")
-		(property "Reference" "D65"
+		(property "Reference" "D76"
 			(at 127.254 130.81 90)
 			(effects
 				(font
@@ -16225,8 +14046,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D65")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D76")
 					(unit 1)
 				)
 			)
@@ -16241,7 +14062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eed08681-2f38-4ecf-bd45-0bcc43617134")
-		(property "Reference" "SW12"
+		(property "Reference" "SW14"
 			(at 135.89 59.182 0)
 			(effects
 				(font
@@ -16292,8 +14113,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW12")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -16308,7 +14129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f56ad276-eab7-47c8-8b1c-0dc91a943cbd")
-		(property "Reference" "D9"
+		(property "Reference" "D20"
 			(at 115.57 69.85 90)
 			(effects
 				(font
@@ -16389,8 +14210,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D9")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -16405,7 +14226,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8770e62-3dab-473b-81ad-54f090297938")
-		(property "Reference" "SW64"
+		(property "Reference" "SW67"
 			(at 123.19 120.142 0)
 			(effects
 				(font
@@ -16456,8 +14277,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW64")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW67")
 					(unit 1)
 				)
 			)
@@ -16472,7 +14293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9533ba5-4010-4b6e-8eef-c438816cea54")
-		(property "Reference" "SW28"
+		(property "Reference" "SW30"
 			(at 142.24 74.422 0)
 			(effects
 				(font
@@ -16523,74 +14344,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 166.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb5b67a4-b01a-48d1-9cf5-08f99f158ec5")
-		(property "Reference" "#PWR022"
-			(at 124.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127.508 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a40cdbb-fd57-4b4e-9f3a-6692b96d3664")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "#PWR022")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -16605,7 +14360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fca487e6-91d6-4325-aecb-6c82ea0d9fbf")
-		(property "Reference" "D29"
+		(property "Reference" "D40"
 			(at 146.304 85.09 90)
 			(effects
 				(font
@@ -16686,160 +14441,8 @@
 		)
 		(instances
 			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "D29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch")
-		(at 138.43 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd38a71e-c802-42f1-9b5c-53c07eb3d389")
-		(property "Reference" "SW70"
-			(at 138.43 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EC11E15244G1"
-			(at 138.43 172.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 134.62 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 138.43 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B"
-			(uuid "2c26a977-31a3-4cc6-ad73-f1d3a252203e")
-		)
-		(pin "A"
-			(uuid "408ce5fb-b79b-4fac-8e09-d65417d04e7f")
-		)
-		(pin "S1"
-			(uuid "36cc7355-fb60-4234-9d07-0e6027860877")
-		)
-		(pin "S2"
-			(uuid "6131e1ad-8676-4434-afde-bda914ca7a93")
-		)
-		(pin "C"
-			(uuid "4c0689d0-5071-4db9-bfeb-5c5eeec34215")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "SW70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 73.66 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd5b0a2e-77ba-434b-98ef-4f13f4422081")
-		(property "Reference" "R15"
-			(at 75.692 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 71.628 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 73.66 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf8071cf-2d6e-45c6-a150-cdffac885553")
-		)
-		(pin "2"
-			(uuid "4bf928fd-d620-4195-a098-3fd488c96e15")
-		)
-		(instances
-			(project "Keyboard_PCB"
-				(path "/dd51e792-c76c-4d43-96de-494177f3b593/e3625a1b-6baf-4e69-b4b7-43d96a453f37"
-					(reference "R15")
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "D40")
 					(unit 1)
 				)
 			)

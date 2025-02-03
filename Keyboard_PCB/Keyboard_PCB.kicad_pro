@@ -509,14 +509,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3VA": "rgb(255, 32, 143)",
-      "+3V3": "rgb(255, 6, 0)",
-      "+5V": "rgb(255, 90, 0)",
-      "/BOOT0": "rgb(95, 255, 11)",
-      "/EC11_A": "rgb(0, 128, 255)",
-      "/EC11_B": "rgb(0, 103, 255)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -678,8 +671,8 @@
       "Root"
     ],
     [
-      "f183b390-0c59-4c65-8a55-408064b389c7",
-      "USB_PWR"
+      "2efb7614-f68d-465d-9514-3e61f2b99fcc",
+      "Grid"
     ]
   ],
   "text_variables": {}
