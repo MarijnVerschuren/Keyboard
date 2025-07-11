@@ -714,21 +714,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1636,7 +1634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c32bba3-c384-4f19-afd2-eb9962853346")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 94.234 59.436 0)
 			(effects
 				(font
@@ -1724,7 +1722,7 @@
 			)
 			(project "RF_HID_module_test"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1739,7 +1737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aced09e-6bf9-4c42-b772-1562d65e4cf8")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 82.55 52.832 90)
 			(effects
 				(font
@@ -1801,7 +1799,7 @@
 			)
 			(project ""
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1816,7 +1814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88379f38-ef1b-4e72-bd70-c39417742b2d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR059"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -1876,7 +1874,7 @@
 			)
 			(project "RF_HID_module_test"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "#PWR014")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1891,7 +1889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ff9080-0bc9-4be4-b639-161fa485efac")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR058"
 			(at 91.44 54.61 0)
 			(effects
 				(font
@@ -1951,7 +1949,7 @@
 			)
 			(project "RF_HID_module_test"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "#PWR013")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1966,7 +1964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d211bcfb-0b64-4352-a99c-c2b12fc06dce")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR060"
 			(at 62.23 92.71 0)
 			(effects
 				(font
@@ -2026,7 +2024,7 @@
 			)
 			(project "RF_HID_module_test"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "#PWR015")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2041,7 +2039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea7908cd-f5cc-4804-a3e7-371b95046a58")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 71.374 44.196 0)
 			(effects
 				(font
@@ -2148,7 +2146,7 @@
 			)
 			(project "RF_HID_module_test"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
