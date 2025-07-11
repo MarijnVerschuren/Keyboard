@@ -175,6 +175,412 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RotaryEncoder_Switch_MP"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers
 				(hide yes)
@@ -594,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 66.04) (xy 163.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466041db-44b0-42d5-bd89-8f597bbef0dc")
+	)
+	(wire
+		(pts
 			(xy 74.93 87.63) (xy 83.82 87.63)
 		)
 		(stroke
@@ -704,6 +1120,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 71.12) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb3a7c3-cdf9-4cd7-9743-b8bdd295dfa9")
+	)
+	(wire
+		(pts
 			(xy 60.96 60.96) (xy 60.96 76.2)
 		)
 		(stroke
@@ -764,6 +1190,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3bee3f-d625-47d7-9ab4-e6ce5309325f")
+	)
+	(wire
+		(pts
 			(xy 83.82 67.31) (xy 83.82 66.04)
 		)
 		(stroke
@@ -812,6 +1248,17 @@
 		)
 		(uuid "fcf21aed-7825-4ecc-82c1-968e361c6367")
 	)
+	(hierarchical_label "ROT_B"
+		(shape input)
+		(at 144.78 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "066119c0-c943-4a9a-949e-511fb0d537e4")
+	)
 	(hierarchical_label "COL_2"
 		(shape input)
 		(at 78.74 50.8 90)
@@ -833,6 +1280,28 @@
 			(justify left)
 		)
 		(uuid "71e14005-2ed9-427a-940d-d09398b930f8")
+	)
+	(hierarchical_label "ROT_SW"
+		(shape input)
+		(at 167.64 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d3c564-c7ba-42fa-a86b-fb0a058edecc")
+	)
+	(hierarchical_label "ROT_A"
+		(shape input)
+		(at 144.78 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94ad1566-5dc3-44a6-b78d-ee3349e1a927")
 	)
 	(hierarchical_label "ROW_3"
 		(shape input)
@@ -898,7 +1367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c72d3ed-ccad-4f97-9d29-d646305962d1")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 63.5 75.184 0)
 			(effects
 				(font
@@ -950,7 +1419,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1062,7 +1531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c8196c9-eea6-4589-812e-9efdad58460e")
-		(property "Reference" "SW12"
+		(property "Reference" "SW14"
 			(at 81.28 105.664 0)
 			(effects
 				(font
@@ -1114,7 +1583,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW12")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -1226,7 +1695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "514406ef-c6c9-48c0-a402-e1d9cf84c5f7")
-		(property "Reference" "SW5"
+		(property "Reference" "SW7"
 			(at 72.39 75.184 0)
 			(effects
 				(font
@@ -1278,7 +1747,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -1293,7 +1762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d25108c-df24-441f-8dae-23e33b128183")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 81.28 59.944 0)
 			(effects
 				(font
@@ -1345,7 +1814,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1554,7 +2023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d67490c-d39d-40ac-be87-4af996e993b2")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 63.5 90.424 0)
 			(effects
 				(font
@@ -1606,7 +2075,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW7")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -1815,7 +2284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82d79993-595e-46c9-9419-b42af99c7d1d")
-		(property "Reference" "SW9"
+		(property "Reference" "SW11"
 			(at 81.28 90.424 0)
 			(effects
 				(font
@@ -1867,7 +2336,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW9")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -1882,7 +2351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "839502e2-016f-45e1-8461-9abec4956e72")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 63.5 59.944 0)
 			(effects
 				(font
@@ -1934,7 +2403,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -2046,7 +2515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e8475e1-8651-4413-8b75-99bcb7df1834")
-		(property "Reference" "SW6"
+		(property "Reference" "SW8"
 			(at 81.28 75.184 0)
 			(effects
 				(font
@@ -2098,7 +2567,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW6")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96245174-e865-4e7e-acc2-4077d9f0a341")
-		(property "Reference" "SW10"
+		(property "Reference" "SW12"
 			(at 63.5 105.664 0)
 			(effects
 				(font
@@ -2262,7 +2731,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW10")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -2277,7 +2746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5c1e62c-6145-484b-b964-6bedd8a291c3")
-		(property "Reference" "SW8"
+		(property "Reference" "SW10"
 			(at 72.39 90.424 0)
 			(effects
 				(font
@@ -2329,7 +2798,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW8")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -2538,7 +3007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d304a5b0-b46e-48e3-88b0-8b42b422bfee")
-		(property "Reference" "SW11"
+		(property "Reference" "SW13"
 			(at 72.39 105.664 0)
 			(effects
 				(font
@@ -2590,7 +3059,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW11")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -2799,7 +3268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df4565a4-48e0-43a8-8cdd-b7275ac913c2")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 72.39 59.944 0)
 			(effects
 				(font
@@ -2851,7 +3320,86 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "SW2")
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch_MP")
+		(at 156.21 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5abbec2-f11f-409b-b280-7e9018f5cdc4")
+		(property "Reference" "SW15"
+			(at 156.21 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "rotary"
+			(at 159.512 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "fbe3b9ad-7799-44f3-b666-e3819aba455b")
+		)
+		(pin "MP"
+			(uuid "6288962a-29ba-452f-9271-9e2cf9667502")
+		)
+		(pin "S1"
+			(uuid "252f190a-4cfa-4e4c-a114-e079b5baf95b")
+		)
+		(pin "A"
+			(uuid "f83d2e8d-e09d-43df-b9c3-66076acb17d6")
+		)
+		(pin "S2"
+			(uuid "818a6163-80e1-4c8c-aaf1-5d5bc8e151aa")
+		)
+		(pin "C"
+			(uuid "161cbde8-521e-415a-ae19-ffe8c1eb31b9")
+		)
+		(instances
+			(project "Keyboard_PCB"
+				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
+					(reference "SW15")
 					(unit 1)
 				)
 			)
