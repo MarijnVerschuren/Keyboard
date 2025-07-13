@@ -195,6 +195,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.12,
         0.15,
         0.2,
         0.25,
@@ -241,8 +242,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.35,
-          "drill": 0.25
+          "diameter": 0.3,
+          "drill": 0.2
         },
         {
           "diameter": 0.4,
@@ -508,8 +509,8 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.25,
-        "microvia_drill": 0.15,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.2,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -521,20 +522,30 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.533612,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.1554,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "DP",
+        "microvia_drill": 0.2,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.1565,
+        "name": "eMMC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "track_width": 0.1565,
+        "via_diameter": 0.3,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -544,12 +555,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "DP",
-        "pattern": "/USB_DP"
+        "netclass": "USB",
+        "pattern": "/USB_D*"
       },
       {
-        "netclass": "DP",
-        "pattern": "/USB_DN"
+        "netclass": "eMMC",
+        "pattern": "/eMMC_D*"
       }
     ]
   },
