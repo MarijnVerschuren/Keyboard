@@ -2360,6 +2360,16 @@
 		)
 		(uuid "94b57ed4-409f-4444-b5d3-defa47fb0001")
 	)
+	(text "ISL91127  →  Ferrite (e.g., 600Ω @ 100MHz) →  10µF + 100nF →  eMMC VCCQ\n                                     |\n                                  GND\n"
+		(exclude_from_sim no)
+		(at 148.59 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce0943d8-bae6-4699-9b63-ebde803c4d2d")
+	)
 	(junction
 		(at 85.09 41.91)
 		(diameter 0)
