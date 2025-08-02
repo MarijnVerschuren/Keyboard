@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 5.4,
-          "width": 5.4
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -665,6 +665,7 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.1565,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1989,
         "microvia_diameter": 0.3,
@@ -673,6 +674,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1417,
         "via_diameter": 0.4,
         "via_drill": 0.3
       },
@@ -699,7 +701,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1565,
+        "track_width": 0.1417,
         "via_diameter": 0.3,
         "via_drill": 0.2
       }
@@ -725,6 +727,10 @@
       {
         "netclass": "RF",
         "pattern": "/RF_P"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RF_CAP"
       }
     ]
   },

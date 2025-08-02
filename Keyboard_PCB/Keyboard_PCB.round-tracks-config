@@ -2,4 +2,4 @@ Default	False	2.0	3
 RF	True	2.0	3
 USB	False	2.0	3
 eMMC	False	2.0	3
-False	True	False
+False	False	False

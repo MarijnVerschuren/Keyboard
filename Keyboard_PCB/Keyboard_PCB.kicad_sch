@@ -3574,7 +3574,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "SPI2_MISO" bidirectional line)
 					(alternate "SPI2_SCK" bidirectional line)
 				)
@@ -3595,7 +3594,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "SPI2_MOSI" bidirectional line)
 				)
 				(pin bidirectional line
@@ -4675,7 +4673,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "SPI3_NSS" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -4784,7 +4781,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "LPTIM1_CH2" bidirectional line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
@@ -4808,7 +4804,6 @@
 							)
 						)
 					)
-					(alternate "" input line)
 					(alternate "LPTIM1_IN1" bidirectional line)
 					(alternate "SPI1_MOSI" bidirectional line)
 					(alternate "SPI3_MOSI" bidirectional line)
@@ -11062,6 +11057,16 @@
 			(justify right bottom)
 		)
 		(uuid "1cc1996d-6251-4bac-9e76-48b00eeaf685")
+	)
+	(label "RF_CAP"
+		(at 254 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fb00d39-d789-4e84-9015-2e2870eef088")
 	)
 	(label "HSE_I"
 		(at 49.53 101.6 180)
@@ -20523,7 +20528,6 @@
 		)
 		(pin "B7"
 			(uuid "8623eec2-6d2a-48fb-9524-7fc3ac4d1ab2")
-			(alternate "PD4")
 		)
 		(pin "E11"
 			(uuid "18dbd316-196a-4232-bfba-76882bdebe53")
@@ -20551,7 +20555,6 @@
 		)
 		(pin "A9"
 			(uuid "ebdaaabd-ba75-4e20-8563-83f2d684b8cd")
-			(alternate "PA15")
 		)
 		(pin "J11"
 			(uuid "8e8192eb-0a0d-482a-be89-ac84b6baed69")
@@ -20706,7 +20709,6 @@
 		)
 		(pin "C5"
 			(uuid "39e1f480-85bf-41e1-9d7e-7ab483dd9382")
-			(alternate "PB5")
 		)
 		(pin "M9"
 			(uuid "c74e16f8-f814-40df-8f93-5c66db784ff4")
@@ -20803,14 +20805,12 @@
 		)
 		(pin "B8"
 			(uuid "a5163c15-37a0-4d11-8172-9107875c9f45")
-			(alternate "PD3")
 		)
 		(pin "K1"
 			(uuid "13087401-cbef-4625-b8cf-a36020b2b486")
 		)
 		(pin "A7"
 			(uuid "04775628-3f59-4229-94ee-235f0c8eea34")
-			(alternate "PB4")
 		)
 		(pin "M8"
 			(uuid "04081c61-7d71-4e83-a414-1aa05107ad27")
