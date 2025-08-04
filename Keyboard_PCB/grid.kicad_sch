@@ -2184,7 +2184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 74.93 85.09 90)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 74.93 85.09 90)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 83.82 115.57 90)
 			(effects
 				(font
@@ -2357,7 +2357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 83.82 115.57 90)
 			(effects
 				(font
@@ -2579,7 +2579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 66.04 100.33 90)
 			(effects
 				(font
@@ -2588,7 +2588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 66.04 100.33 90)
 			(effects
 				(font
@@ -2676,7 +2676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 74.93 100.33 90)
 			(effects
 				(font
@@ -2685,7 +2685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 74.93 100.33 90)
 			(effects
 				(font
@@ -2840,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 66.04 115.57 90)
 			(effects
 				(font
@@ -2849,7 +2849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 66.04 115.57 90)
 			(effects
 				(font
@@ -3236,7 +3236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 66.04 69.85 90)
 			(effects
 				(font
@@ -3245,7 +3245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 66.04 69.85 90)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 66.04 85.09 90)
 			(effects
 				(font
@@ -3476,7 +3476,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 66.04 85.09 90)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 74.93 69.85 90)
 			(effects
 				(font
@@ -3640,7 +3640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 74.93 69.85 90)
 			(effects
 				(font
@@ -3922,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 86.36 143.51 90)
 			(effects
 				(font
@@ -3931,7 +3931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 86.36 143.51 90)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 83.82 69.85 90)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 83.82 69.85 90)
 			(effects
 				(font
@@ -4248,7 +4248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 74.93 115.57 90)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 74.93 115.57 90)
 			(effects
 				(font
@@ -4412,7 +4412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 83.82 100.33 90)
 			(effects
 				(font
@@ -4421,7 +4421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 83.82 100.33 90)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Marijn:SOD-523F"
 			(at 83.82 85.09 90)
 			(effects
 				(font
@@ -4518,7 +4518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/80/CDBU0245_HF_RevB-2489203.pdf"
 			(at 83.82 85.09 90)
 			(effects
 				(font
