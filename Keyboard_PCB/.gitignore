@@ -3,7 +3,8 @@ Keyboard_PCB-backups/
 fp-info-cache
 assembly/
 assembly.zip
-gerber/
 gerber.zip
 'C:\Users\User\Desktop\kleplace.log'/
 \#auto_saved_files#
+gerber_to_order/
+plots/
