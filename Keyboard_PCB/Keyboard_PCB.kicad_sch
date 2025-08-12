@@ -6750,7 +6750,7 @@
 		)
 		(uuid "4012b789-16dd-499c-81b2-008a9a3f555a")
 	)
-	(text "TODO: GND fill exception arround DAT "
+	(text "GND fill exception arround DAT "
 		(exclude_from_sim no)
 		(at 329.438 109.474 0)
 		(effects
@@ -6792,7 +6792,7 @@
 	)
 	(text "LOW ESR"
 		(exclude_from_sim no)
-		(at 114.3 204.724 0)
+		(at 107.95 227.584 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6809,6 +6809,26 @@
 			)
 		)
 		(uuid "733ca099-af01-413e-9af9-8589cef7e59c")
+	)
+	(text "3v3 signaling voltage limits\ncommunication to high speed DDR\n(104 MB/s)"
+		(exclude_from_sim no)
+		(at 323.596 145.034 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "78565341-4b84-45e6-82e3-8d057fedf1b8")
+	)
+	(text "next version: battery domain separation?"
+		(exclude_from_sim no)
+		(at 148.082 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7c03f718-137b-4b42-a225-58d680be496f")
 	)
 	(text "LEDs"
 		(exclude_from_sim no)
@@ -6860,6 +6880,16 @@
 		)
 		(uuid "c6e8ae8f-a743-43d4-a171-d5d15eafc4c4")
 	)
+	(text "TODO next version: pullups needed?\n(suggestion from eMMC manufacturer)"
+		(exclude_from_sim no)
+		(at 327.914 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e93e1715-cfc4-40eb-ab0c-d1469e126c62")
+	)
 	(junction
 		(at 326.39 237.49)
 		(diameter 0)
@@ -6903,13 +6933,13 @@
 		(uuid "2c3f78c4-29bc-469e-aefe-61c631574217")
 	)
 	(junction
-		(at 78.74 58.42)
+		(at 72.39 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cadbd13-8ff3-44ad-ac3c-44e39cf78654")
 	)
 	(junction
-		(at 76.2 58.42)
+		(at 69.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b8c0f36-280f-4b2a-a467-4265fa551f63")
@@ -6993,7 +7023,7 @@
 		(uuid "83cac55a-672f-4a4c-9bc9-3aca863cb0d7")
 	)
 	(junction
-		(at 73.66 214.63)
+		(at 67.31 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85978796-732d-4502-a4b5-215c7f6c58a7")
@@ -7041,7 +7071,7 @@
 		(uuid "a630b5fa-1b86-48db-bcfe-50617319abc5")
 	)
 	(junction
-		(at 77.47 214.63)
+		(at 71.12 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ca1344-e5c6-4624-a6e7-950bfb6085c2")
@@ -7083,7 +7113,7 @@
 		(uuid "c42f8c25-1319-4663-9b73-664713995abf")
 	)
 	(junction
-		(at 78.74 214.63)
+		(at 72.39 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6aa13cc-8356-4d36-9aeb-c7e81666e96f")
@@ -7113,7 +7143,7 @@
 		(uuid "ccd438d7-8f8b-4a1b-aeec-5be65eb7a2ec")
 	)
 	(junction
-		(at 76.2 214.63)
+		(at 69.85 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9e385a0-9b68-47d9-89e9-8b8a828f3f83")
@@ -7143,13 +7173,13 @@
 		(uuid "de90c066-ef08-4b22-89c1-f1137ca6a54f")
 	)
 	(junction
-		(at 81.28 58.42)
+		(at 74.93 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e15e58c6-7445-4b37-bb0a-4063c0b1e317")
 	)
 	(junction
-		(at 81.28 214.63)
+		(at 74.93 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaab51f6-1a22-47df-a312-ba597ead53ea")
@@ -7179,51 +7209,51 @@
 		(uuid "fcbacb9e-3b1d-4e1a-b85c-9600486b2b10")
 	)
 	(no_connect
-		(at 105.41 137.16)
+		(at 99.06 160.02)
 		(uuid "0777851c-2792-49bf-ac59-fdfd159bb2a1")
 	)
 	(no_connect
-		(at 105.41 80.01)
+		(at 99.06 102.87)
 		(uuid "08d80a05-771f-48be-a5b9-2c09f1c96b2b")
 	)
 	(no_connect
-		(at 49.53 189.23)
+		(at 43.18 212.09)
 		(uuid "1f12d091-53a0-4046-bcdf-822b3b290d11")
 	)
 	(no_connect
-		(at 49.53 142.24)
+		(at 43.18 165.1)
 		(uuid "2c770376-7608-4a50-8cc9-7bdde50cd3c4")
 	)
 	(no_connect
-		(at 105.41 162.56)
+		(at 99.06 185.42)
 		(uuid "387a69b1-062c-4d3d-81fa-071369e5850c")
 	)
 	(no_connect
-		(at 49.53 157.48)
+		(at 43.18 180.34)
 		(uuid "3aab5e72-03dc-44d0-b861-7075800aaf78")
 	)
 	(no_connect
-		(at 49.53 199.39)
+		(at 43.18 222.25)
 		(uuid "41d10d52-050f-4e10-ba9e-ed3f10299d6b")
 	)
 	(no_connect
-		(at 105.41 82.55)
+		(at 99.06 105.41)
 		(uuid "4c919dd9-c69d-4e5d-ba23-c6551b6a1ed0")
 	)
 	(no_connect
-		(at 49.53 194.31)
+		(at 43.18 217.17)
 		(uuid "5b7b957a-7538-4e8c-90cc-cf0acd367a33")
 	)
 	(no_connect
-		(at 105.41 170.18)
+		(at 99.06 193.04)
 		(uuid "5b8b6cab-0472-454e-b64f-9be839f41574")
 	)
 	(no_connect
-		(at 105.41 152.4)
+		(at 99.06 175.26)
 		(uuid "5c573ca0-677b-4fd8-ac84-7429d1c47b7a")
 	)
 	(no_connect
-		(at 49.53 149.86)
+		(at 43.18 172.72)
 		(uuid "5ca251c2-f147-44eb-8370-bd4026951be6")
 	)
 	(no_connect
@@ -7231,27 +7261,27 @@
 		(uuid "66cb73f7-9ab6-45ea-b3f0-c2cf9aeac3ac")
 	)
 	(no_connect
-		(at 49.53 191.77)
+		(at 43.18 214.63)
 		(uuid "6da278d6-2598-418b-b1ee-0ea9d2710989")
 	)
 	(no_connect
-		(at 105.41 124.46)
+		(at 99.06 147.32)
 		(uuid "71e1429e-04d0-471a-9f61-614fdd897753")
 	)
 	(no_connect
-		(at 49.53 161.29)
+		(at 43.18 184.15)
 		(uuid "79efcee4-f7f7-43ce-af7d-01eaf99c3a53")
 	)
 	(no_connect
-		(at 49.53 176.53)
+		(at 43.18 199.39)
 		(uuid "84ffacbe-4eb7-4baa-a849-db1664e54952")
 	)
 	(no_connect
-		(at 49.53 186.69)
+		(at 43.18 209.55)
 		(uuid "889a7d73-2baf-4f8b-a192-aae4cdc62334")
 	)
 	(no_connect
-		(at 105.41 129.54)
+		(at 99.06 152.4)
 		(uuid "893a5260-a2e6-4b6b-af6c-242ff1e879a5")
 	)
 	(no_connect
@@ -7259,55 +7289,55 @@
 		(uuid "8aff3a45-60c3-423b-b6d4-4d882521bb6c")
 	)
 	(no_connect
-		(at 105.41 132.08)
+		(at 99.06 154.94)
 		(uuid "93be2966-ae29-4d53-8e55-6dcba09f4f22")
 	)
 	(no_connect
-		(at 49.53 119.38)
+		(at 43.18 142.24)
 		(uuid "941a7ae7-7a1c-45be-bcba-38e8463f8867")
 	)
 	(no_connect
-		(at 49.53 184.15)
+		(at 43.18 207.01)
 		(uuid "995d1a74-c9d4-4757-a56c-82fe70f34b4a")
 	)
 	(no_connect
-		(at 49.53 127)
+		(at 43.18 149.86)
 		(uuid "9e9ca0d0-662d-474e-986c-80a8f58f0791")
 	)
 	(no_connect
-		(at 105.41 97.79)
+		(at 99.06 120.65)
 		(uuid "a3cbc372-cef2-44ea-9fbb-0bc0ec14ff8a")
 	)
 	(no_connect
-		(at 105.41 87.63)
+		(at 99.06 110.49)
 		(uuid "a3cc9918-f56f-4cca-bd98-92a236a7d76a")
 	)
 	(no_connect
-		(at 49.53 173.99)
+		(at 43.18 196.85)
 		(uuid "a58ea223-54bf-43ba-a019-acfb251c40c3")
 	)
 	(no_connect
-		(at 49.53 147.32)
+		(at 43.18 170.18)
 		(uuid "a8a56169-9d58-441a-ac6c-90ce7e4ed039")
 	)
 	(no_connect
-		(at 49.53 121.92)
+		(at 43.18 144.78)
 		(uuid "aa32174c-d56a-4dbf-a79e-cb8a0f802ec2")
 	)
 	(no_connect
-		(at 105.41 95.25)
+		(at 99.06 118.11)
 		(uuid "aaa6b3ab-0adf-4bad-bdc6-c72f6119b3cb")
 	)
 	(no_connect
-		(at 49.53 154.94)
+		(at 43.18 177.8)
 		(uuid "b68c7e25-336c-4cae-ae65-9ebfe9be489b")
 	)
 	(no_connect
-		(at 105.41 165.1)
+		(at 99.06 187.96)
 		(uuid "bba36c78-210d-489f-9019-f21c6e8cca36")
 	)
 	(no_connect
-		(at 105.41 193.04)
+		(at 99.06 215.9)
 		(uuid "bebfe493-c35e-4985-a05d-08eaa568a39e")
 	)
 	(no_connect
@@ -7315,36 +7345,36 @@
 		(uuid "c3ea54a4-c81b-4e22-9c06-1a3ea19ba780")
 	)
 	(no_connect
-		(at 49.53 179.07)
+		(at 43.18 201.93)
 		(uuid "c8e59322-9db5-45f1-9cf9-8e10032d9d09")
 	)
 	(no_connect
-		(at 105.41 90.17)
+		(at 99.06 113.03)
 		(uuid "d5268f87-b66f-47ac-bd1a-5a25343e0d34")
 	)
 	(no_connect
-		(at 105.41 134.62)
+		(at 99.06 157.48)
 		(uuid "d5c43229-d07b-47cb-8cd7-6c77db35b515")
 	)
 	(no_connect
-		(at 49.53 181.61)
+		(at 43.18 204.47)
 		(uuid "e373bc46-a8a3-4c34-b5e8-916253df9897")
 	)
 	(no_connect
-		(at 49.53 139.7)
+		(at 43.18 162.56)
 		(uuid "eecb68b0-d71f-4e8d-abae-3de1f0bbc4ba")
 	)
 	(no_connect
-		(at 105.41 167.64)
+		(at 99.06 190.5)
 		(uuid "f5954814-9085-4b38-af50-b27c1205f6dc")
 	)
 	(no_connect
-		(at 49.53 129.54)
+		(at 43.18 152.4)
 		(uuid "fcb11b78-cc74-4aaa-bdfc-a46b2dda8fb4")
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 81.28 58.42)
+			(xy 72.39 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7464,7 +7494,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 165.1) (xy 49.53 163.83)
+			(xy 43.18 187.96) (xy 43.18 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7614,7 +7644,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 146.05) (xy 49.53 144.78)
+			(xy 43.18 168.91) (xy 43.18 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7644,7 +7674,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 213.36) (xy 71.12 214.63)
+			(xy 64.77 236.22) (xy 64.77 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7654,7 +7684,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 86.36) (xy 105.41 85.09)
+			(xy 99.06 109.22) (xy 99.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7664,7 +7694,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 39.37 86.36)
+			(xy 33.02 110.49) (xy 33.02 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7734,7 +7764,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 101.6) (xy 49.53 100.33)
+			(xy 43.18 124.46) (xy 43.18 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7784,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 151.13) (xy 105.41 149.86)
+			(xy 99.06 173.99) (xy 99.06 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7824,7 +7854,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 156.21) (xy 105.41 154.94)
+			(xy 99.06 179.07) (xy 99.06 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7834,7 +7864,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 199.39) (xy 107.95 201.93)
+			(xy 101.6 222.25) (xy 101.6 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7894,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 83.82 58.42)
+			(xy 74.93 81.28) (xy 77.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7934,7 +7964,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 49.53 110.49)
+			(xy 43.18 134.62) (xy 43.18 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7974,7 +8004,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 49.53 134.62)
+			(xy 43.18 158.75) (xy 43.18 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8014,7 +8044,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 146.05) (xy 105.41 144.78)
+			(xy 99.06 168.91) (xy 99.06 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8054,7 +8084,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 80.01) (xy 49.53 78.74)
+			(xy 43.18 102.87) (xy 43.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8064,7 +8094,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 49.53 92.71)
+			(xy 43.18 116.84) (xy 43.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8074,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 213.36) (xy 78.74 214.63)
+			(xy 72.39 236.22) (xy 72.39 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8114,7 +8144,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 160.02) (xy 111.76 160.02)
+			(xy 106.68 182.88) (xy 105.41 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8174,7 +8204,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 214.63) (xy 77.47 215.9)
+			(xy 71.12 237.49) (xy 71.12 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8204,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 170.18) (xy 49.53 168.91)
+			(xy 43.18 193.04) (xy 43.18 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8234,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 81.28 59.69)
+			(xy 74.93 81.28) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8314,7 +8344,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 189.23) (xy 105.41 187.96)
+			(xy 99.06 212.09) (xy 99.06 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8344,7 +8374,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 105.41 113.03)
+			(xy 99.06 137.16) (xy 99.06 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8364,7 +8394,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 172.72) (xy 49.53 171.45)
+			(xy 43.18 195.58) (xy 43.18 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8384,7 +8414,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 167.64) (xy 49.53 166.37)
+			(xy 43.18 190.5) (xy 43.18 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8474,7 +8504,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 213.36) (xy 73.66 214.63)
+			(xy 67.31 236.22) (xy 67.31 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8514,7 +8544,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 49.53 132.08)
+			(xy 43.18 156.21) (xy 43.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8524,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 111.76) (xy 105.41 110.49)
+			(xy 99.06 134.62) (xy 99.06 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8534,7 +8564,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 179.07) (xy 105.41 177.8)
+			(xy 99.06 201.93) (xy 99.06 200.66)
 		)
 		(stroke
 			(width 0)
@@ -8564,7 +8594,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 214.63) (xy 77.47 214.63)
+			(xy 72.39 237.49) (xy 71.12 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8644,7 +8674,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 160.02) (xy 106.68 160.02)
+			(xy 99.06 182.88) (xy 100.33 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8654,7 +8684,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 191.77) (xy 105.41 190.5)
+			(xy 99.06 214.63) (xy 99.06 213.36)
 		)
 		(stroke
 			(width 0)
@@ -8664,7 +8694,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 213.36) (xy 81.28 214.63)
+			(xy 74.93 236.22) (xy 74.93 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8704,7 +8734,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 148.59) (xy 105.41 147.32)
+			(xy 99.06 171.45) (xy 99.06 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +8744,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 153.67) (xy 49.53 152.4)
+			(xy 43.18 176.53) (xy 43.18 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8744,7 +8774,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 71.12 59.69)
+			(xy 64.77 80.01) (xy 64.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8754,7 +8784,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 173.99) (xy 105.41 172.72)
+			(xy 99.06 196.85) (xy 99.06 195.58)
 		)
 		(stroke
 			(width 0)
@@ -8854,7 +8884,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 59.69) (xy 73.66 58.42)
+			(xy 67.31 82.55) (xy 67.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8884,7 +8914,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 176.53) (xy 105.41 175.26)
+			(xy 99.06 199.39) (xy 99.06 198.12)
 		)
 		(stroke
 			(width 0)
@@ -8924,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 143.51) (xy 105.41 142.24)
+			(xy 99.06 166.37) (xy 99.06 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8944,7 +8974,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 104.14) (xy 49.53 102.87)
+			(xy 43.18 127) (xy 43.18 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8954,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 161.29) (xy 113.03 160.02)
+			(xy 106.68 184.15) (xy 106.68 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9094,7 +9124,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 76.2 58.42)
+			(xy 67.31 81.28) (xy 69.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9104,7 +9134,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 214.63) (xy 83.82 214.63)
+			(xy 74.93 237.49) (xy 77.47 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9164,7 +9194,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 78.74 57.15)
+			(xy 72.39 81.28) (xy 72.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9204,7 +9234,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 49.53 74.93)
+			(xy 43.18 99.06) (xy 43.18 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9304,7 +9334,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 83.82) (xy 39.37 83.82)
+			(xy 43.18 106.68) (xy 33.02 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9314,7 +9344,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 214.63) (xy 81.28 214.63)
+			(xy 72.39 237.49) (xy 74.93 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9324,7 +9354,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 120.65) (xy 105.41 119.38)
+			(xy 99.06 143.51) (xy 99.06 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9374,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 214.63) (xy 76.2 214.63)
+			(xy 67.31 237.49) (xy 69.85 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9484,7 +9514,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 106.68) (xy 105.41 105.41)
+			(xy 99.06 129.54) (xy 99.06 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9574,7 +9604,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 128.27) (xy 105.41 127)
+			(xy 99.06 151.13) (xy 99.06 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9624,7 +9654,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 78.74 59.69)
+			(xy 72.39 81.28) (xy 72.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9684,7 +9714,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 76.2 59.69)
+			(xy 69.85 81.28) (xy 69.85 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9714,7 +9744,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 86.36) (xy 49.53 86.36)
+			(xy 33.02 109.22) (xy 43.18 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9784,7 +9814,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 184.15) (xy 105.41 182.88)
+			(xy 99.06 207.01) (xy 99.06 205.74)
 		)
 		(stroke
 			(width 0)
@@ -9814,7 +9844,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 83.82) (xy 39.37 82.55)
+			(xy 33.02 106.68) (xy 33.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9944,7 +9974,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 105.41 77.47)
+			(xy 99.06 101.6) (xy 99.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9974,7 +10004,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 214.63) (xy 73.66 214.63)
+			(xy 64.77 237.49) (xy 67.31 237.49)
 		)
 		(stroke
 			(width 0)
@@ -10014,7 +10044,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 96.52) (xy 49.53 95.25)
+			(xy 43.18 119.38) (xy 43.18 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10044,7 +10074,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 125.73) (xy 49.53 124.46)
+			(xy 43.18 148.59) (xy 43.18 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10064,7 +10094,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 199.39) (xy 107.95 199.39)
+			(xy 99.06 222.25) (xy 101.6 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10154,7 +10184,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 214.63) (xy 77.47 214.63)
+			(xy 69.85 237.49) (xy 71.12 237.49)
 		)
 		(stroke
 			(width 0)
@@ -10164,7 +10194,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 105.41 74.93)
+			(xy 99.06 99.06) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
@@ -10174,7 +10204,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 138.43) (xy 49.53 137.16)
+			(xy 43.18 161.29) (xy 43.18 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10184,7 +10214,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 186.69) (xy 105.41 185.42)
+			(xy 99.06 209.55) (xy 99.06 208.28)
 		)
 		(stroke
 			(width 0)
@@ -10204,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 198.12) (xy 49.53 196.85)
+			(xy 43.18 220.98) (xy 43.18 219.71)
 		)
 		(stroke
 			(width 0)
@@ -10254,7 +10284,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 83.82 59.69)
+			(xy 77.47 81.28) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10274,7 +10304,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 105.41 100.33)
+			(xy 99.06 124.46) (xy 99.06 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10284,7 +10314,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 181.61) (xy 105.41 180.34)
+			(xy 99.06 204.47) (xy 99.06 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10334,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 49.53 107.95)
+			(xy 43.18 132.08) (xy 43.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10344,7 +10374,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 58.42) (xy 78.74 58.42)
+			(xy 69.85 81.28) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10354,7 +10384,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 214.63) (xy 83.82 213.36)
+			(xy 77.47 237.49) (xy 77.47 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10434,7 +10464,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 104.14) (xy 105.41 102.87)
+			(xy 99.06 127) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -10504,7 +10534,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 123.19) (xy 105.41 121.92)
+			(xy 99.06 146.05) (xy 99.06 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10554,7 +10584,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 105.41 107.95)
+			(xy 99.06 132.08) (xy 99.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -10594,7 +10624,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 140.97) (xy 105.41 139.7)
+			(xy 99.06 163.83) (xy 99.06 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10604,7 +10634,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 93.98) (xy 105.41 92.71)
+			(xy 99.06 116.84) (xy 99.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -10654,7 +10684,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 213.36) (xy 76.2 214.63)
+			(xy 69.85 236.22) (xy 69.85 237.49)
 		)
 		(stroke
 			(width 0)
@@ -11098,7 +11128,7 @@
 		(uuid "0295840b-9772-425b-a0ce-0ce2fc6e3e9b")
 	)
 	(label "OLED_DC"
-		(at 105.41 123.19 0)
+		(at 99.06 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11128,7 +11158,7 @@
 		(uuid "0bcb4061-bbb5-4ff9-9eb8-a9339263e930")
 	)
 	(label "NRST"
-		(at 49.53 93.98 180)
+		(at 43.18 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11178,7 +11208,7 @@
 		(uuid "111db76e-173d-4ace-93f0-86f2bcb0588c")
 	)
 	(label "eMMC_D1"
-		(at 105.41 184.15 0)
+		(at 99.06 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11228,7 +11258,7 @@
 		(uuid "1fb00d39-d789-4e84-9015-2e2870eef088")
 	)
 	(label "HSE_I"
-		(at 49.53 101.6 180)
+		(at 43.18 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11238,7 +11268,7 @@
 		(uuid "20e88a1c-2b34-4d94-9f47-d4808a2ef0b1")
 	)
 	(label "ROW_1"
-		(at 49.53 167.64 180)
+		(at 43.18 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11248,7 +11278,7 @@
 		(uuid "24244850-2d14-4202-86d1-262f409bae3c")
 	)
 	(label "UART_RX"
-		(at 105.41 173.99 0)
+		(at 99.06 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11268,7 +11298,7 @@
 		(uuid "28ed1e83-ee39-468c-96aa-823f2b005f7d")
 	)
 	(label "eMMC_D5"
-		(at 105.41 143.51 0)
+		(at 99.06 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11308,7 +11338,7 @@
 		(uuid "3cc53e00-184e-4dc1-b111-c7303e1378f5")
 	)
 	(label "ROW_2"
-		(at 49.53 170.18 180)
+		(at 43.18 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11328,7 +11358,7 @@
 		(uuid "41bc9bbb-08eb-42fd-bef2-c380b562bce2")
 	)
 	(label "OLED_RST"
-		(at 105.41 120.65 0)
+		(at 99.06 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11348,7 +11378,7 @@
 		(uuid "4240f244-71e4-4682-8c23-30c052fe7e2f")
 	)
 	(label "UART_TX"
-		(at 105.41 146.05 0)
+		(at 99.06 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11368,7 +11398,7 @@
 		(uuid "483fe65b-11d8-496e-9a65-175d76648b46")
 	)
 	(label "USB_DN"
-		(at 105.41 104.14 0)
+		(at 99.06 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11408,7 +11438,7 @@
 		(uuid "50b6c9e8-cb7f-410e-a483-9fb9cd2f6bc6")
 	)
 	(label "OLED_SPI_MOSI"
-		(at 105.41 156.21 0)
+		(at 99.06 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11448,7 +11478,7 @@
 		(uuid "5f1198e9-caf1-4953-9345-fa2e0a90199d")
 	)
 	(label "ROT_B"
-		(at 49.53 146.05 180)
+		(at 43.18 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11468,7 +11498,7 @@
 		(uuid "61e2c45b-6ec4-4256-b049-09eea94849fe")
 	)
 	(label "ROT_A"
-		(at 49.53 153.67 180)
+		(at 43.18 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11508,7 +11538,7 @@
 		(uuid "6a66cda6-a16a-424b-9792-38dc6b539b62")
 	)
 	(label "SWCLK"
-		(at 105.41 111.76 0)
+		(at 99.06 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11518,7 +11548,7 @@
 		(uuid "6a692abb-ec7b-4156-a63b-d6dfde8ea2c0")
 	)
 	(label "COL_2"
-		(at 49.53 138.43 180)
+		(at 43.18 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11548,7 +11578,7 @@
 		(uuid "6caf3e78-9a83-4a02-9445-854623110c5e")
 	)
 	(label "SWDIO"
-		(at 105.41 109.22 0)
+		(at 99.06 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11558,7 +11588,7 @@
 		(uuid "735f021b-3522-4a2d-9ec4-30fbd13723c8")
 	)
 	(label "eMMC_D0"
-		(at 105.41 181.61 0)
+		(at 99.06 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11578,7 +11608,7 @@
 		(uuid "7628949a-c002-4143-86da-ade449af7234")
 	)
 	(label "RF_SPI_MISO"
-		(at 49.53 198.12 180)
+		(at 43.18 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11608,7 +11638,7 @@
 		(uuid "7dea532e-53cd-4b0a-bb4d-5e5bb1f71c32")
 	)
 	(label "ROW_3"
-		(at 49.53 172.72 180)
+		(at 43.18 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11658,7 +11688,7 @@
 		(uuid "83f51c3f-9a98-4fc0-8cea-69aa41fafea3")
 	)
 	(label "eMMC_NRST"
-		(at 105.41 101.6 0)
+		(at 99.06 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11668,7 +11698,7 @@
 		(uuid "84a3ccf8-7fb4-433f-acb9-24249c263009")
 	)
 	(label "STATUS"
-		(at 105.41 114.3 0)
+		(at 99.06 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11678,7 +11708,7 @@
 		(uuid "860a7a2b-4a8e-4732-9178-d240324be3b9")
 	)
 	(label "LSE_I"
-		(at 49.53 109.22 180)
+		(at 43.18 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11688,7 +11718,7 @@
 		(uuid "86681361-aff1-4781-8ee2-df32a7b8ed45")
 	)
 	(label "BOOT"
-		(at 49.53 96.52 180)
+		(at 43.18 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11708,7 +11738,7 @@
 		(uuid "8e099584-238d-49e0-b41d-d53be8e8130e")
 	)
 	(label "eMMC_D3"
-		(at 105.41 189.23 0)
+		(at 99.06 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11738,7 +11768,7 @@
 		(uuid "970a3d92-3f6c-46c9-8bcf-d9fdbe473be5")
 	)
 	(label "LSE_O"
-		(at 49.53 111.76 180)
+		(at 43.18 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11748,7 +11778,7 @@
 		(uuid "9a2c8d88-be23-434d-a64d-b29544cbe37d")
 	)
 	(label "RF_SPI_MOSI"
-		(at 105.41 93.98 0)
+		(at 99.06 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11808,7 +11838,7 @@
 		(uuid "a6bf72fb-acc5-460c-8fd4-c070046375e0")
 	)
 	(label "eMMC_CLK"
-		(at 105.41 191.77 0)
+		(at 99.06 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11818,7 +11848,7 @@
 		(uuid "aa10228f-5549-43c6-8b76-9a3b21cd8ca0")
 	)
 	(label "OLED_SPI_NSS"
-		(at 105.41 148.59 0)
+		(at 99.06 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11848,7 +11878,7 @@
 		(uuid "b0b978e5-4bed-465c-95a8-c7ce79bdfed5")
 	)
 	(label "VBAT"
-		(at 49.53 80.01 180)
+		(at 43.18 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11878,7 +11908,7 @@
 		(uuid "b3062b2d-fb5f-481a-b060-b03ab09ab8a7")
 	)
 	(label "USB_DP"
-		(at 105.41 106.68 0)
+		(at 99.06 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11888,7 +11918,7 @@
 		(uuid "b3f9680d-ae13-4ea4-821b-0c07b078182a")
 	)
 	(label "RF_SPI_SCK"
-		(at 105.41 78.74 0)
+		(at 99.06 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11928,7 +11958,7 @@
 		(uuid "c064a63a-5392-4e66-ae16-a726daa4aedb")
 	)
 	(label "COL_1"
-		(at 49.53 135.89 180)
+		(at 43.18 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11938,7 +11968,7 @@
 		(uuid "c2ae2c4c-00dc-40d6-a6f5-e8b30490bd85")
 	)
 	(label "RF_SPI_NSS"
-		(at 105.41 86.36 0)
+		(at 99.06 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11948,7 +11978,7 @@
 		(uuid "c4cc2ba5-8b4a-465c-afa0-1d1bc1fdcbf9")
 	)
 	(label "COL_0"
-		(at 49.53 133.35 180)
+		(at 43.18 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11958,7 +11988,7 @@
 		(uuid "c7753f88-43e3-4798-8ac9-6452c9b16191")
 	)
 	(label "ROW_0"
-		(at 49.53 165.1 180)
+		(at 43.18 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11978,7 +12008,7 @@
 		(uuid "ca0933fb-4393-471b-a877-92ca961ec4c4")
 	)
 	(label "SWO"
-		(at 105.41 128.27 0)
+		(at 99.06 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12018,7 +12048,7 @@
 		(uuid "d2c42e9b-23f1-4e21-b6fb-90b4ef3d7b08")
 	)
 	(label "ROT_SW"
-		(at 105.41 76.2 0)
+		(at 99.06 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12028,7 +12058,7 @@
 		(uuid "dcd62367-5d3b-4608-9e51-e1c9c8fb8ec4")
 	)
 	(label "eMMC_D4"
-		(at 105.41 140.97 0)
+		(at 99.06 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12068,7 +12098,7 @@
 		(uuid "e3d669de-27c9-4220-8199-b56a455facec")
 	)
 	(label "eMMC_D6"
-		(at 105.41 176.53 0)
+		(at 99.06 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12078,7 +12108,7 @@
 		(uuid "e481c225-744c-4a8d-9340-e31114417c67")
 	)
 	(label "eMMC_D7"
-		(at 105.41 179.07 0)
+		(at 99.06 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12098,7 +12128,7 @@
 		(uuid "e571e72c-5fe1-4e85-9fc2-fe43b814594b")
 	)
 	(label "eMMC_CMD"
-		(at 49.53 125.73 180)
+		(at 43.18 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12108,7 +12138,7 @@
 		(uuid "ee07154d-dbb1-4802-bfc2-d4b6e1a9f0cf")
 	)
 	(label "OLED_SPI_SCK"
-		(at 105.41 151.13 0)
+		(at 99.06 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12138,7 +12168,7 @@
 		(uuid "f347b2d8-a875-470b-ba87-e32e35812568")
 	)
 	(label "VDDUSB"
-		(at 49.53 76.2 180)
+		(at 43.18 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12148,7 +12178,7 @@
 		(uuid "f3815968-c7e6-4c73-8cd7-c4630566aa06")
 	)
 	(label "eMMC_D2"
-		(at 105.41 186.69 0)
+		(at 99.06 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12168,7 +12198,7 @@
 		(uuid "f94a6f30-2713-43d4-8fd6-05542045194e")
 	)
 	(label "HSE_O"
-		(at 49.53 104.14 180)
+		(at 43.18 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12178,7 +12208,7 @@
 		(uuid "fafd002e-dd0f-4f80-947c-a31b57cb1c1b")
 	)
 	(label "BAT"
-		(at 113.03 161.29 0)
+		(at 106.68 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12452,7 +12482,7 @@
 		(at 240.03 257.81 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e700b0b-5cb1-4a28-a757-134ce2d378a6")
@@ -12501,6 +12531,15 @@
 		)
 		(property "LCSC" "C2681476"
 			(at 240.03 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 240.03 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12575,6 +12614,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser" " 609-2450BM15B0003001 "
+			(at 248.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 248.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d7564c4-3b03-4bfd-a6ea-dfeeb7fd6542")
 		)
@@ -12604,7 +12661,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 87.63 0)
+		(at 33.02 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12612,7 +12669,7 @@
 		(dnp no)
 		(uuid "102918e5-c4c1-4b48-bada-c5b16e5929cc")
 		(property "Reference" "#PWR013"
-			(at 39.37 93.98 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 91.186 0)
+			(at 33.02 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +12686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 87.63 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +12695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 87.63 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 87.63 0)
+			(at 33.02 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,6 +12770,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
 			(at 67.31 35.56 0)
 			(effects
 				(font
@@ -12919,6 +12985,24 @@
 				)
 			)
 		)
+		(property "mouser" " 609-LRC0402CJ10NGV00 "
+			(at 237.49 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 237.49 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac29bc6f-02c0-4c07-9664-9a938ff814e8")
 		)
@@ -12980,6 +13064,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 325.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 325.12 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,6 +13142,24 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 388.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 388.62 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 963-MSASL105SB5225MF "
+			(at 388.62 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13126,6 +13237,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 393.7 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06c98752-1d71-4bf8-b6ef-2fc135e28cbf")
 		)
@@ -13143,7 +13263,7 @@
 		(at 346.71 200.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1bf0abeb-8367-4922-8368-b159bc404cca")
@@ -13192,6 +13312,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 346.71 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76129712-d2ac-4282-a0db-269797efa38e")
 		)
@@ -13209,7 +13338,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 39.37 82.55 0)
+		(at 33.02 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13217,7 +13346,7 @@
 		(dnp no)
 		(uuid "20ba23d4-801e-4711-99c9-6fa3b69d6c71")
 		(property "Reference" "#PWR012"
-			(at 39.37 86.36 0)
+			(at 33.02 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13226,7 +13355,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 39.37 78.74 0)
+			(at 33.02 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13234,7 +13363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 82.55 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 82.55 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,7 +13381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 39.37 82.55 0)
+			(at 33.02 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13277,7 +13406,7 @@
 		(at 157.48 260.35 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "211f18fd-d42d-483c-b44e-8d158f64f230")
@@ -13326,6 +13455,15 @@
 		)
 		(property "mouser" " 791-RMC1/16-512JTP"
 			(at 157.48 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 157.48 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,6 +13533,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 374.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 374.65 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13635,7 @@
 		(at 224.79 266.7 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "23090caf-7e33-4074-a39a-ae74854cff8e")
@@ -13536,6 +13683,15 @@
 			)
 		)
 		(property "LCSC" "C2681476"
+			(at 224.79 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 224.79 266.7 0)
 			(effects
 				(font
@@ -13606,6 +13762,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 374.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 374.65 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,7 +13863,7 @@
 		(at 165.1 260.35 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "274bba67-8ae7-4693-b658-e34390e3b1a1")
@@ -13747,7 +13912,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 710-150060RS75000"
+		(property "mouser" ""
 			(at 165.1 260.35 0)
 			(effects
 				(font
@@ -13757,6 +13922,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 165.1 260.35 0)
 			(effects
 				(font
@@ -13962,6 +14136,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 344.17 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9200d89-bcd0-46fe-8dee-74fe45216577")
 		)
@@ -14023,6 +14206,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 81-GRM155R60G106ME1D "
 			(at 97.79 35.56 0)
 			(effects
 				(font
@@ -14297,6 +14498,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 398.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63ae2596-b5f8-4154-b038-c28ade63c6d7")
 		)
@@ -14314,7 +14524,7 @@
 		(at 267.97 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a678c6e-3ade-438c-ae16-789fe0c42a53")
@@ -14361,6 +14571,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 267.97 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dcf8885-4a34-40c7-ae3d-56c54f4231e8")
 		)
@@ -14387,7 +14606,7 @@
 		(at 191.77 215.9 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3aef888f-8a5d-4113-981f-883c5a590996")
@@ -14434,8 +14653,17 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 791-RMC1/16-512JTP"
+		(property "mouser" ""
 			(at 191.77 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 191.77 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14756,7 @@
 		(at 262.89 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3bbcfe86-e611-4b0d-9ed6-7711fdf6e279")
@@ -14569,6 +14797,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 262.89 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 262.89 266.7 0)
 			(effects
 				(font
@@ -14639,6 +14876,15 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
+			(at 193.04 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 193.04 262.89 0)
 			(effects
 				(font
@@ -14744,7 +14990,7 @@
 		(at 330.2 231.14 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3d94a0e4-634a-4c8c-bb76-b017016184cf")
@@ -14784,6 +15030,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 330.2 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 330.2 231.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,6 +15181,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 388.62 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7543c75b-f199-4880-a673-c0ed9d3cd409")
 		)
@@ -14985,6 +15249,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 360.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 360.68 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15074,7 +15347,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 71.12 57.15 0)
+		(at 64.77 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15082,7 +15355,7 @@
 		(dnp no)
 		(uuid "40f31c25-a37e-4355-8271-a9859fdab6cb")
 		(property "Reference" "#PWR010"
-			(at 71.12 60.96 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15091,7 +15364,7 @@
 			)
 		)
 		(property "Value" "+3.3VA"
-			(at 71.12 53.34 0)
+			(at 64.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15099,7 +15372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 57.15 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15108,7 +15381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 57.15 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15117,7 +15390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 71.12 57.15 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15400,15 +15673,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 160.02 270)
+		(at 102.87 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "494bf583-cc94-404e-a7a4-c07911015c36")
 		(property "Reference" "R11"
-			(at 109.22 161.798 90)
+			(at 102.87 184.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15416,7 +15689,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 109.22 157.988 90)
+			(at 102.87 180.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15424,7 +15697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 109.22 160.02 0)
+			(at 102.87 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15433,7 +15706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 160.02 0)
+			(at 102.87 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15442,7 +15715,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 109.22 160.02 0)
+			(at 102.87 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 102.87 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,6 +15793,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 335.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 335.28 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15603,7 +15894,7 @@
 		(at 218.44 264.16 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ee469b4-cac4-4190-8483-dddbb3ce1f40")
@@ -15645,6 +15936,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 218.44 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 218.44 264.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15711,6 +16011,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 151.13 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 151.13 260.35 0)
 			(effects
 				(font
@@ -15869,7 +16178,7 @@
 		(at 279.4 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "54cf2dcc-3221-4e6f-a875-49b79173de94")
@@ -15910,6 +16219,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 279.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 279.4 266.7 0)
 			(effects
 				(font
@@ -15988,6 +16306,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ddd2df4-3e11-4c88-9fff-55da56f029e8")
 		)
@@ -16008,7 +16335,7 @@
 		(at 337.82 237.49 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c90e00c-8854-4254-b43a-1cb1f4d0a562")
@@ -16057,6 +16384,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 337.82 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2baa9916-55ac-457c-9348-8fa734396ea6")
 		)
@@ -16077,7 +16413,7 @@
 		(at 294.64 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d27f9cd-9238-4d2a-935d-0ca17188f7b9")
@@ -16118,6 +16454,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 294.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 294.64 147.32 0)
 			(effects
 				(font
@@ -16279,7 +16624,7 @@
 		(at 234.95 215.9 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "67ac651c-af5b-40df-840c-db6c8b0e68b4")
@@ -16320,6 +16665,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 234.95 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 234.95 215.9 0)
 			(effects
 				(font
@@ -16410,15 +16764,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 107.95 204.47 180)
+		(at 101.6 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "69a61f82-da2b-4741-9c9c-853bba065c32")
 		(property "Reference" "C25"
-			(at 107.442 202.692 0)
+			(at 101.092 225.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16781,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 107.188 206.248 0)
+			(at 100.838 229.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16436,7 +16790,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 107.95 204.47 0)
+			(at 101.6 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16445,7 +16799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 204.47 0)
+			(at 101.6 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,7 +16808,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 107.95 204.47 0)
+			(at 101.6 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 101.6 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16482,7 +16845,7 @@
 		(at 185.42 219.71 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7297a6f0-3fcc-485e-89f6-6d14a0f8c794")
@@ -16531,6 +16894,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 185.42 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87e0a878-b3f8-4e0a-89f1-91752da10ea4")
 		)
@@ -16551,7 +16923,7 @@
 		(at 175.26 219.71 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7478d587-07ac-4b94-88e6-d5f4cfdafe96")
@@ -16600,6 +16972,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 175.26 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b9aacbd-2189-47ae-87a9-7a1e583c3ebc")
 		)
@@ -16620,7 +17001,7 @@
 		(at 165.1 269.24 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "750f22fc-566a-4fd1-b7b4-18fcd56d8d3d")
@@ -16633,7 +17014,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CH_STATUS"
+		(property "Value" "STATUS"
 			(at 159.766 265.938 0)
 			(effects
 				(font
@@ -16669,7 +17050,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 710-150060BS75000"
+		(property "mouser" ""
 			(at 165.1 269.24 0)
 			(effects
 				(font
@@ -16679,6 +17060,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 165.1 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 165.1 269.24 0)
 			(effects
 				(font
@@ -16951,6 +17341,24 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 360.68 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 963-MSASL105SB5225MF "
+			(at 360.68 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b13e40d9-7fdd-4122-b748-3ff42eef85f3")
 		)
@@ -17213,6 +17621,24 @@
 				(hide yes)
 			)
 		)
+		(property "mouser" " 815-M826000MHZ10B1UT "
+			(at 180.34 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 180.34 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a01b1dc-a211-44e8-a770-ab17f2a9c2ff")
 		)
@@ -17239,7 +17665,7 @@
 		(at 224.79 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "890d529b-ff39-4d9d-8589-3799600bb7ef")
@@ -17281,6 +17707,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 224.79 176.53 0)
 			(effects
 				(font
@@ -17358,6 +17793,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 71.12 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "771964e3-e139-4415-889e-2eea342d6d9d")
 		)
@@ -17378,7 +17822,7 @@
 		(at 157.48 269.24 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8afd05a0-e6f9-4086-bb13-e8964aa98d3e")
@@ -17427,6 +17871,15 @@
 		)
 		(property "mouser" " 71-CRCW06031K00FKEE"
 			(at 157.48 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 157.48 269.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17503,6 +17956,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 53.34 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4dbee97f-42bc-4b5e-bd21-d929c5c46ca7")
 		)
@@ -17565,6 +18027,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
 			(at 93.98 35.56 0)
 			(effects
 				(font
@@ -17655,7 +18126,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 207.01 0)
+		(at 101.6 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17663,7 +18134,7 @@
 		(dnp no)
 		(uuid "903c9ea9-6572-407d-b905-ab626fb3e396")
 		(property "Reference" "#PWR037"
-			(at 107.95 213.36 0)
+			(at 101.6 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17672,7 +18143,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 210.566 0)
+			(at 101.6 233.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17680,7 +18151,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 207.01 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17689,7 +18160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 207.01 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17698,7 +18169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 207.01 0)
+			(at 101.6 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,7 +18390,7 @@
 		(at 326.39 224.79 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "99fb5e4d-1c18-49c5-953c-9df8e533aa81")
@@ -17959,6 +18430,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 326.39 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 326.39 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,6 +18508,24 @@
 		)
 		(property "Description" "eMMC 5.1 153BGA 2GB SLC"
 			(at 369.316 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 727-0FC002C1B2I00000 "
+			(at 369.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 369.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18187,7 +18685,7 @@
 		(at 220.98 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d896721-4bf6-40f5-b313-fcbfbef1db66")
@@ -18228,6 +18726,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 220.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 220.98 176.53 0)
 			(effects
 				(font
@@ -18362,6 +18869,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 344.17 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 344.17 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18569,6 +19085,24 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 374.65 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 963-MSASL105SB5225MF "
+			(at 374.65 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c4450a9-f26c-4381-95c5-e57ac3e853eb")
 		)
@@ -18630,6 +19164,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 322.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 322.58 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18722,7 +19265,7 @@
 		(at 74.93 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b09faf7b-0e01-4b71-a8c4-cef3f397ef3d")
@@ -18762,6 +19305,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 74.93 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18916,7 +19468,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 57.15 0)
+		(at 72.39 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18924,7 +19476,7 @@
 		(dnp no)
 		(uuid "b48ed869-2ac4-4b52-a479-3781f437f7f8")
 		(property "Reference" "#PWR011"
-			(at 78.74 60.96 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18933,7 +19485,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.74 53.34 0)
+			(at 72.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18941,7 +19493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 57.15 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18950,7 +19502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 57.15 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18959,7 +19511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 57.15 0)
+			(at 72.39 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19050,7 +19602,7 @@
 		(at 228.6 176.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b8c091a0-a72b-4b74-9f34-d9e9c42d8e60")
@@ -19091,6 +19643,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 228.6 176.53 0)
 			(effects
 				(font
@@ -19225,6 +19786,24 @@
 			)
 		)
 		(property "Description" "Single Chip Low Power RF Transceiver, QFN-20"
+			(at 213.36 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 595-CC2500RGP "
+			(at 213.36 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 213.36 201.93 0)
 			(effects
 				(font
@@ -19425,6 +20004,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a44c9d28-ecd9-4df0-ba34-c0f49deb5843")
 		)
@@ -19487,6 +20075,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
 			(at 90.17 35.56 0)
 			(effects
 				(font
@@ -19645,7 +20242,7 @@
 		(at 346.71 205.74 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c9f4dfc2-027d-4ff4-8fbf-98bcf959173f")
@@ -19694,6 +20291,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 346.71 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07a8da3b-41b2-4a90-ab7f-5d8a08a09d96")
 		)
@@ -19714,7 +20320,7 @@
 		(at 207.01 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd509ec6-9faa-4614-ab43-633c18a84303")
@@ -19756,6 +20362,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 207.01 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19824,6 +20439,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 327.66 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 327.66 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19916,7 +20540,7 @@
 		(at 218.44 255.27 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d5e538ee-688d-4d79-a584-c621b6a6642f")
@@ -19963,6 +20587,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 218.44 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "35917439-77cb-40b7-8e1d-dc8a14194eb7")
 		)
@@ -19983,7 +20616,7 @@
 		(at 264.16 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d6417bed-7e6e-41d2-ac08-9a268ed01a43")
@@ -20024,6 +20657,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 609-2450AT18D0100001 "
+			(at 264.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 264.16 194.31 0)
 			(effects
 				(font
@@ -20100,6 +20751,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 403.86 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 403.86 224.79 0)
 			(effects
 				(font
@@ -20255,7 +20915,7 @@
 		(at 284.48 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dad7c967-6b3c-46c3-86d2-e51af7f840a6")
@@ -20294,6 +20954,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal, small symbol"
+			(at 284.48 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 284.48 261.62 0)
 			(effects
 				(font
@@ -20363,6 +21032,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 330.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 330.2 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20504,6 +21182,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b83bc3e-065d-47b6-aa92-93fb7b008a07")
 		)
@@ -20524,7 +21211,7 @@
 		(at 289.56 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e09dbb84-a209-48f4-8533-6eb043f57fd0")
@@ -20573,6 +21260,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 289.56 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e02845cb-a767-460f-844f-4f33b2ff330f")
 		)
@@ -20593,7 +21289,7 @@
 		(at 337.82 233.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e1598e06-4cfc-47a0-96d9-305b3228eea4")
@@ -20635,6 +21331,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 337.82 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 337.82 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20724,16 +21429,15 @@
 	)
 	(symbol
 		(lib_id "Marijn:STM32U385VGI6")
-		(at 77.47 132.08 0)
+		(at 71.12 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e726cfa1-28eb-4058-8ee2-6738077f89f6")
 		(property "Reference" "U2"
-			(at 85.9633 62.23 0)
+			(at 88.646 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20742,7 +21446,7 @@
 			)
 		)
 		(property "Value" "STM32U385VGI6"
-			(at 85.9633 64.77 0)
+			(at 77.724 230.124 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20751,7 +21455,7 @@
 			)
 		)
 		(property "Footprint" "Marijn:UFBGA-100_7x7mm"
-			(at 77.978 42.926 0)
+			(at 71.628 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20761,7 +21465,7 @@
 			)
 		)
 		(property "Datasheet" "STM32U385VGI6"
-			(at 76.962 45.212 0)
+			(at 70.612 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20771,7 +21475,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 132.08 0)
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 511-STM32U385VGI6 "
+			(at 71.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 71.12 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21161,6 +21883,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 337.82 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e99e153b-a649-4dfe-a878-767c84b7594e")
 		)
@@ -21294,6 +22025,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 332.74 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2565e93d-770e-41e8-a573-50924a4b3504")
 		)
@@ -21311,7 +22051,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 215.9 0)
+		(at 71.12 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21319,7 +22059,7 @@
 		(dnp no)
 		(uuid "ec476de0-63a9-43a2-877c-d74964d6b7da")
 		(property "Reference" "#PWR041"
-			(at 77.47 222.25 0)
+			(at 71.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21328,7 +22068,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 219.456 0)
+			(at 71.12 242.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21336,7 +22076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 215.9 0)
+			(at 71.12 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21345,7 +22085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 215.9 0)
+			(at 71.12 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21354,7 +22094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 215.9 0)
+			(at 71.12 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21444,7 +22184,7 @@
 		(at 273.05 266.7 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed64aaf5-de8b-4670-8ef0-62892465e30d")
@@ -21493,6 +22233,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 273.05 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8805f52-09f8-4964-8551-d57ea0ba8423")
 		)
@@ -21513,7 +22262,7 @@
 		(at 240.03 267.97 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed962063-e42f-405a-8221-216d315ff411")
@@ -21553,6 +22302,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 240.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 240.03 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21692,6 +22450,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 320.04 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f011f1b2-9ea0-42e6-b26f-b2e9735e92ba")
 		)
@@ -21777,7 +22544,7 @@
 		(at 207.01 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3531720-4547-45c1-b66d-dd090683e406")
@@ -21819,6 +22586,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 207.01 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 207.01 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22025,6 +22801,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24962084-402f-4507-927f-73ee72cfc0e2")
 		)
@@ -22087,6 +22872,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 388.62 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002770949160.html?spm=a2g0o.productlist.main.1.46d6AUmiAUmipx&aem_p4p_detail=2025081207045912109860710514930000208426&algo_pvid=40a4e6d7-4a70-4e03-a01f-22f7030bbe21&algo_exp_id=40a4e6d7-4a70-4e03-a01f-22f7030bbe21-0&pdp_ext_f=%7B%22order%22%3A%22510%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2115.75%217.44%21%21%2117.87%218.44%21%40210390c217550074995573087e919c%2112000022112638971%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=xG8OvnCAPXgC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002770949160%7C_p_origin_prod%3A&search_p4p_id=2025081207045912109860710514930000208426_1&gatewayAdapt=glo2nld"
+			(at 388.62 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22179,7 +22973,7 @@
 		(at 254 214.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fd534864-5449-46e3-a476-ea5a2bad3f19")
@@ -22220,6 +23014,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 254 214.63 0)
 			(effects
 				(font
@@ -22291,6 +23094,24 @@
 		)
 		(property "Description" "FFC & FPC Connectors 16W,0.5mm,Gold plated"
 			(at 355.346 243.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" " 640-FFC2B28-16-G "
+			(at 355.6 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 355.6 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22400,6 +23221,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 350.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" "https://nl.aliexpress.com/item/1005002762720838.html?spm=a2g0o.productlist.main.1.3cbb49b5xh4hcz&aem_p4p_detail=20250812070520223612693127800000241530&algo_pvid=6d0bb078-1676-4957-946e-aa2091c5fbf9&algo_exp_id=6d0bb078-1676-4957-946e-aa2091c5fbf9-0&pdp_ext_f=%7B%22order%22%3A%22540%22%2C%22eval%22%3A%221%22%7D&pdp_npi=6%40dis%21EUR%2125.88%2116.76%21%21%2129.37%2119.02%21%40211b612817550075199563975e626c%2112000022067393871%21sea%21IT%210%21ABX%211%210%21m03_new_user%3A-29895%3Bn_tag%3A-29910%3BpisId%3A5000000177292766&curPageLogUid=fOexOvoywan8&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005002762720838%7C_p_origin_prod%3A&search_p4p_id=20250812070520223612693127800000241530_1&gatewayAdapt=glo2nld"
+			(at 350.52 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)

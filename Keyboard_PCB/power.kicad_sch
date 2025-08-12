@@ -3254,7 +3254,7 @@
 		(at 74.93 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "06aa98f2-e8e7-44fe-bd9d-439ed4fc5a42")
@@ -3303,7 +3303,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 187-CL10A226MP8NUNE"
+		(property "mouser" ""
+			(at 74.93 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 74.93 38.1 0)
 			(effects
 				(font
@@ -3332,7 +3341,7 @@
 		(at 36.83 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0a98899b-904f-40b6-a74c-cca183a6d3ab")
@@ -3384,6 +3393,15 @@
 		)
 		(property "mouser" " 583-BAT54C"
 			(at 36.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 36.83 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3497,7 @@
 		(at 67.31 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0d4d3c40-722f-4bab-9817-248192fdfcf0")
@@ -3535,6 +3553,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "7b0124d5-e8be-42c4-965f-efe0e7ef3739")
 		)
@@ -3582,7 +3609,7 @@
 		(at 43.18 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "12e4a4b1-cd23-488c-971b-2e37a888c4a9")
@@ -3631,7 +3658,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 187-CL10A106MQ8NNND"
+		(property "mouser" ""
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 43.18 38.1 0)
 			(effects
 				(font
@@ -3660,7 +3696,7 @@
 		(at 69.85 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc2bbcd-b339-49b1-9dfa-e53e3fffc5fd")
@@ -3716,6 +3752,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 69.85 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9241f0bf-4174-4ba2-a50b-6cd24b93613c")
 		)
@@ -3736,7 +3781,7 @@
 		(at 57.15 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ffc7963-d9c7-4873-9fcc-67dff2e0a52d")
@@ -3784,6 +3829,15 @@
 			)
 		)
 		(property "mouser" " 968-ISL91127IRAZ-T"
+			(at 57.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 57.15 35.56 0)
 			(effects
 				(font
@@ -3866,7 +3920,7 @@
 		(at 88.9 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "27e31c32-84a8-4bec-90fc-541cf323f692")
@@ -3924,6 +3978,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 88.9 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd132d13-f6ea-4470-9c82-230877f589bd")
 		)
@@ -3941,7 +4004,7 @@
 		(at 55.88 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "308a0436-5aa4-4a11-8a5d-5eb2b756745e")
@@ -4006,6 +4069,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 55.88 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f5a6a16e-64ad-419c-9285-07c910d1c0da")
 		)
@@ -4026,7 +4098,7 @@
 		(at 52.07 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "331aef6b-aa62-48e1-87c2-e42f26515f0d")
@@ -4091,6 +4163,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 52.07 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44a5758d-b38e-4fde-8052-1b14f92ac8ac")
 		)
@@ -4111,7 +4192,7 @@
 		(at 95.25 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "3beac793-d90b-46f9-9201-e13df82c4139")
@@ -4161,6 +4242,15 @@
 			)
 		)
 		(property "mouser" ""
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -4319,7 +4409,7 @@
 		(at 69.85 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "62814df3-cdf6-49aa-884d-b42d76c3a641")
@@ -4375,6 +4465,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 69.85 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5d7fb92-b678-44a9-8018-39c4ed291a01")
 		)
@@ -4395,7 +4494,7 @@
 		(at 31.75 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6b0cb6ea-20a8-4ea5-8e79-8d4bfda6e9a1")
@@ -4444,7 +4543,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 963-MLAST168SB7105KT"
+		(property "mouser" ""
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 31.75 83.82 0)
 			(effects
 				(font
@@ -4538,7 +4646,7 @@
 		(at 85.09 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7559544a-12f0-4d64-bd3f-759f6e1c9c3c")
@@ -4587,7 +4695,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 187-CL10A226MP8NUNE"
+		(property "mouser" ""
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 85.09 38.1 0)
 			(effects
 				(font
@@ -4681,7 +4798,7 @@
 		(at 52.07 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "844a2be6-4d52-4d05-93ae-b5ce090fb9d4")
@@ -4746,6 +4863,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 52.07 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1e1592f-f09a-400e-a6b1-12c4fa248b3e")
 		)
@@ -4766,7 +4892,7 @@
 		(at 81.28 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8999494d-a7c5-4e22-8684-0b1716745992")
@@ -4815,7 +4941,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 187-CL10A226MP8NUNE"
+		(property "mouser" ""
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 81.28 38.1 0)
 			(effects
 				(font
@@ -4909,7 +5044,7 @@
 		(at 90.17 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a186336a-a95b-46ed-aec7-9d8bc8c97389")
@@ -4967,6 +5102,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0f8a879-fdfd-45c0-ae14-d212a935e8f9")
 		)
@@ -4987,7 +5131,7 @@
 		(at 41.91 90.17 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a4b88ebf-ecb3-46e3-9ca0-07d699a204da")
@@ -5034,7 +5178,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 710-150060RS75000"
+		(property "mouser" " "
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 41.91 90.17 0)
 			(effects
 				(font
@@ -5063,7 +5216,7 @@
 		(at 90.17 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a98e47d0-e8c8-4088-9650-1c4d59482cc5")
@@ -5112,7 +5265,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 963-MLAST168SB7105KT"
+		(property "mouser" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -5206,7 +5368,7 @@
 		(at 41.91 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b91c4d4e-d25b-42f2-99e4-f5ed7a65baef")
@@ -5253,7 +5415,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 710-150060AS75000"
+		(property "mouser" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 41.91 85.09 0)
 			(effects
 				(font
@@ -5282,7 +5453,7 @@
 		(at 52.07 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bcaff38e-e233-472d-966b-8b9e80f52518")
@@ -5347,6 +5518,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 52.07 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d6352b5-ec32-4261-97b1-49ccbaea6658")
 		)
@@ -5367,7 +5547,7 @@
 		(at 41.91 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d10fd1ff-7c0b-49dc-8bc0-0010e9e32239")
@@ -5414,7 +5594,16 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 710-150060AS75000"
+		(property "mouser" ""
+			(at 41.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 41.91 87.63 0)
 			(effects
 				(font
@@ -5443,7 +5632,7 @@
 		(at 57.15 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee51ad15-3d65-468a-8253-51def51e4384")
@@ -5492,6 +5681,15 @@
 		)
 		(property "mouser" " 963-NRS4018T1R0NDGJ "
 			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 57.15 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)

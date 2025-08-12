@@ -1630,7 +1630,7 @@
 		(at 93.98 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1c32bba3-c384-4f19-afd2-eb9962853346")
@@ -1691,6 +1691,15 @@
 				(hide yes)
 			)
 		)
+		(property "aliexpress" ""
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9c7096fc-3e6c-42a4-b957-6b3d7d70b314")
 		)
@@ -1733,7 +1742,7 @@
 		(at 82.55 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3aced09e-6bf9-4c42-b772-1562d65e4cf8")
@@ -1773,6 +1782,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 82.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
+			(at 82.55 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2053,7 @@
 		(at 62.23 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ea7908cd-f5cc-4804-a3e7-371b95046a58")
@@ -2047,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Value" "CH_USB_C"
+		(property "Value" "USB_C"
 			(at 56.896 44.45 0)
 			(effects
 				(font
@@ -2074,6 +2092,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 62.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "aliexpress" ""
 			(at 62.23 63.5 0)
 			(effects
 				(font
