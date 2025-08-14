@@ -1389,15 +1389,6 @@
 		(at 73.66 161.29)
 		(uuid "de065bca-8e07-4c5d-8910-3e4765b66f86")
 	)
-	(bus_entry
-		(at 92.71 74.93)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f1926a5-e2ca-48ea-bbc8-82b803b1bc6b")
-	)
 	(wire
 		(pts
 			(xy 88.9 149.86) (xy 90.17 149.86)
@@ -3062,7 +3053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "707e4352-a2fc-4ffd-ae32-70aff37816d0")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -3112,7 +3103,7 @@
 		(instances
 			(project ""
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "726f998d-ee43-414c-8838-5447e2167fcb")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 62.992 148.59 90)
 			(effects
 				(font
@@ -3190,7 +3181,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "784a169f-1236-4b66-acc3-7909b35f967e")
-		(property "Reference" "C38"
+		(property "Reference" "C37"
 			(at 90.932 151.892 0)
 			(effects
 				(font
@@ -3268,7 +3259,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "C38")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3283,7 +3274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d7b0672-314e-49b8-afb6-9b4dc3d51b5e")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 80.772 140.208 90)
 			(effects
 				(font
@@ -3346,7 +3337,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3934,7 +3925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94dd35c2-12a6-49c3-8a51-ff9eff1b2162")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 64.77 148.59 0)
 			(effects
 				(font
@@ -3984,7 +3975,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4075,7 +4066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c30d5c9-2f36-46b9-9f4c-cec0923c7686")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 64.77 158.75 0)
 			(effects
 				(font
@@ -4125,7 +4116,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4243,7 +4234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af84f054-33ce-42f1-8ac6-5e2a26315748")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 59.69 153.67 0)
 			(effects
 				(font
@@ -4293,7 +4284,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -4996,7 +4987,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfa8ea37-cb6d-4519-985d-6faf1043bb20")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 84.582 148.082 90)
 			(effects
 				(font
@@ -5059,7 +5050,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -5171,7 +5162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2e85650-9e90-4125-ab1d-ad397720c8b0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -5221,7 +5212,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5236,7 +5227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5b213ee-9fca-4a19-ab13-3077edfe8c2f")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 66.548 158.75 90)
 			(effects
 				(font
@@ -5299,7 +5290,7 @@
 		(instances
 			(project "Keyboard_PCB"
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/2efb7614-f68d-465d-9514-3e61f2b99fcc"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
