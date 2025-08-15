@@ -7005,6 +7005,26 @@
 		)
 		(uuid "c6e8ae8f-a743-43d4-a171-d5d15eafc4c4")
 	)
+	(text "TODO next version: active battery sensing?"
+		(exclude_from_sim no)
+		(at 126.238 181.102 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e14e2c6f-5868-44ef-9c9a-729d7c050c03")
+	)
+	(text "TODO next version: 3v3 -> 1v8 level shifter for HS200"
+		(exclude_from_sim no)
+		(at 333.756 87.122 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6ff4ee3-e494-4b4a-b9aa-dedcf7a511d2")
+	)
 	(text "TODO next version: pullups needed?\n(suggestion from eMMC manufacturer)"
 		(exclude_from_sim no)
 		(at 327.914 104.14 0)
