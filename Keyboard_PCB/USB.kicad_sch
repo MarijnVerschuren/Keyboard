@@ -1746,7 +1746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3aced09e-6bf9-4c42-b772-1562d65e4cf8")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 82.55 52.832 90)
 			(effects
 				(font
@@ -1817,7 +1817,7 @@
 			)
 			(project ""
 				(path "/dd51e792-c76c-4d43-96de-494177f3b593/99a36190-5dce-43c5-9e98-275e559646eb"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
