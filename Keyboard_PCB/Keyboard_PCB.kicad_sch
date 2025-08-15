@@ -7171,16 +7171,6 @@
 		)
 		(uuid "3b7e44f8-bfdd-4512-9cb5-a00b2ef24bb4")
 	)
-	(text "TODO: valid?"
-		(exclude_from_sim no)
-		(at 35.052 29.972 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3eb9d2bb-ed17-483d-8db8-b673f003f805")
-	)
 	(text "display: ZJY130-2864KSWLG22\n"
 		(exclude_from_sim no)
 		(at 362.712 219.202 90)
