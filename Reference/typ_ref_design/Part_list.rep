@@ -1,0 +1,36 @@
+                    PART LIST                     
+            ==========================            
+
+Ref.        Description                   Value
+
+A1          Antenna Balun Stub Match for CAnntenne_2p4GHz_mini_dongel_1p
+C1          Capacitor 0402                C_1P0_0402_NP0_C_50           
+C2          Capacitor 0402                C_2U2_0402_X5R_M_4VDC         
+C3          Capacitor, 0402               C_47P_0402_NP0_J_50           
+C4          Capacitor, 0402               C_47P_0402_NP0_J_50           
+C5          Capacitor 0402, general       C_0201                        
+C16         Capacitor 0402                C_100N_0402_X5R_K_10          
+C191        Capacitor 0402                C_220P_0402_NP0_J_50          
+C203        Capacitor 0402                C_33P_0402_NP0_J_50           
+C214        Capacitor 0402                C_33P_0402_NP0_J_50           
+C221        Capacitor 0402                C_100N_0402_X5R_K_10          
+C251        Capacitor 0402                C_100N_0402_X5R_K_10          
+C261        Capacitor 0402                C_220P_0402_NP0_J_50          
+C291        Capacitor 0402                C_100N_0402_X5R_K_10          
+C301        Capacitor 0402                C_100N_0402_X5R_K_10          
+FM1         Fiducial mark                 FIDUCIAL_MARK                 
+FM2         Fiducial mark                 FIDUCIAL_MARK                 
+FM3         Fiducial mark                 FIDUCIAL_MARK                 
+FM4         Fiducial mark                 FIDUCIAL_MARK                 
+FM5         Fiducial mark                 FIDUCIAL_MARK                 
+FM6         Fiducial mark                 FIDUCIAL_MARK                 
+P1                                        PCB_USB                       
+R3          Resistor 0402, general        R_0402                        
+R5          Resistor, 0402                R_0_0402                      
+R262        Resistor 0402                 R_33_0402_G                   
+R263        Resistor 0402                 R_33_0402_G                   
+R264        Resistor 0402                 R_1K5_0402_G                  
+R271        Resistor 0402                 R_56K_0402_F                  
+U1          Singe chip tranceiver with 805CC2511_no_via                 
+U2          200mA, chip size bga LDO      TPS79933YZU                   
+X1          Epson 48MHz crystal 3x2.5mm   X_48.000/12/18/40/16          

@@ -1,0 +1,69 @@
+
+	Legality Checking
+	=================
+
+Report generated at Wed May 07 10:19:35 2008
+
+Design name : !CC2511_Bean_Dongle_1_1
+
+====================
+ DESIGN RULE CHECKS
+====================
+
+-------------------------------
+ Component to Component Checks
+-------------------------------
+
+Component C261 is illegal against C251		Checked to be ok, TIK
+Component C214 is illegal against comps:  Checked to be Ok, TIK
+	X1
+	C221
+Component X1 is illegal against comps:    Checked to be Ok, TIK
+	C2
+	C214
+Component U1 is illegal against comps:    Checked to be Ok, TIK
+	C4
+	C3
+	R263
+	C16
+	C291
+	C301
+Component C251 is illegal against comps:  Checked to be Ok, TIK
+	C221
+	C261
+Component C221 is illegal against comps:  Checked to be Ok, TIK
+	C214
+	C251
+
+6 components have errors against other components
+
+
+-----------------------
+ Placement Area Checks
+-----------------------
+
+Component P1 is illegal against Board (keep-in)
+
+1 component has errors against defined areas 			Ok, PCB component not to be placed, TIK
+
+
+-----------------------
+ Placement Grid Checks
+-----------------------
+
+Component A1 is off grid								          Ok, PCB component not to be placed, TIK
+Component P1 is off grid                          Ok, PCB component not to be placed, TIK
+
+2 components are off the placement grid
+
+
+---------------------
+ Unplaced Components
+---------------------
+
+	FM4
+	FM5
+	FM6
+
+3 components are unplaced
+
