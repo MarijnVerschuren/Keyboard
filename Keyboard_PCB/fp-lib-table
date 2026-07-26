@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "footprints") (type "KiCad") (uri "/home/marijn/Github/kicad_library/footprint/footprints.pretty") (options "") (descr ""))
+	(lib (name "Marijn") (type "KiCad") (uri "/home/marijn/Github/kicad_library/footprint/Marijn.pretty") (options "") (descr ""))
+)
