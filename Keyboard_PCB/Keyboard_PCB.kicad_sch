@@ -10832,7 +10832,7 @@
 	)
 	(text "next version: battery domain separation?"
 		(exclude_from_sim no)
-		(at 148.082 26.924 0)
+		(at 148.082 17.272 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10885,7 +10885,7 @@
 		(uuid "b8059e09-f8b7-46f5-9ef7-bccb9742e11c")
 	)
 	(no_connect
-		(at 177.8 163.83)
+		(at 177.8 93.98)
 		(uuid "633d5a27-5d7a-4a72-b4cf-fbe4a6e4f6fa")
 	)
 	(wire
@@ -12013,7 +12013,7 @@
 	)
 	(symbol
 		(lib_id "Marijn:MCXN947VDFT")
-		(at 156.21 185.42 0)
+		(at 156.21 115.57 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12024,7 +12024,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a4179f0-e60a-4a42-be8b-b6bbbbf67f52")
 		(property "Reference" "U2"
-			(at 156.21 153.67 0)
+			(at 156.21 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12034,7 +12034,7 @@
 			)
 		)
 		(property "Value" "MCXN947VDFT"
-			(at 156.21 156.21 0)
+			(at 156.21 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12044,7 +12044,7 @@
 			)
 		)
 		(property "Footprint" "Marijn:VFBGA184"
-			(at 147.574 283.972 0)
+			(at 147.574 214.122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12056,7 +12056,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/package-information/SOT2172-1.pdf"
-			(at 122.936 289.56 0)
+			(at 122.936 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +12068,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
-			(at 155.956 287.782 0)
+			(at 155.956 217.932 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,7 +12079,7 @@
 			)
 		)
 		(property "Height" "0.98"
-			(at 132.334 295.402 0)
+			(at 132.334 225.552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +12091,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 153.924 295.402 0)
+			(at 153.924 225.552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12103,7 +12103,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VDFT"
-			(at 169.418 295.656 0)
+			(at 169.418 225.806 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12115,7 +12115,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VDFT"
-			(at 146.304 298.958 0)
+			(at 146.304 229.108 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15240,7 +15240,7 @@
 	)
 	(symbol
 		(lib_id "Marijn:MCXN947VDFT")
-		(at 73.66 134.62 0)
+		(at 64.77 132.08 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15251,7 +15251,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd17383a-0119-48e2-a950-96c53e2834b6")
 		(property "Reference" "U2"
-			(at 73.66 35.56 0)
+			(at 64.77 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15261,7 +15261,7 @@
 			)
 		)
 		(property "Value" "MCXN947VDFT"
-			(at 73.66 38.1 0)
+			(at 64.77 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15271,7 +15271,7 @@
 			)
 		)
 		(property "Footprint" "Marijn:VFBGA184"
-			(at 65.024 233.172 0)
+			(at 56.134 230.632 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15283,7 +15283,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/package-information/SOT2172-1.pdf"
-			(at 40.386 238.76 0)
+			(at 31.496 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15295,7 +15295,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
-			(at 73.406 236.982 0)
+			(at 64.516 234.442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15306,7 +15306,7 @@
 			)
 		)
 		(property "Height" "0.98"
-			(at 49.784 244.602 0)
+			(at 40.894 242.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15318,7 +15318,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 71.374 244.602 0)
+			(at 62.484 242.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15330,7 +15330,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VDFT"
-			(at 86.868 244.856 0)
+			(at 77.978 242.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15342,7 +15342,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VDFT"
-			(at 63.754 248.158 0)
+			(at 54.864 245.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16538,7 +16538,7 @@
 	(symbol
 		(lib_name "MCXN947VDFT_1")
 		(lib_id "Marijn:MCXN947VDFT")
-		(at 160.02 60.96 270)
+		(at 154.94 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16549,7 +16549,7 @@
 		(fields_autoplaced yes)
 		(uuid "f63712bc-a6f9-4184-b047-9f460b509452")
 		(property "Reference" "U2"
-			(at 160.02 34.29 90)
+			(at 154.94 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16559,7 +16559,7 @@
 			)
 		)
 		(property "Value" "MCXN947VDFT"
-			(at 160.02 36.83 90)
+			(at 154.94 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16569,7 +16569,7 @@
 			)
 		)
 		(property "Footprint" "Marijn:VFBGA184"
-			(at 61.468 52.324 0)
+			(at 56.388 51.054 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16581,7 +16581,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/package-information/SOT2172-1.pdf"
-			(at 55.88 27.686 0)
+			(at 50.8 26.416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16593,7 +16593,7 @@
 			)
 		)
 		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
-			(at 57.658 60.706 0)
+			(at 52.578 59.436 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16604,7 +16604,7 @@
 			)
 		)
 		(property "Height" "0.98"
-			(at 50.038 37.084 0)
+			(at 44.958 35.814 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16616,7 +16616,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "NXP"
-			(at 50.038 58.674 0)
+			(at 44.958 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16628,7 +16628,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MCXN947VDFT"
-			(at 49.784 74.168 0)
+			(at 44.704 72.898 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16640,7 +16640,7 @@
 			)
 		)
 		(property "Mouser Part Number" "771-MCXN947VDFT"
-			(at 46.482 51.054 0)
+			(at 41.402 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
